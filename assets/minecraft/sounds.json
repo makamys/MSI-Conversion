@@ -1,0 +1,211 @@
+{
+  "matmos_msi.sharedonce.flies": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+        "silence/silence"
+    ]
+  },
+  "matmos_msi.sharedonce.flyc": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+        "silence/silence"
+    ]
+  },
+  "matmos_msi.sharedonce.flyin": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+        "silence/silence"
+    ]
+  },
+  "matmos_msi.plain.jour-plain": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "matmos_msi/plain/jour-plain4",
+      "matmos_msi/plain/jour-plain6",
+      "matmos_msi/plain/jour-plain8",
+      "matmos_msi/plain/jour4-plain",
+      "matmos_msi/plain/jour6-plain",
+      "matmos_msi/plain/jour8-plain"
+    ]
+  },
+  "matmos_msi.marais.mosquito": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.end.dragon": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.desert.nuit-desert": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "matmos_msi/desert/nuit-desert4",
+      "matmos_msi/desert/nuit-desert5",
+      "matmos_msi/desert/nuit-desert6",
+      "matmos_msi/desert/nuit-desert7"
+    ]
+  },
+  "matmos_msi.jungle.jour-jungle": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglelc": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.jungleld": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglele": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglelf": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesa": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesb": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesc": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesd": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglese": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesg": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesh": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesi": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesj": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.junglesl": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.loop-jungle": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.nuit-jungle": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "matmos_msi/forest/nuit-forest1",
+      "matmos_msi/forest/nuit-forest2",
+      "matmos_msi/sharedonce/critterm.ogg",
+      "matmos_msi/sharedonce/crittern.ogg",
+      "matmos_msi/sharedonce/criquet5.ogg",
+      "matmos_msi/sharedonce/criquet6.ogg"
+    ]
+  },
+  "matmos_msi.jungle.unnight": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.unnighta": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.unnightb": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  },
+  "matmos_msi.jungle.unnightc": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      "silence/silence"
+    ]
+  }
+}
