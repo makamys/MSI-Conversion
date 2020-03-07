@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contents>
+<condition name="In Boat">
+	<descriptible>
+		<nickname>In Boat</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>69</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="In Minecart">
+	<descriptible>
+		<nickname>In Minecart</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>68</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Is Speedy">
+	<descriptible>
+		<nickname>Is Speedy</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>74</key>
+	<symbol>&gt;</symbol>
+	<constant>100</constant>
+	<list></list>
+</condition>
+<condition name="Is very Speedy">
+	<descriptible>
+		<nickname>Is very Speedy</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>74</key>
+	<symbol>&gt;</symbol>
+	<constant>400</constant>
+	<list></list>
+</condition>
+<condition name="water_under">
+	<descriptible>
+		<nickname>water_under</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>19</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list>water</list>
+</condition>
+<set name="00jon_inboat">
+	<descriptible>
+		<nickname>00jon_inboat</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Boat</truepart>
+	<truepart>water_under</truepart>
+</set>
+<set name="00jon_moving_boat">
+	<descriptible>
+		<nickname>00jon_moving_boat</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Boat</truepart>
+	<truepart>Is Speedy</truepart>
+</set>
+<set name="Is moving in Minecart">
+	<descriptible>
+		<nickname>Is moving in Minecart</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Minecart</truepart>
+	<truepart>Is Speedy</truepart>
+</set>
+<set name="Is moving in Minecart fast">
+	<descriptible>
+		<nickname>Is moving in Minecart fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Minecart</truepart>
+	<truepart>Is very Speedy</truepart>
+</set>
+<event name="00jon_grince">
+	<descriptible>
+		<nickname>00jon_grince</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_extras/grinceA.ogg</path>
+	<path>matmos_extras/grinceB.ogg</path>
+	<path>matmos_extras/grinceC.ogg</path>
+	<path>matmos_extras/grinceD.ogg</path>
+	<path>matmos_extras/grinceE.ogg</path>
+	<path>matmos_extras/grinceF.ogg</path>
+	<path>matmos_extras/grinceG.ogg</path>
+	<path>matmos_extras/grinceH.ogg</path>
+	<path>matmos_extras/grinceI.ogg</path>
+	<path>matmos_extras/grinceJ.ogg</path>
+	<volmin>0.3</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>0.5</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_rail_hit">
+	<descriptible>
+		<nickname>00jon_rail_hit</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_extras/rail_A.ogg</path>
+	<path>matmos_extras/rail_B.ogg</path>
+	<path>matmos_extras/rail_C.ogg</path>
+	<path>matmos_extras/rail_D.ogg</path>
+	<volmin>0.7</volmin>
+	<volmax>2.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Moving in Minecart">
+	<descriptible>
+		<nickname>Moving in Minecart</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_extras/minecart1.ogg</path>
+	<path>matmos_extras/minecart2.ogg</path>
+	<path>matmos_extras/minecart3.ogg</path>
+	<path>matmos_extras/minecart4.ogg</path>
+	<path>matmos_extras/minecart5.ogg</path>
+	<path>matmos_extras/minecart6.ogg</path>
+	<path>matmos_extras/minecart7.ogg</path>
+	<path>matmos_extras/minecart8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.98</pitchmin>
+	<pitchmax>1.08</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Moving in Minecart fast">
+	<descriptible>
+		<nickname>Moving in Minecart fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_extras/minecart1.ogg</path>
+	<path>matmos_extras/minecart2.ogg</path>
+	<path>matmos_extras/minecart3.ogg</path>
+	<path>matmos_extras/minecart4.ogg</path>
+	<path>matmos_extras/minecart5.ogg</path>
+	<path>matmos_extras/minecart6.ogg</path>
+	<path>matmos_extras/minecart7.ogg</path>
+	<path>matmos_extras/minecart8.ogg</path>
+	<volmin>1.5</volmin>
+	<volmax>2.0</volmax>
+	<pitchmin>1.25</pitchmin>
+	<pitchmax>1.35</pitchmax>
+	<metasound>0</metasound>
+</event>
+<machine name="00Jon_move_in_boat">
+	<descriptible>
+		<nickname>00Jon_move_in_boat</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_moving_boat</allow>
+	<stream>
+		<path>matmos_MSI/human/ship_drive.ogg</path>
+		<volume>1.0</volume>
+		<pitch>1.0</pitch>
+		<fadeintime>3.0</fadeintime>
+		<fadeouttime>3.0</fadeouttime>
+		<delaybeforefadein>1.0</delaybeforefadein>
+		<delaybeforefadeout>1.0</delaybeforefadeout>
+		<islooping>1</islooping>
+		<isusingpause>0</isusingpause>
+	</stream>
+</machine>
+<machine name="00jon_in_boat">
+	<descriptible>
+		<nickname>00jon_in_boat</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_inboat</allow>
+	<restrict>00jon_moving_boat</restrict>
+	<stream>
+		<path>matmos_MSI/seaside/WaterHitWood.ogg</path>
+		<volume>1.0</volume>
+		<pitch>1.0</pitch>
+		<fadeintime>2.0</fadeintime>
+		<fadeouttime>5.0</fadeouttime>
+		<delaybeforefadein>0.0</delaybeforefadein>
+		<delaybeforefadeout>0.0</delaybeforefadeout>
+		<islooping>1</islooping>
+		<isusingpause>0</isusingpause>
+	</stream>
+</machine>
+<machine name="Moving in Minecart">
+	<descriptible>
+		<nickname>Moving in Minecart</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Is moving in Minecart</allow>
+	<restrict>Is moving in Minecart fast</restrict>
+	<eventtimed>
+		<eventname>Moving in Minecart</eventname>
+		<delaymin>0.8</delaymin>
+		<delaymax>0.9</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_grince</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>20.0</delaymax>
+		<delaystart>3.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_rail_hit</eventname>
+		<delaymin>1.0</delaymin>
+		<delaymax>3.0</delaymax>
+		<delaystart>1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Moving in Minecart Fast">
+	<descriptible>
+		<nickname>Moving in Minecart Fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Is moving in Minecart fast</allow>
+	<eventtimed>
+		<eventname>Moving in Minecart fast</eventname>
+		<delaymin>0.6</delaymin>
+		<delaymax>0.7</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>2.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_rail_hit</eventname>
+		<delaymin>0.5</delaymin>
+		<delaymax>0.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_grince</eventname>
+		<delaymin>5.0</delaymin>
+		<delaymax>15.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+</contents>

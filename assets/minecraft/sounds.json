@@ -1,0 +1,2336 @@
+{
+  "ambient.weather.rain": {
+    "category": "ambient",
+    "sounds": [
+      "ambient/weather/rain1",
+      "ambient/weather/rain2",
+      "ambient/weather/rain3",
+      "ambient/weather/rain4"
+    ]
+  },
+  "ambient.weather.thunder": {
+    "category": "ambient",
+    "sounds": [
+      "ambient/weather/thunder1",
+      "ambient/weather/thunder10",
+      "ambient/weather/thunder11",
+      "ambient/weather/thunder12",
+      "ambient/weather/thunder13",
+      "ambient/weather/thunder2",
+      "ambient/weather/thunder3",
+      "ambient/weather/thunder4",
+      "ambient/weather/thunder5",
+      "ambient/weather/thunder6",
+      "ambient/weather/thunder7",
+      "ambient/weather/thunder8",
+      "ambient/weather/thunder9"
+    ]
+  },
+  "fireworks.blast": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/blast1",
+      "fireworks/blast2",
+      "fireworks/blast3",
+      "fireworks/blast4",
+      "fireworks/blast5"
+    ]
+  },
+  "fireworks.blast_far": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/blast_far1",
+      "fireworks/blast_far2",
+      "fireworks/blast_far3",
+      "fireworks/blast_far4",
+      "fireworks/blast_far5"
+    ]
+  },
+  "fireworks.largeblast": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/largeblast1",
+      "fireworks/largeblast2",
+      "fireworks/largeblast3",
+      "fireworks/largeblast4",
+      "fireworks/largeblast5"
+    ]
+  },
+  "fireworks.largeblast_far": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/largeblast_far1",
+      "fireworks/largeblast_far2"
+    ]
+  },
+  "fireworks.launch": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/launch1",
+      "fireworks/launch2",
+      "fireworks/launch3",
+      "fireworks/launch4",
+      "fireworks/launch5",
+      "fireworks/launch6",
+      "fireworks/launch7",
+      "fireworks/launch8",
+      "fireworks/launch9"
+    ]
+  },
+  "fireworks.twinkle": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/twinkle1",
+      "fireworks/twinkle2",
+      "fireworks/twinkle3"
+    ]
+  },
+  "fireworks.twinkle_far": {
+    "category": "ambient",
+    "sounds": [
+      "fireworks/twinkle_far1"
+    ]
+  },
+  "matmos_extras.grincea": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincea"
+    ]
+  },
+  "matmos_extras.grinceb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grinceb"
+    ]
+  },
+  "matmos_extras.grincec": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincec"
+    ]
+  },
+  "matmos_extras.grinced": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grinced"
+    ]
+  },
+  "matmos_extras.grincee": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincee"
+    ]
+  },
+  "matmos_extras.grincef": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincef"
+    ]
+  },
+  "matmos_extras.grinceg": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grinceg"
+    ]
+  },
+  "matmos_extras.grinceh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grinceh"
+    ]
+  },
+  "matmos_extras.grincei": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincei"
+    ]
+  },
+  "matmos_extras.grincej": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/grincej"
+    ]
+  },
+  "matmos_extras.rail_a": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/rail_a"
+    ]
+  },
+  "matmos_extras.rail_b": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/rail_b"
+    ]
+  },
+  "matmos_extras.rail_c": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/rail_c"
+    ]
+  },
+  "matmos_extras.rail_d": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_extras/rail_d"
+    ]
+  },
+  "matmos_interactions.all_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/all_draw",
+      "matmos_interactions/all_draw1"
+    ]
+  },
+  "matmos_interactions.blunt_hit_a": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/blunt_hit_a"
+    ]
+  },
+  "matmos_interactions.blunt_hit_b": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/blunt_hit_b"
+    ]
+  },
+  "matmos_interactions.blunt_hit_c": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/blunt_hit_c"
+    ]
+  },
+  "matmos_interactions.blunt_hit_d": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/blunt_hit_d"
+    ]
+  },
+  "matmos_interactions.blunt_hit_e": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/blunt_hit_e"
+    ]
+  },
+  "matmos_interactions.bow_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_draw"
+    ]
+  },
+  "matmos_interactions.bow_stretch_f": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_f"
+    ]
+  },
+  "matmos_interactions.bow_stretch_g": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_g"
+    ]
+  },
+  "matmos_interactions.bow_stretch_h": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_h"
+    ]
+  },
+  "matmos_interactions.bow_stretch_i": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_i"
+    ]
+  },
+  "matmos_interactions.bow_stretch_j": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_j"
+    ]
+  },
+  "matmos_interactions.bow_stretch_k": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_k"
+    ]
+  },
+  "matmos_interactions.bow_stretch_l": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_stretch_l"
+    ]
+  },
+  "matmos_interactions.bubble": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bubble1",
+      "matmos_interactions/bubble2",
+      "matmos_interactions/bubble3",
+      "matmos_interactions/bubble5",
+      "matmos_interactions/bubble6",
+      "matmos_interactions/bubble7"
+    ]
+  },
+  "matmos_interactions.jumpin": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/jumpin1",
+      "matmos_interactions/jumpin2",
+      "matmos_interactions/jumpin3",
+      "matmos_interactions/jumpin4",
+      "matmos_interactions/jumpin5",
+      "matmos_interactions/jumpin7",
+      "matmos_interactions/jumpin8",
+      "matmos_interactions/jumpin9"
+    ]
+  },
+  "matmos_interactions.jumpina": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/jumpina"
+    ]
+  },
+  "matmos_interactions.out": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/out1",
+      "matmos_interactions/out2",
+      "matmos_interactions/out3",
+      "matmos_interactions/out4",
+      "matmos_interactions/out5"
+    ]
+  },
+  "matmos_interactions.sword_hit_a": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/sword_hit_a"
+    ]
+  },
+  "matmos_interactions.sword_hit_b": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/sword_hit_b"
+    ]
+  },
+  "matmos_interactions.sword_hit_c": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/sword_hit_c"
+    ]
+  },
+  "matmos_interactions.sword_hit_d": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/sword_hit_d"
+    ]
+  },
+  "matmos_interactions.tool_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/tool_draw"
+    ]
+  },
+  "matmos_interactions.utility_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/utility_draw1",
+      "matmos_interactions/utility_draw2"
+    ]
+  },
+  "matmos_interactions.water_divein": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/water_divein2"
+    ]
+  },
+  "matmos_interactions.water_underwater_loop": {
+    "category": "weather",
+    "sounds": [
+      "matmos_interactions/water_underwater_loop"
+    ]
+  },
+  "matmos_interactions.water_w": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/water_w1",
+      "matmos_interactions/water_w2",
+      "matmos_interactions/water_w3"
+    ]
+  },
+  "matmos_msi.cave.cave": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/cave1",
+      "matmos_msi/cave/cave2",
+      "matmos_msi/cave/cave3",
+      "matmos_msi/cave/cave4",
+      "matmos_msi/cave/cave5",
+      "matmos_msi/cave/cave6",
+      "matmos_msi/cave/cave7",
+      "matmos_msi/cave/cave8",
+      "matmos_msi/cave/cave9"
+    ]
+  },
+  "matmos_msi.cave.cavea": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/cavea"
+    ]
+  },
+  "matmos_msi.cave.caveb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/caveb"
+    ]
+  },
+  "matmos_msi.cave.cavec": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/cavec"
+    ]
+  },
+  "matmos_msi.cave.caved": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/caved"
+    ]
+  },
+  "matmos_msi.cave.lava": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/lava",
+      "matmos_msi/cave/lava2",
+      "matmos_msi/cave/lava3"
+    ]
+  },
+  "matmos_msi.cave.vent_canyon": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/vent_canyon1",
+      "matmos_msi/cave/vent_canyon2",
+      "matmos_msi/cave/vent_canyon3"
+    ]
+  },
+  "matmos_msi.cave.wind": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/wind",
+      "matmos_msi/cave/wind2"
+    ]
+  },
+  "matmos_msi.cave.wood": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/wood1",
+      "matmos_msi/cave/wood2",
+      "matmos_msi/cave/wood4",
+      "matmos_msi/cave/wood5",
+      "matmos_msi/cave/wood6",
+      "matmos_msi/cave/wood7",
+      "matmos_msi/cave/wood8",
+      "matmos_msi/cave/wood9"
+    ]
+  },
+  "matmos_msi.cave.wooda": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/wooda"
+    ]
+  },
+  "matmos_msi.cave.woodb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/woodb"
+    ]
+  },
+  "matmos_msi.cave.woodc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/cave/woodc"
+    ]
+  },
+  "matmos_msi.desert.cigale": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/desert/cigale1",
+      "matmos_msi/desert/cigale2",
+      "matmos_msi/desert/cigale3",
+      "matmos_msi/desert/cigale4",
+      "matmos_msi/desert/cigale5"
+    ]
+  },
+  "matmos_msi.desert.jour-desert": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/desert/jour-desert1",
+      "matmos_msi/desert/jour-desert2",
+      "matmos_msi/desert/jour-desert3",
+      "matmos_msi/desert/jour-desert4",
+      "matmos_msi/desert/jour-desert5",
+      "matmos_msi/desert/jour-desert6"
+    ]
+  },
+  "matmos_msi.desert.nuit-desert": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/desert/nuit-desert1",
+      "matmos_msi/desert/nuit-desert2",
+      "matmos_msi/desert/nuit-desert3",
+      "matmos_msi/desert/nuit-desert4",
+      "matmos_msi/desert/nuit-desert5",
+      "matmos_msi/desert/nuit-desert6",
+      "matmos_msi/desert/nuit-desert7"
+    ]
+  },
+  "matmos_msi.diamondoredetected": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/diamondoredetected"
+    ]
+  },
+  "matmos_msi.diamondoredetectedreverb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/diamondoredetectedreverb"
+    ]
+  },
+  "matmos_msi.end.dragon": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/end/dragon1",
+      "matmos_msi/end/dragon2",
+      "matmos_msi/end/dragon3",
+      "matmos_msi/end/dragon4",
+      "matmos_msi/end/dragon5",
+      "matmos_msi/end/dragon6",
+      "matmos_msi/end/dragon7",
+      "matmos_msi/end/dragon8",
+      "matmos_msi/end/dragon9"
+    ]
+  },
+  "matmos_msi.end.loop": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/end/loop1",
+      "matmos_msi/end/loop2",
+      "matmos_msi/end/loop3",
+      "matmos_msi/end/loop4",
+      "matmos_msi/end/loop5",
+      "matmos_msi/end/loop6",
+      "matmos_msi/end/loop7",
+      "matmos_msi/end/loop8"
+    ]
+  },
+  "matmos_msi.eremaldoredetected": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/eremaldoredetected"
+    ]
+  },
+  "matmos_msi.eremaldoredetectedreverb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/eremaldoredetectedreverb"
+    ]
+  },
+  "matmos_msi.forest.coucou": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/coucou"
+    ]
+  },
+  "matmos_msi.forest.crep-forest": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/crep-forest1",
+      "matmos_msi/forest/crep-forest2",
+      "matmos_msi/forest/crep-forest3",
+      "matmos_msi/forest/crep-forest4",
+      "matmos_msi/forest/crep-forest5",
+      "matmos_msi/forest/crep-forest6"
+    ]
+  },
+  "matmos_msi.forest.jour-foret": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/jour-foret1",
+      "matmos_msi/forest/jour-foret10",
+      "matmos_msi/forest/jour-foret2",
+      "matmos_msi/forest/jour-foret3",
+      "matmos_msi/forest/jour-foret4",
+      "matmos_msi/forest/jour-foret5",
+      "matmos_msi/forest/jour-foret6",
+      "matmos_msi/forest/jour-foret7",
+      "matmos_msi/forest/jour-foret8",
+      "matmos_msi/forest/jour-foret9"
+    ]
+  },
+  "matmos_msi.forest.matin-foret": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/matin-foret1",
+      "matmos_msi/forest/matin-foret2",
+      "matmos_msi/forest/matin-foret3",
+      "matmos_msi/forest/matin-foret4",
+      "matmos_msi/forest/matin-foret5",
+      "matmos_msi/forest/matin-foret6",
+      "matmos_msi/forest/matin-foret7",
+      "matmos_msi/forest/matin-foret8"
+    ]
+  },
+  "matmos_msi.forest.nuit-forest": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/nuit-forest1",
+      "matmos_msi/forest/nuit-forest2",
+      "matmos_msi/forest/nuit-forest3",
+      "matmos_msi/forest/nuit-forest4"
+    ]
+  },
+  "matmos_msi.forest.nuit-foresta": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/nuit-foresta"
+    ]
+  },
+  "matmos_msi.forest.nuit-forestb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/nuit-forestb"
+    ]
+  },
+  "matmos_msi.forest.oiseaua": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseaua"
+    ]
+  },
+  "matmos_msi.forest.oiseaub": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseaub"
+    ]
+  },
+  "matmos_msi.forest.oiseauc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseauc"
+    ]
+  },
+  "matmos_msi.forest.oiseaud": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseaud"
+    ]
+  },
+  "matmos_msi.forest.oiseaue": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseaue"
+    ]
+  },
+  "matmos_msi.forest.oiseauf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseauf"
+    ]
+  },
+  "matmos_msi.forest.oiseaug": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseaug"
+    ]
+  },
+  "matmos_msi.forest.oiseauh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/oiseauh"
+    ]
+  },
+  "matmos_msi.forest.pique": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/pique"
+    ]
+  },
+  "matmos_msi.forest.ventfa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/ventfa"
+    ]
+  },
+  "matmos_msi.forest.ventfb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/ventfb"
+    ]
+  },
+  "matmos_msi.forest.ventfc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/ventfc"
+    ]
+  },
+  "matmos_msi.forest.ventfd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/ventfd"
+    ]
+  },
+  "matmos_msi.forest.ventfe": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/forest/ventfe"
+    ]
+  },
+  "matmos_msi.hell.expl": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/expl1",
+      "matmos_msi/hell/expl2",
+      "matmos_msi/hell/expl3",
+      "matmos_msi/hell/expl4",
+      "matmos_msi/hell/expl5",
+      "matmos_msi/hell/expl6",
+      "matmos_msi/hell/expl7"
+    ]
+  },
+  "matmos_msi.hell.heartbeat": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/heartbeat"
+    ]
+  },
+  "matmos_msi.hell.hellp": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/hellp1",
+      "matmos_msi/hell/hellp2",
+      "matmos_msi/hell/hellp3",
+      "matmos_msi/hell/hellp4",
+      "matmos_msi/hell/hellp5",
+      "matmos_msi/hell/hellp6",
+      "matmos_msi/hell/hellp7"
+    ]
+  },
+  "matmos_msi.hell.hellx": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/hellx1",
+      "matmos_msi/hell/hellx2",
+      "matmos_msi/hell/hellx3",
+      "matmos_msi/hell/hellx4",
+      "matmos_msi/hell/hellx5",
+      "matmos_msi/hell/hellx6"
+    ]
+  },
+  "matmos_msi.hell.inlp": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/inlp1",
+      "matmos_msi/hell/inlp2",
+      "matmos_msi/hell/inlp3",
+      "matmos_msi/hell/inlp4"
+    ]
+  },
+  "matmos_msi.hell.laugher": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/laugher2"
+    ]
+  },
+  "matmos_msi.hell.scream": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/scream10",
+      "matmos_msi/hell/scream11"
+    ]
+  },
+  "matmos_msi.hell.un": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un1",
+      "matmos_msi/hell/un2",
+      "matmos_msi/hell/un3",
+      "matmos_msi/hell/un4",
+      "matmos_msi/hell/un5",
+      "matmos_msi/hell/un6",
+      "matmos_msi/hell/un7",
+      "matmos_msi/hell/un8"
+    ]
+  },
+  "matmos_msi.hell.un_wind": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_wind1",
+      "matmos_msi/hell/un_wind2",
+      "matmos_msi/hell/un_wind3",
+      "matmos_msi/hell/un_wind4",
+      "matmos_msi/hell/un_wind5",
+      "matmos_msi/hell/un_wind6",
+      "matmos_msi/hell/un_wind7",
+      "matmos_msi/hell/un_wind8",
+      "matmos_msi/hell/un_wind9"
+    ]
+  },
+  "matmos_msi.hell.un_winda": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_winda"
+    ]
+  },
+  "matmos_msi.hell.un_windb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_windb"
+    ]
+  },
+  "matmos_msi.hell.un_windc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_windc"
+    ]
+  },
+  "matmos_msi.hell.un_windd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_windd"
+    ]
+  },
+  "matmos_msi.hell.un_winde": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/un_winde"
+    ]
+  },
+  "matmos_msi.hell.wisper": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hell/wisper1",
+      "matmos_msi/hell/wisper2",
+      "matmos_msi/hell/wisper3",
+      "matmos_msi/hell/wisper4",
+      "matmos_msi/hell/wisper5",
+      "matmos_msi/hell/wisper6",
+      "matmos_msi/hell/wisper7",
+      "matmos_msi/hell/wisper8"
+    ]
+  },
+  "matmos_msi.hit.blunt": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hit/blunt1",
+      "matmos_msi/hit/blunt2",
+      "matmos_msi/hit/blunt3"
+    ]
+  },
+  "matmos_msi.hit.sharp": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/hit/sharp1",
+      "matmos_msi/hit/sharp2",
+      "matmos_msi/hit/sharp3",
+      "matmos_msi/hit/sharp4",
+      "matmos_msi/hit/sharp5",
+      "matmos_msi/hit/sharp6"
+    ]
+  },
+  "matmos_msi.human.armor": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/armor",
+      "matmos_msi/human/armor10",
+      "matmos_msi/human/armor2",
+      "matmos_msi/human/armor3",
+      "matmos_msi/human/armor4",
+      "matmos_msi/human/armor5",
+      "matmos_msi/human/armor6",
+      "matmos_msi/human/armor7",
+      "matmos_msi/human/armor8",
+      "matmos_msi/human/armor9"
+    ]
+  },
+  "matmos_msi.human.bottle": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/bottle",
+      "matmos_msi/human/bottle1",
+      "matmos_msi/human/bottle2",
+      "matmos_msi/human/bottle3"
+    ]
+  },
+  "matmos_msi.human.crowd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/crowd"
+    ]
+  },
+  "matmos_msi.human.ext_draw_sword_": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/ext_draw_sword_02",
+      "matmos_msi/human/ext_draw_sword_03",
+      "matmos_msi/human/ext_draw_sword_04",
+      "matmos_msi/human/ext_draw_sword_05",
+      "matmos_msi/human/ext_draw_sword_06",
+      "matmos_msi/human/ext_draw_sword_07",
+      "matmos_msi/human/ext_draw_sword_08",
+      "matmos_msi/human/ext_draw_sword_09"
+    ]
+  },
+  "matmos_msi.human.ext_man_die_": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/ext_man_die_1",
+      "matmos_msi/human/ext_man_die_10",
+      "matmos_msi/human/ext_man_die_11",
+      "matmos_msi/human/ext_man_die_12",
+      "matmos_msi/human/ext_man_die_13",
+      "matmos_msi/human/ext_man_die_14",
+      "matmos_msi/human/ext_man_die_15",
+      "matmos_msi/human/ext_man_die_16",
+      "matmos_msi/human/ext_man_die_17",
+      "matmos_msi/human/ext_man_die_18",
+      "matmos_msi/human/ext_man_die_2",
+      "matmos_msi/human/ext_man_die_3",
+      "matmos_msi/human/ext_man_die_4",
+      "matmos_msi/human/ext_man_die_5",
+      "matmos_msi/human/ext_man_die_6",
+      "matmos_msi/human/ext_man_die_7",
+      "matmos_msi/human/ext_man_die_8",
+      "matmos_msi/human/ext_man_die_9"
+    ]
+  },
+  "matmos_msi.human.ext_man_grunt_pain_": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/ext_man_grunt_pain_1",
+      "matmos_msi/human/ext_man_grunt_pain_10",
+      "matmos_msi/human/ext_man_grunt_pain_11",
+      "matmos_msi/human/ext_man_grunt_pain_12",
+      "matmos_msi/human/ext_man_grunt_pain_2",
+      "matmos_msi/human/ext_man_grunt_pain_3",
+      "matmos_msi/human/ext_man_grunt_pain_4",
+      "matmos_msi/human/ext_man_grunt_pain_5",
+      "matmos_msi/human/ext_man_grunt_pain_6",
+      "matmos_msi/human/ext_man_grunt_pain_7",
+      "matmos_msi/human/ext_man_grunt_pain_8",
+      "matmos_msi/human/ext_man_grunt_pain_9"
+    ]
+  },
+  "matmos_msi.human.faim": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/faim1",
+      "matmos_msi/human/faim2",
+      "matmos_msi/human/faim3",
+      "matmos_msi/human/faim4"
+    ]
+  },
+  "matmos_msi.human.fall": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/fall1",
+      "matmos_msi/human/fall2",
+      "matmos_msi/human/fall3",
+      "matmos_msi/human/fall4",
+      "matmos_msi/human/fall6",
+      "matmos_msi/human/fall7",
+      "matmos_msi/human/fall8",
+      "matmos_msi/human/fall9"
+    ]
+  },
+  "matmos_msi.human.falla": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/falla"
+    ]
+  },
+  "matmos_msi.human.fallb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/fallb"
+    ]
+  },
+  "matmos_msi.human.fallbig": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/fallbig1",
+      "matmos_msi/human/fallbig2"
+    ]
+  },
+  "matmos_msi.human.fallc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/fallc"
+    ]
+  },
+  "matmos_msi.human.fire": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/fire1",
+      "matmos_msi/human/fire2",
+      "matmos_msi/human/fire3"
+    ]
+  },
+  "matmos_msi.human.heartfast": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/heartfast"
+    ]
+  },
+  "matmos_msi.human.heartmed": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/heartmed"
+    ]
+  },
+  "matmos_msi.human.heartsoft": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/heartsoft"
+    ]
+  },
+  "matmos_msi.human.mmm": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/mmm",
+      "matmos_msi/human/mmm2"
+    ]
+  },
+  "matmos_msi.human.msi_generic_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/msi_generic_draw1",
+      "matmos_msi/human/msi_generic_draw2",
+      "matmos_msi/human/msi_generic_draw3",
+      "matmos_msi/human/msi_generic_draw4",
+      "matmos_msi/human/msi_generic_draw5",
+      "matmos_msi/human/msi_generic_draw6",
+      "matmos_msi/human/msi_generic_draw7",
+      "matmos_msi/human/msi_generic_draw8"
+    ]
+  },
+  "matmos_msi.human.noyade": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/noyade"
+    ]
+  },
+  "matmos_msi.human.on_fire": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/on_fire1",
+      "matmos_msi/human/on_fire2",
+      "matmos_msi/human/on_fire3"
+    ]
+  },
+  "matmos_msi.human.ship_drive": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/ship_drive"
+    ]
+  },
+  "matmos_msi.human.souffle": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/souffle"
+    ]
+  },
+  "matmos_msi.human.waterbucket": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/human/waterbucket1",
+      "matmos_msi/human/waterbucket2",
+      "matmos_msi/human/waterbucket3"
+    ]
+  },
+  "matmos_msi.jungle.jour-jungle": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/jour-jungle1",
+      "matmos_msi/jungle/jour-jungle10",
+      "matmos_msi/jungle/jour-jungle11",
+      "matmos_msi/jungle/jour-jungle12",
+      "matmos_msi/jungle/jour-jungle13",
+      "matmos_msi/jungle/jour-jungle14",
+      "matmos_msi/jungle/jour-jungle15",
+      "matmos_msi/jungle/jour-jungle2",
+      "matmos_msi/jungle/jour-jungle3",
+      "matmos_msi/jungle/jour-jungle4",
+      "matmos_msi/jungle/jour-jungle5",
+      "matmos_msi/jungle/jour-jungle6",
+      "matmos_msi/jungle/jour-jungle7",
+      "matmos_msi/jungle/jour-jungle8",
+      "matmos_msi/jungle/jour-jungle9"
+    ]
+  },
+  "matmos_msi.jungle.junglela": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglela"
+    ]
+  },
+  "matmos_msi.jungle.junglelb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglelb"
+    ]
+  },
+  "matmos_msi.jungle.junglelc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglelc"
+    ]
+  },
+  "matmos_msi.jungle.jungleld": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/jungleld"
+    ]
+  },
+  "matmos_msi.jungle.junglele": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglele"
+    ]
+  },
+  "matmos_msi.jungle.junglelf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglelf"
+    ]
+  },
+  "matmos_msi.jungle.junglelg": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglelg"
+    ]
+  },
+  "matmos_msi.jungle.junglelh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglelh"
+    ]
+  },
+  "matmos_msi.jungle.junglesa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesa"
+    ]
+  },
+  "matmos_msi.jungle.junglesb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesb"
+    ]
+  },
+  "matmos_msi.jungle.junglesc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesc"
+    ]
+  },
+  "matmos_msi.jungle.junglesd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesd"
+    ]
+  },
+  "matmos_msi.jungle.junglese": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglese"
+    ]
+  },
+  "matmos_msi.jungle.junglesf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesf"
+    ]
+  },
+  "matmos_msi.jungle.junglesg": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesg"
+    ]
+  },
+  "matmos_msi.jungle.junglesh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesh"
+    ]
+  },
+  "matmos_msi.jungle.junglesi": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesi"
+    ]
+  },
+  "matmos_msi.jungle.junglesj": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesj"
+    ]
+  },
+  "matmos_msi.jungle.junglesk": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesk"
+    ]
+  },
+  "matmos_msi.jungle.junglesl": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/junglesl"
+    ]
+  },
+  "matmos_msi.jungle.loop-jungle": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/loop-jungle"
+    ]
+  },
+  "matmos_msi.jungle.nuit-jungle": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/nuit-jungle1",
+      "matmos_msi/jungle/nuit-jungle2",
+      "matmos_msi/jungle/nuit-jungle3",
+      "matmos_msi/jungle/nuit-jungle4",
+      "matmos_msi/jungle/nuit-jungle5",
+      "matmos_msi/jungle/nuit-jungle6",
+      "matmos_msi/jungle/nuit-jungle7",
+      "matmos_msi/jungle/nuit-jungle8"
+    ]
+  },
+  "matmos_msi.jungle.unnight": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/unnight1",
+      "matmos_msi/jungle/unnight2",
+      "matmos_msi/jungle/unnight3",
+      "matmos_msi/jungle/unnight4",
+      "matmos_msi/jungle/unnight5",
+      "matmos_msi/jungle/unnight6",
+      "matmos_msi/jungle/unnight7",
+      "matmos_msi/jungle/unnight8",
+      "matmos_msi/jungle/unnight9"
+    ]
+  },
+  "matmos_msi.jungle.unnighta": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/unnighta"
+    ]
+  },
+  "matmos_msi.jungle.unnightb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/unnightb"
+    ]
+  },
+  "matmos_msi.jungle.unnightc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/jungle/unnightc"
+    ]
+  },
+  "matmos_msi.lava.in-lava": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lava1",
+      "matmos_msi/lava/in-lava2",
+      "matmos_msi/lava/in-lava3",
+      "matmos_msi/lava/in-lava4",
+      "matmos_msi/lava/in-lava5",
+      "matmos_msi/lava/in-lava6"
+    ]
+  },
+  "matmos_msi.lava.in-lavaa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavaa"
+    ]
+  },
+  "matmos_msi.lava.in-lavab": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavab"
+    ]
+  },
+  "matmos_msi.lava.in-lavac": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavac"
+    ]
+  },
+  "matmos_msi.lava.in-lavad": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavad"
+    ]
+  },
+  "matmos_msi.lava.in-lavae": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavae"
+    ]
+  },
+  "matmos_msi.lava.in-lavaf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/in-lavaf"
+    ]
+  },
+  "matmos_msi.lava.lavaplop": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/lavaplop2",
+      "matmos_msi/lava/lavaplop3",
+      "matmos_msi/lava/lavaplop4"
+    ]
+  },
+  "matmos_msi.lava.out-lava": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/out-lava1",
+      "matmos_msi/lava/out-lava2",
+      "matmos_msi/lava/out-lava3",
+      "matmos_msi/lava/out-lava4"
+    ]
+  },
+  "matmos_msi.lava.out-lavaa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/out-lavaa"
+    ]
+  },
+  "matmos_msi.lava.out-lavab": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/out-lavab"
+    ]
+  },
+  "matmos_msi.lava.out-lavac": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/out-lavac"
+    ]
+  },
+  "matmos_msi.lava.out-lavad": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/lava/out-lavad"
+    ]
+  },
+  "matmos_msi.marais.duck": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/duck1",
+      "matmos_msi/marais/duck2"
+    ]
+  },
+  "matmos_msi.marais.frog": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frog1",
+      "matmos_msi/marais/frog2",
+      "matmos_msi/marais/frog3",
+      "matmos_msi/marais/frog4",
+      "matmos_msi/marais/frog5",
+      "matmos_msi/marais/frog6"
+    ]
+  },
+  "matmos_msi.marais.frogna": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frogna"
+    ]
+  },
+  "matmos_msi.marais.frognb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognb"
+    ]
+  },
+  "matmos_msi.marais.frognc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognc"
+    ]
+  },
+  "matmos_msi.marais.frognd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognd"
+    ]
+  },
+  "matmos_msi.marais.frogne": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frogne"
+    ]
+  },
+  "matmos_msi.marais.frognh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognh"
+    ]
+  },
+  "matmos_msi.marais.frogni": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frogni"
+    ]
+  },
+  "matmos_msi.marais.frognj": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognj"
+    ]
+  },
+  "matmos_msi.marais.frognk": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/frognk"
+    ]
+  },
+  "matmos_msi.marais.jour-marais": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/jour-marais1",
+      "matmos_msi/marais/jour-marais2",
+      "matmos_msi/marais/jour-marais3",
+      "matmos_msi/marais/jour-marais4",
+      "matmos_msi/marais/jour-marais5",
+      "matmos_msi/marais/jour-marais6",
+      "matmos_msi/marais/jour-marais7",
+      "matmos_msi/marais/jour-marais8"
+    ]
+  },
+  "matmos_msi.marais.mosquito": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/mosquito1",
+      "matmos_msi/marais/mosquito2",
+      "matmos_msi/marais/mosquito3"
+    ]
+  },
+  "matmos_msi.marais.nuit-marais": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/marais/nuit-marais1",
+      "matmos_msi/marais/nuit-marais2",
+      "matmos_msi/marais/nuit-marais3",
+      "matmos_msi/marais/nuit-marais4",
+      "matmos_msi/marais/nuit-marais5"
+    ]
+  },
+  "matmos_msi.mount.haute_alti": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/mount/haute_alti1",
+      "matmos_msi/mount/haute_alti2",
+      "matmos_msi/mount/haute_alti3",
+      "matmos_msi/mount/haute_alti4",
+      "matmos_msi/mount/haute_alti5",
+      "matmos_msi/mount/haute_alti6",
+      "matmos_msi/mount/haute_alti7",
+      "matmos_msi/mount/haute_alti8"
+    ]
+  },
+  "matmos_msi.plain.evening": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/evening1",
+      "matmos_msi/plain/evening2",
+      "matmos_msi/plain/evening3",
+      "matmos_msi/plain/evening4"
+    ]
+  },
+  "matmos_msi.plain.jour-plain": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/jour-plain1",
+      "matmos_msi/plain/jour-plain2",
+      "matmos_msi/plain/jour-plain3",
+      "matmos_msi/plain/jour-plain4",
+      "matmos_msi/plain/jour-plain5",
+      "matmos_msi/plain/jour-plain6",
+      "matmos_msi/plain/jour-plain7",
+      "matmos_msi/plain/jour-plain8",
+      "matmos_msi/plain/jour1-plain",
+      "matmos_msi/plain/jour2-plain",
+      "matmos_msi/plain/jour3-plain",
+      "matmos_msi/plain/jour4-plain",
+      "matmos_msi/plain/jour5-plain",
+      "matmos_msi/plain/jour6-plain",
+      "matmos_msi/plain/jour7-plain",
+      "matmos_msi/plain/jour8-plain"
+    ]
+  },
+  "matmos_msi.plain.nuit-plain": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/nuit-plain1",
+      "matmos_msi/plain/nuit-plain2",
+      "matmos_msi/plain/nuit-plain3",
+      "matmos_msi/plain/nuit-plain4",
+      "matmos_msi/plain/nuit-plain5",
+      "matmos_msi/plain/nuit-plain6",
+      "matmos_msi/plain/nuit-plain7",
+      "matmos_msi/plain/nuit-plain8",
+      "matmos_msi/plain/nuit1-plain",
+      "matmos_msi/plain/nuit2-plain",
+      "matmos_msi/plain/nuit3-plain",
+      "matmos_msi/plain/nuit4-plain",
+      "matmos_msi/plain/nuit5-plain",
+      "matmos_msi/plain/nuit6-plain",
+      "matmos_msi/plain/nuit7-plain",
+      "matmos_msi/plain/nuit8-plain"
+    ]
+  },
+  "matmos_msi.plain.ventforta": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventforta"
+    ]
+  },
+  "matmos_msi.plain.ventfortb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventfortb"
+    ]
+  },
+  "matmos_msi.plain.ventfortc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventfortc"
+    ]
+  },
+  "matmos_msi.plain.ventpa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventpa"
+    ]
+  },
+  "matmos_msi.plain.ventpb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventpb"
+    ]
+  },
+  "matmos_msi.plain.ventpc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventpc"
+    ]
+  },
+  "matmos_msi.plain.ventpd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/plain/ventpd"
+    ]
+  },
+  "matmos_msi.pluie.rain-in": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/pluie/rain-in1",
+      "matmos_msi/pluie/rain-in2",
+      "matmos_msi/pluie/rain-in3",
+      "matmos_msi/pluie/rain-in4",
+      "matmos_msi/pluie/rain-in5",
+      "matmos_msi/pluie/rain-in6"
+    ]
+  },
+  "matmos_msi.pluie.rain-out": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/pluie/rain-out1",
+      "matmos_msi/pluie/rain-out2",
+      "matmos_msi/pluie/rain-out3",
+      "matmos_msi/pluie/rain-out4",
+      "matmos_msi/pluie/rain-out5",
+      "matmos_msi/pluie/rain-out6",
+      "matmos_msi/pluie/rain-out7"
+    ]
+  },
+  "matmos_msi.pluie.rain-tree": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/pluie/rain-tree1",
+      "matmos_msi/pluie/rain-tree2",
+      "matmos_msi/pluie/rain-tree3",
+      "matmos_msi/pluie/rain-tree4",
+      "matmos_msi/pluie/rain-tree5",
+      "matmos_msi/pluie/rain-tree6"
+    ]
+  },
+  "matmos_msi.seaside.coastbirda": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirda"
+    ]
+  },
+  "matmos_msi.seaside.coastbirdb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirdb"
+    ]
+  },
+  "matmos_msi.seaside.coastbirdc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirdc"
+    ]
+  },
+  "matmos_msi.seaside.coastbirdd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirdd"
+    ]
+  },
+  "matmos_msi.seaside.coastbirde": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirde"
+    ]
+  },
+  "matmos_msi.seaside.coastbirdf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirdf"
+    ]
+  },
+  "matmos_msi.seaside.coastbirdg": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/coastbirdg"
+    ]
+  },
+  "matmos_msi.seaside.oceanina": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/oceanina"
+    ]
+  },
+  "matmos_msi.seaside.oceaninb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/oceaninb"
+    ]
+  },
+  "matmos_msi.seaside.oceaninc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/oceaninc"
+    ]
+  },
+  "matmos_msi.seaside.oceanind": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/oceanind"
+    ]
+  },
+  "matmos_msi.seaside.sea": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/sea1",
+      "matmos_msi/seaside/sea2",
+      "matmos_msi/seaside/sea3",
+      "matmos_msi/seaside/sea4",
+      "matmos_msi/seaside/sea5",
+      "matmos_msi/seaside/sea6",
+      "matmos_msi/seaside/sea7",
+      "matmos_msi/seaside/sea8",
+      "matmos_msi/seaside/sea9"
+    ]
+  },
+  "matmos_msi.seaside.seaa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/seaa"
+    ]
+  },
+  "matmos_msi.seaside.seab": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/seab"
+    ]
+  },
+  "matmos_msi.seaside.waterhitwood": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/seaside/waterhitwood"
+    ]
+  },
+  "matmos_msi.seaside.water_underwater_loop": {
+    "category": "weather",
+    "sounds": [
+      "matmos_msi/seaside/water_underwater_loop"
+    ]
+  },
+  "matmos_msi.sharedonce.bat": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/bat1"
+    ]
+  },
+  "matmos_msi.sharedonce.bata": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/bata"
+    ]
+  },
+  "matmos_msi.sharedonce.chouette": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/chouette1",
+      "matmos_msi/sharedonce/chouette2",
+      "matmos_msi/sharedonce/chouette3"
+    ]
+  },
+  "matmos_msi.sharedonce.chouettea": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/chouettea"
+    ]
+  },
+  "matmos_msi.sharedonce.criquet": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criquet4",
+      "matmos_msi/sharedonce/criquet5",
+      "matmos_msi/sharedonce/criquet6",
+      "matmos_msi/sharedonce/criquet7",
+      "matmos_msi/sharedonce/criquet8"
+    ]
+  },
+  "matmos_msi.sharedonce.criqueta": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criqueta"
+    ]
+  },
+  "matmos_msi.sharedonce.criquetb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criquetb"
+    ]
+  },
+  "matmos_msi.sharedonce.criquetc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criquetc"
+    ]
+  },
+  "matmos_msi.sharedonce.criquetd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criquetd"
+    ]
+  },
+  "matmos_msi.sharedonce.criquete": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/criquete"
+    ]
+  },
+  "matmos_msi.sharedonce.critterm": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/critterm"
+    ]
+  },
+  "matmos_msi.sharedonce.crittern": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/crittern"
+    ]
+  },
+  "matmos_msi.sharedonce.crittero": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/crittero"
+    ]
+  },
+  "matmos_msi.sharedonce.etourneau": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/etourneau1"
+    ]
+  },
+  "matmos_msi.sharedonce.flies": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/flies1",
+      "matmos_msi/sharedonce/flies2",
+      "matmos_msi/sharedonce/flies3",
+      "matmos_msi/sharedonce/flies4",
+      "matmos_msi/sharedonce/flies5"
+    ]
+  },
+  "matmos_msi.sharedonce.flyc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/flyc1",
+      "matmos_msi/sharedonce/flyc2",
+      "matmos_msi/sharedonce/flyc3"
+    ]
+  },
+  "matmos_msi.sharedonce.flyin": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/flyin1",
+      "matmos_msi/sharedonce/flyin2"
+    ]
+  },
+  "matmos_msi.sharedonce.moino": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/moino1",
+      "matmos_msi/sharedonce/moino2"
+    ]
+  },
+  "matmos_msi.sharedonce.oizoa": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizoa"
+    ]
+  },
+  "matmos_msi.sharedonce.oizob": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizob"
+    ]
+  },
+  "matmos_msi.sharedonce.oizoc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizoc"
+    ]
+  },
+  "matmos_msi.sharedonce.oizod": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizod"
+    ]
+  },
+  "matmos_msi.sharedonce.oizoe": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizoe"
+    ]
+  },
+  "matmos_msi.sharedonce.oizof": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizof"
+    ]
+  },
+  "matmos_msi.sharedonce.oizog": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizog"
+    ]
+  },
+  "matmos_msi.sharedonce.oizoh": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/oizoh"
+    ]
+  },
+  "matmos_msi.sharedonce.ventfort": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sharedonce/ventfort1",
+      "matmos_msi/sharedonce/ventfort2",
+      "matmos_msi/sharedonce/ventfort3",
+      "matmos_msi/sharedonce/ventfort4"
+    ]
+  },
+  "matmos_msi.snow.corb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/corb1",
+      "matmos_msi/snow/corb2",
+      "matmos_msi/snow/corb3",
+      "matmos_msi/snow/corb4"
+    ]
+  },
+  "matmos_msi.snow.craque": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/craque1",
+      "matmos_msi/snow/craque2",
+      "matmos_msi/snow/craque3",
+      "matmos_msi/snow/craque4",
+      "matmos_msi/snow/craque5"
+    ]
+  },
+  "matmos_msi.snow.craquea": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/craquea"
+    ]
+  },
+  "matmos_msi.snow.craqueb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/craqueb"
+    ]
+  },
+  "matmos_msi.snow.craquec": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/craquec"
+    ]
+  },
+  "matmos_msi.snow.foretneige": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/foretneige1",
+      "matmos_msi/snow/foretneige2",
+      "matmos_msi/snow/foretneige3",
+      "matmos_msi/snow/foretneige4",
+      "matmos_msi/snow/foretneige5",
+      "matmos_msi/snow/foretneige6",
+      "matmos_msi/snow/foretneige7",
+      "matmos_msi/snow/foretneige8"
+    ]
+  },
+  "matmos_msi.snow.loup": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/loup1",
+      "matmos_msi/snow/loup2"
+    ]
+  },
+  "matmos_msi.snow.mountneige": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/mountneige1",
+      "matmos_msi/snow/mountneige2",
+      "matmos_msi/snow/mountneige3",
+      "matmos_msi/snow/mountneige4",
+      "matmos_msi/snow/mountneige5",
+      "matmos_msi/snow/mountneige6",
+      "matmos_msi/snow/mountneige7",
+      "matmos_msi/snow/mountneige8"
+    ]
+  },
+  "matmos_msi.snow.plaineneige": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/plaineneige1",
+      "matmos_msi/snow/plaineneige2",
+      "matmos_msi/snow/plaineneige3",
+      "matmos_msi/snow/plaineneige4",
+      "matmos_msi/snow/plaineneige5",
+      "matmos_msi/snow/plaineneige6"
+    ]
+  },
+  "matmos_msi.snow.unforeta": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforeta"
+    ]
+  },
+  "matmos_msi.snow.unforetb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforetb"
+    ]
+  },
+  "matmos_msi.snow.unforetc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforetc"
+    ]
+  },
+  "matmos_msi.snow.unforetd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforetd"
+    ]
+  },
+  "matmos_msi.snow.unforete": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforete"
+    ]
+  },
+  "matmos_msi.snow.unforetf": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforetf"
+    ]
+  },
+  "matmos_msi.snow.unforetg": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforetg"
+    ]
+  },
+  "matmos_msi.snow.unforeth": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforeth"
+    ]
+  },
+  "matmos_msi.snow.unforeti": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/unforeti"
+    ]
+  },
+  "matmos_msi.snow.vent_froid": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/vent_froid1",
+      "matmos_msi/snow/vent_froid2",
+      "matmos_msi/snow/vent_froid5",
+      "matmos_msi/snow/vent_froid7"
+    ]
+  },
+  "matmos_msi.snow.vent_nuita": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/vent_nuita"
+    ]
+  },
+  "matmos_msi.snow.vent_nuitb": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/vent_nuitb"
+    ]
+  },
+  "matmos_msi.snow.vent_nuitc": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/vent_nuitc"
+    ]
+  },
+  "matmos_msi.snow.vent_nuitd": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/snow/vent_nuitd"
+    ]
+  },
+  "matmos_msi.sonar_far": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_msi/sonar_far"
+    ]
+  },
+  "mob.chicken.say": {
+    "category": "ambient",
+    "sounds": [
+      "mob/chicken/say4"
+    ]
+  },
+  "mob.cow.say": {
+    "category": "ambient",
+    "sounds": [
+      "mob/cow/say5",
+      "mob/cow/say6",
+      "mob/cow/say7",
+      "mob/cow/say8"
+    ]
+  },
+  "mob.ghast.moan": {
+    "category": "ambient",
+    "sounds": [
+      "mob/ghast/moan1",
+      "mob/ghast/moan2",
+      "mob/ghast/moan3",
+      "mob/ghast/moan4",
+      "mob/ghast/moan5",
+      "mob/ghast/moan6",
+      "mob/ghast/moan7"
+    ]
+  },
+  "mob.horse.angry": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/angry1"
+    ]
+  },
+  "mob.horse.breathe": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/breathe1",
+      "mob/horse/breathe2",
+      "mob/horse/breathe3",
+      "mob/horse/breathe4",
+      "mob/horse/breathe5",
+      "mob/horse/breathe6",
+      "mob/horse/breathe7"
+    ]
+  },
+  "mob.horse.gallop": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/gallop1",
+      "mob/horse/gallop2",
+      "mob/horse/gallop3",
+      "mob/horse/gallop4",
+      "mob/horse/gallop5",
+      "mob/horse/gallop6",
+      "mob/horse/gallop7",
+      "mob/horse/gallop8"
+    ]
+  },
+  "mob.horse.idle": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/idle1",
+      "mob/horse/idle2",
+      "mob/horse/idle3",
+      "mob/horse/idle4",
+      "mob/horse/idle5",
+      "mob/horse/idle6",
+      "mob/horse/idle7",
+      "mob/horse/idle8",
+      "mob/horse/idle9"
+    ]
+  },
+  "mob.horse.jump": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/jump1",
+      "mob/horse/jump2"
+    ]
+  },
+  "mob.horse.land": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/land1",
+      "mob/horse/land2"
+    ]
+  },
+  "mob.horse.soft": {
+    "category": "ambient",
+    "sounds": [
+      "mob/horse/soft1",
+      "mob/horse/soft10",
+      "mob/horse/soft11",
+      "mob/horse/soft2",
+      "mob/horse/soft3",
+      "mob/horse/soft4",
+      "mob/horse/soft5",
+      "mob/horse/soft6",
+      "mob/horse/soft7",
+      "mob/horse/soft8",
+      "mob/horse/soft9"
+    ]
+  },
+  "mob.villager.haggle": {
+    "category": "ambient",
+    "sounds": [
+      "mob/villager/haggle1",
+      "mob/villager/haggle2",
+      "mob/villager/haggle3",
+      "mob/villager/haggle4",
+      "mob/villager/haggle5"
+    ]
+  },
+  "mob.villager.hit": {
+    "category": "ambient",
+    "sounds": [
+      "mob/villager/hit1",
+      "mob/villager/hit10",
+      "mob/villager/hit11",
+      "mob/villager/hit12",
+      "mob/villager/hit2",
+      "mob/villager/hit3",
+      "mob/villager/hit4",
+      "mob/villager/hit5",
+      "mob/villager/hit6",
+      "mob/villager/hit7",
+      "mob/villager/hit8",
+      "mob/villager/hit9"
+    ]
+  },
+  "mob.villager.idle": {
+    "category": "ambient",
+    "sounds": [
+      "mob/villager/idle1",
+      "mob/villager/idle10",
+      "mob/villager/idle100",
+      "mob/villager/idle11",
+      "mob/villager/idle12",
+      "mob/villager/idle13",
+      "mob/villager/idle14",
+      "mob/villager/idle16",
+      "mob/villager/idle17",
+      "mob/villager/idle18",
+      "mob/villager/idle19",
+      "mob/villager/idle2",
+      "mob/villager/idle20",
+      "mob/villager/idle21",
+      "mob/villager/idle22",
+      "mob/villager/idle23",
+      "mob/villager/idle24",
+      "mob/villager/idle25",
+      "mob/villager/idle26",
+      "mob/villager/idle27",
+      "mob/villager/idle28",
+      "mob/villager/idle29",
+      "mob/villager/idle3",
+      "mob/villager/idle30",
+      "mob/villager/idle31",
+      "mob/villager/idle32",
+      "mob/villager/idle33",
+      "mob/villager/idle34",
+      "mob/villager/idle35",
+      "mob/villager/idle36",
+      "mob/villager/idle37",
+      "mob/villager/idle38",
+      "mob/villager/idle39",
+      "mob/villager/idle4",
+      "mob/villager/idle40",
+      "mob/villager/idle41",
+      "mob/villager/idle42",
+      "mob/villager/idle43",
+      "mob/villager/idle44",
+      "mob/villager/idle45",
+      "mob/villager/idle46",
+      "mob/villager/idle47",
+      "mob/villager/idle48",
+      "mob/villager/idle49",
+      "mob/villager/idle5",
+      "mob/villager/idle50",
+      "mob/villager/idle51",
+      "mob/villager/idle52",
+      "mob/villager/idle53",
+      "mob/villager/idle54",
+      "mob/villager/idle55",
+      "mob/villager/idle56",
+      "mob/villager/idle57",
+      "mob/villager/idle58",
+      "mob/villager/idle59",
+      "mob/villager/idle6",
+      "mob/villager/idle60",
+      "mob/villager/idle61",
+      "mob/villager/idle62",
+      "mob/villager/idle63",
+      "mob/villager/idle64",
+      "mob/villager/idle65",
+      "mob/villager/idle66",
+      "mob/villager/idle67",
+      "mob/villager/idle68",
+      "mob/villager/idle69",
+      "mob/villager/idle7",
+      "mob/villager/idle70",
+      "mob/villager/idle71",
+      "mob/villager/idle72",
+      "mob/villager/idle73",
+      "mob/villager/idle74",
+      "mob/villager/idle75",
+      "mob/villager/idle76",
+      "mob/villager/idle77",
+      "mob/villager/idle78",
+      "mob/villager/idle79",
+      "mob/villager/idle8",
+      "mob/villager/idle80",
+      "mob/villager/idle81",
+      "mob/villager/idle82",
+      "mob/villager/idle83",
+      "mob/villager/idle84",
+      "mob/villager/idle85",
+      "mob/villager/idle86",
+      "mob/villager/idle87",
+      "mob/villager/idle88",
+      "mob/villager/idle89",
+      "mob/villager/idle9",
+      "mob/villager/idle90",
+      "mob/villager/idle91",
+      "mob/villager/idle92",
+      "mob/villager/idle93",
+      "mob/villager/idle94",
+      "mob/villager/idle95",
+      "mob/villager/idle96",
+      "mob/villager/idle97",
+      "mob/villager/idle98",
+      "mob/villager/idle99"
+    ]
+  },
+  "mob.villager.no": {
+    "category": "ambient",
+    "sounds": [
+      "mob/villager/no1",
+      "mob/villager/no10",
+      "mob/villager/no11",
+      "mob/villager/no2",
+      "mob/villager/no3",
+      "mob/villager/no4",
+      "mob/villager/no5",
+      "mob/villager/no6",
+      "mob/villager/no7",
+      "mob/villager/no8",
+      "mob/villager/no9"
+    ]
+  },
+  "mob.villager.yes": {
+    "category": "ambient",
+    "sounds": [
+      "mob/villager/yes1",
+      "mob/villager/yes2",
+      "mob/villager/yes3"
+    ]
+  },
+  "mob.zombie.say": {
+    "category": "ambient",
+    "sounds": [
+      "mob/zombie/say4",
+      "mob/zombie/say5",
+      "mob/zombie/say6",
+      "mob/zombie/say7",
+      "mob/zombie/say8"
+    ]
+  },
+  "random.bow": {
+    "category": "ambient",
+    "sounds": [
+      "random/bow",
+      "random/bow1",
+      "random/bow2",
+      "random/bow3",
+      "random/bow4",
+      "random/bow5",
+      "random/bow6",
+      "random/bow7"
+    ]
+  },
+  "random.bowhit": {
+    "category": "ambient",
+    "sounds": [
+      "random/bowhit1",
+      "random/bowhit2",
+      "random/bowhit3",
+      "random/bowhit4",
+      "random/bowhit5"
+    ]
+  },
+  "random.click": {
+    "category": "ambient",
+    "sounds": [
+      "random/click1",
+      "random/click2"
+    ]
+  },
+  "random.door_close": {
+    "category": "ambient",
+    "sounds": [
+      "random/door_close1"
+    ]
+  },
+  "random.door_open": {
+    "category": "ambient",
+    "sounds": [
+      "random/door_open1"
+    ]
+  }
+}

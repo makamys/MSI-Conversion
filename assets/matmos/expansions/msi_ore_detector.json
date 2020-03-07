@@ -1,0 +1,167 @@
+{
+  "condition": {
+    "00jon_detect_in_hands": {
+      "sheet": "legacy",
+      "index": "player_current_item_as_number",
+      "symbol": "EQUAL",
+      "value": "345"
+    },
+    "00jon_detect_in_hands__AS_ITEM": {
+      "sheet": "legacy",
+      "index": "player_current_item_as_number",
+      "symbol": "EQUAL",
+      "value": "minecraft:compass"
+    },
+    "diamond_in_LS": {
+      "sheet": "scan_large",
+      "index": "minecraft:diamond_ore",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "diamond_in_SS": {
+      "sheet": "scan_small",
+      "index": "minecraft:diamond_ore",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "emerald_in_LS": {
+      "sheet": "scan_large",
+      "index": "minecraft:emerald_ore",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "emerald_in_SS": {
+      "sheet": "scan_small",
+      "index": "minecraft:emerald_ore",
+      "symbol": "GREATER",
+      "value": "0"
+    }
+  },
+  "set": {
+    "00jon_detector_diamond_LS": {
+      "yes": [
+        "00jon_detect_in_hands",
+        "diamond_in_LS"
+      ],
+      "no": []
+    },
+    "00jon_detector_diamond_SS": {
+      "yes": [
+        "diamond_in_SS",
+        "00jon_detect_in_hands"
+      ],
+      "no": []
+    },
+    "00jon_detector_emerald_SS": {
+      "yes": [
+        "00jon_detect_in_hands",
+        "emerald_in_SS"
+      ],
+      "no": []
+    },
+    "00jon_detector_emeraul_LS": {
+      "yes": [
+        "00jon_detect_in_hands",
+        "emerald_in_LS"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "run_det_diamon_SS": {
+      "allow": [
+        "00jon_detector_diamond_SS"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_diamondCLOSE",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "run_det_emerald_SS": {
+      "allow": [
+        "00jon_detector_emerald_SS"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_emeraldCLOSE",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "run_dete_LS": {
+      "allow": [
+        "00jon_detector_diamond_LS",
+        "00jon_detector_emeraul_LS"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "sonarFAR",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": -1.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "00jon_diamondCLOSE": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/diamondoredetectedreverb.ogg"
+      ]
+    },
+    "00jon_emeraldCLOSE": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/eremaldoredetectedreverb.ogg"
+      ]
+    },
+    "sonarFAR": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/sonar_far.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {}
+}

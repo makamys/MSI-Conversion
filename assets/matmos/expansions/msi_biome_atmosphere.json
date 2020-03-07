@@ -1,0 +1,5328 @@
+{
+  "condition": {
+    "00jon_Nether_obsidian_sup_6": {
+      "sheet": "scan_small",
+      "index": "minecraft:obsidian",
+      "symbol": "GREATER",
+      "value": "6"
+    },
+    "00jon_a_burning_furnace": {
+      "sheet": "scan_small",
+      "index": "minecraft:lit_furnace",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "00jon_air_12_100": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "LESSER",
+      "value": "125"
+    },
+    "00jon_air_33_100": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "GREATER",
+      "value": "330"
+    },
+    "00jon_air_75_100": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "GREATER",
+      "value": "750"
+    },
+    "00jon_au_dessous_de_45_m": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "LESSER",
+      "value": "45"
+    },
+    "00jon_biome_bord_de_mer": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "65"
+    },
+    "00jon_biome_bord_de_mer_no_land": {
+      "sheet": "_DYNAMIC",
+      "index": "00jon_seaside",
+      "symbol": "LESSER",
+      "value": "150"
+    },
+    "00jon_biome_in_ocean": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "200"
+    },
+    "00jon_biome_in_ocean_no_dirt": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:dirt",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "00jon_biome_in_ocean_no_sand": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:sand",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "00jon_detect_DG_stonebrick": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:stonebrick",
+      "symbol": "GREATER",
+      "value": "20"
+    },
+    "00jon_detect_DG_woodendoor": {
+      "sheet": "scan_large",
+      "index": "minecraft:wooden_door",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "00jon_detect_LSPM_feuille": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:leaves",
+      "symbol": "GREATER",
+      "value": "15"
+    },
+    "00jon_detect_LSPM_sandstone": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:sandstone",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "00jon_detect_LSPM_snow": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:snow_layer",
+      "symbol": "GREATER",
+      "value": "8"
+    },
+    "00jon_detect_LSPM_vine_jungle": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:vine",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "00jon_detect_LSPM_vines_marais": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:vine",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "00jon_detect_LS_cactus": {
+      "sheet": "scan_large",
+      "index": "minecraft:cactus",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "00jon_detect_LS_champi_marais": {
+      "sheet": "scan_large",
+      "index": "minecraft:brown_mushroom",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "00jon_detect_LS_ice": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:ice",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "00jon_detect_LS_lilly": {
+      "sheet": "scan_large",
+      "index": "minecraft:waterlily",
+      "symbol": "GREATER",
+      "value": "2"
+    },
+    "00jon_detect_SSPM_littlesnow": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:snow_layer",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "00jon_detect_SS_fence": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:fence",
+      "symbol": "GREATER",
+      "value": "5"
+    },
+    "00jon_detect_SS_leaves": {
+      "sheet": "scan_small",
+      "index": "minecraft:leaves",
+      "symbol": "GREATER",
+      "value": "3"
+    },
+    "00jon_detect_SS_plank": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:planks",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "00jon_detect_SS_wood": {
+      "sheet": "scan_small",
+      "index": "minecraft:log",
+      "symbol": "GREATER",
+      "value": "3"
+    },
+    "00jon_detect_frozen_ocean": {
+      "sheet": "scan_large_p1k",
+      "index": "minecraft:ice",
+      "symbol": "GREATER",
+      "value": "4"
+    },
+    "00jon_detect_player_in_The_End": {
+      "sheet": "scan_large",
+      "index": "minecraft:end_stone",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "00jon_detect_under_tree": {
+      "sheet": "cb_column",
+      "index": "thickness_overhead",
+      "symbol": "LESSER",
+      "value": "0"
+    },
+    "00jon_incave_definition_trop_roche": {
+      "sheet": "_DYNAMIC",
+      "index": "Rocks (SmallperMil)",
+      "symbol": "GREATER",
+      "value": "300"
+    },
+    "00jon_lava_10_near": {
+      "sheet": "_DYNAMIC",
+      "index": "Lava (Small)",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "00jon_lava_lightlevel_sup9": {
+      "sheet": "cb_light",
+      "index": "final",
+      "symbol": "GREATER",
+      "value": "9"
+    },
+    "00jon_near_man_made_structure": {
+      "sheet": "_DYNAMIC",
+      "index": "Manmade Structures (Small)",
+      "symbol": "GREATER",
+      "value": "25"
+    },
+    "00jon_neige_holiday_on_ice": {
+      "sheet": "legacy_column",
+      "index": "y-2_as_number",
+      "symbol": "EQUAL",
+      "value": "79"
+    },
+    "00jon_neige_holiday_on_ice__AS_BLOCK": {
+      "sheet": "legacy_column",
+      "index": "y-2_as_number",
+      "symbol": "EQUAL",
+      "value": "minecraft:ice"
+    },
+    "00jon_too_deep_from_surface_8block": {
+      "sheet": "cb_column",
+      "index": "thickness_overhead",
+      "symbol": "GREATER",
+      "value": "7"
+    },
+    "00jon_underwater": {
+      "sheet": "ply_stats",
+      "index": "oxygen",
+      "symbol": "LESSER",
+      "value": "300"
+    },
+    "00jon_vitre1": {
+      "sheet": "_DYNAMIC",
+      "index": "00jon_vitre",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "00jon_water_10_near": {
+      "sheet": "scan_small",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Air is tight 35%": {
+      "sheet": "scan_small_p1k",
+      "index": "minecraft:air",
+      "symbol": "GREATER",
+      "value": "500"
+    },
+    "Can rain on": {
+      "sheet": "UNKNOWN",
+      "index": "unknown_26",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Highlands (100)": {
+      "sheet": "cb_pos",
+      "index": "y",
+      "symbol": "GREATER",
+      "value": "100"
+    },
+    "In Nether": {
+      "sheet": "legacy",
+      "index": "world_nether",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "In Thunderstorm": {
+      "sheet": "w_general",
+      "index": "thunder",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Is Raining": {
+      "sheet": "w_general",
+      "index": "rain",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Is Underwater": {
+      "sheet": "ply_general",
+      "index": "in_water",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Lava": {
+      "sheet": "_DYNAMIC",
+      "index": "Lava (Small)",
+      "symbol": "GREATER",
+      "value": "12"
+    },
+    "Nearby fire (1)": {
+      "sheet": "scan_small",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "0"
+    },
+    "Nearby fire (12)": {
+      "sheet": "scan_small",
+      "index": "minecraft:fire",
+      "symbol": "GREATER",
+      "value": "11"
+    },
+    "Nearby water": {
+      "sheet": "_DYNAMIC",
+      "index": "Water (Small)",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Receive Sunlight": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "1"
+    },
+    "Rocks (24 S)": {
+      "sheet": "_DYNAMIC",
+      "index": "Rocks (SmallperMil)",
+      "symbol": "GREATER",
+      "value": "450"
+    },
+    "Sunlight Maximum 15/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "EQUAL",
+      "value": "15"
+    },
+    "Sunlight greater than 10/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "GREATER",
+      "value": "10"
+    },
+    "Sunlight lower than 10/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "10"
+    },
+    "Sunlight lower than 3/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "3"
+    },
+    "Sunlight lower than 5/15": {
+      "sheet": "cb_light",
+      "index": "sky",
+      "symbol": "LESSER",
+      "value": "5"
+    },
+    "Time (0 - 11500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "11500"
+    },
+    "Time (0 - 12250)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "12250"
+    },
+    "Time (0 - 13000)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "13000"
+    },
+    "Time (0 - 23500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "23500"
+    },
+    "Time (0 - 500)": {
+      "sheet": "w_general",
+      "index": "time_modulo24k",
+      "symbol": "LESSER",
+      "value": "500"
+    }
+  },
+  "set": {
+    "00jon_bord_de_mer": {
+      "yes": [
+        "00jon_biome_bord_de_mer",
+        "00jon_biome_bord_de_mer_no_land"
+      ],
+      "no": [
+        "00jon_detect_LSPM_vine_jungle",
+        "00jon_detect_LS_lilly",
+        "00jon_detect_LS_ice"
+      ]
+    },
+    "00jon_chemine_on": {
+      "yes": [
+        "00jon_a_burning_furnace"
+      ],
+      "no": []
+    },
+    "00jon_contact_glass": {
+      "yes": [
+        "00jon_vitre1",
+        "00jon_near_man_made_structure"
+      ],
+      "no": []
+    },
+    "00jon_define_biome_desert": {
+      "yes": [
+        "00jon_detect_LS_cactus",
+        "00jon_detect_LSPM_sandstone"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_feuille",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_foret": {
+      "yes": [
+        "00jon_detect_LSPM_feuille"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "In Nether",
+        "00jon_detect_LSPM_vines_marais"
+      ]
+    },
+    "00jon_define_biome_frozen_ocean": {
+      "yes": [
+        "00jon_detect_frozen_ocean"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_sandstone",
+        "00jon_detect_LSPM_feuille",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_in_ocean": {
+      "yes": [
+        "00jon_biome_in_ocean_no_dirt",
+        "00jon_biome_in_ocean",
+        "00jon_biome_in_ocean_no_sand"
+      ],
+      "no": [
+        "In Nether",
+        "00jon_detect_LS_ice"
+      ]
+    },
+    "00jon_define_biome_jungle": {
+      "yes": [
+        "00jon_detect_LSPM_vine_jungle",
+        "00jon_detect_LSPM_feuille"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_marais": {
+      "yes": [
+        "00jon_detect_LS_lilly"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_sandstone",
+        "00jon_detect_LSPM_vine_jungle",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_marais2": {
+      "yes": [
+        "00jon_detect_LS_champi_marais",
+        "00jon_detect_LSPM_vines_marais"
+      ],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_sandstone",
+        "00jon_detect_LSPM_vine_jungle",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_neige_foret": {
+      "yes": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_feuille"
+      ],
+      "no": [
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_neige_plaine": {
+      "yes": [
+        "00jon_detect_LSPM_snow"
+      ],
+      "no": [
+        "00jon_detect_LSPM_feuille",
+        "In Nether"
+      ]
+    },
+    "00jon_define_biome_plaine": {
+      "yes": [],
+      "no": [
+        "00jon_detect_LSPM_snow",
+        "00jon_detect_LSPM_sandstone",
+        "00jon_detect_frozen_ocean",
+        "00jon_detect_SSPM_littlesnow",
+        "00jon_detect_LSPM_feuille",
+        "00jon_biome_in_ocean",
+        "In Nether",
+        "00jon_detect_LSPM_vines_marais"
+      ]
+    },
+    "00jon_define_indoor": {
+      "yes": [
+        "00jon_near_man_made_structure"
+      ],
+      "no": [
+        "00jon_detect_under_tree",
+        "Can rain on"
+      ]
+    },
+    "00jon_incave_faille": {
+      "yes": [
+        "Air is tight 35%"
+      ],
+      "no": [
+        "Receive Sunlight",
+        "In Nether"
+      ]
+    },
+    "00jon_lava_surface": {
+      "yes": [
+        "00jon_lava_10_near"
+      ],
+      "no": []
+    },
+    "00jon_neige_ice_kicrake": {
+      "yes": [
+        "00jon_neige_holiday_on_ice"
+      ],
+      "no": []
+    },
+    "00jon_nether_no_complet_soun_obsi": {
+      "yes": [
+        "In Nether"
+      ],
+      "no": [
+        "00jon_Nether_obsidian_sup_6"
+      ]
+    },
+    "00jon_nether_small_corridor": {
+      "yes": [
+        "00jon_air_12_100",
+        "In Nether"
+      ],
+      "no": []
+    },
+    "00jon_no_outdoor_sound_45m": {
+      "yes": [
+        "00jon_au_dessous_de_45_m"
+      ],
+      "no": []
+    },
+    "00jon_no_outdoor_sound_no_air": {
+      "yes": [
+        "00jon_air_12_100",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "00jon_no_outdoor_sound_test": {
+      "yes": [
+        "00jon_incave_definition_trop_roche",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "00jon_no_outdoor_sound_thickness8": {
+      "yes": [
+        "00jon_too_deep_from_surface_8block",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "00jon_player_in_dungeon": {
+      "yes": [
+        "00jon_detect_DG_stonebrick",
+        "00jon_detect_DG_woodendoor",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    },
+    "00jon_player_in_end": {
+      "yes": [
+        "00jon_detect_player_in_The_End"
+      ],
+      "no": []
+    },
+    "00jon_rain_grotte_near_exit": {
+      "yes": [
+        "Sunlight greater than 10/15",
+        "Is Raining"
+      ],
+      "no": [
+        "00jon_detect_SS_leaves",
+        "00jon_detect_SS_wood",
+        "In Nether",
+        "Can rain on"
+      ]
+    },
+    "00jon_rain_in_grotte": {
+      "yes": [
+        "Is Raining"
+      ],
+      "no": [
+        "00jon_detect_SS_leaves",
+        "Sunlight greater than 10/15",
+        "Sunlight lower than 3/15",
+        "00jon_detect_SS_wood",
+        "In Nether",
+        "Can rain on"
+      ]
+    },
+    "00jon_rain_in_maison": {
+      "yes": [
+        "Is Raining",
+        "00jon_near_man_made_structure"
+      ],
+      "no": [
+        "In Nether",
+        "Can rain on"
+      ]
+    },
+    "00jon_rain_out": {
+      "yes": [
+        "Is Raining",
+        "Can rain on"
+      ],
+      "no": [
+        "In Nether"
+      ]
+    },
+    "00jon_rain_under_tree": {
+      "yes": [
+        "00jon_detect_SS_leaves",
+        "Is Raining",
+        "00jon_detect_SS_wood"
+      ],
+      "no": [
+        "In Nether",
+        "Can rain on"
+      ]
+    },
+    "00jon_rain_vitre": {
+      "yes": [
+        "00jon_vitre1",
+        "Is Raining",
+        "00jon_near_man_made_structure"
+      ],
+      "no": [
+        "In Nether",
+        "Can rain on"
+      ]
+    },
+    "00jon_set_mine": {
+      "yes": [
+        "00jon_detect_SS_plank",
+        "00jon_detect_SS_fence"
+      ],
+      "no": [
+        "Receive Sunlight",
+        "In Nether"
+      ]
+    },
+    "00jon_underwater": {
+      "yes": [
+        "00jon_underwater"
+      ],
+      "no": []
+    },
+    "Abundant water": {
+      "yes": [
+        "00jon_water_10_near"
+      ],
+      "no": [
+        "00jon_detect_LS_ice"
+      ]
+    },
+    "Feu_grand": {
+      "yes": [
+        "Nearby fire (12)"
+      ],
+      "no": [
+        "In Nether"
+      ]
+    },
+    "Feu_petit": {
+      "yes": [
+        "Nearby fire (1)"
+      ],
+      "no": []
+    },
+    "Highlands (96, Visible)": {
+      "yes": [
+        "00jon_air_75_100",
+        "Highlands (100)"
+      ],
+      "no": [
+        "Is Raining",
+        "Sunlight lower than 10/15"
+      ]
+    },
+    "In Nether": {
+      "yes": [
+        "In Nether"
+      ],
+      "no": []
+    },
+    "Incave": {
+      "yes": [],
+      "no": [
+        "Receive Sunlight",
+        "In Nether"
+      ]
+    },
+    "Is Raining": {
+      "yes": [
+        "Is Raining"
+      ],
+      "no": []
+    },
+    "Nearby water": {
+      "yes": [
+        "00jon_water_10_near"
+      ],
+      "no": [
+        "00jon_detect_LS_ice"
+      ]
+    },
+    "Outdoor": {
+      "yes": [
+        "Can rain on"
+      ],
+      "no": [
+        "Sunlight lower than 10/15"
+      ]
+    },
+    "Thunderstorm": {
+      "yes": [
+        "In Thunderstorm",
+        "Is Raining"
+      ],
+      "no": []
+    },
+    "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)": {
+      "yes": [
+        "Time (0 - 12250)"
+      ],
+      "no": []
+    },
+    "Time vrai de 0 a 500 (demi aube cote jour)": {
+      "yes": [
+        "Time (0 - 500)"
+      ],
+      "no": []
+    },
+    "Time vrai de 11500 a 13000 (crepuscule)": {
+      "yes": [
+        "Time (0 - 13000)"
+      ],
+      "no": [
+        "Time (0 - 11500)"
+      ]
+    },
+    "Time vrai de 12250 a 23500 (mi nuit)": {
+      "yes": [
+        "Time (0 - 23500)"
+      ],
+      "no": [
+        "Time (0 - 12250)"
+      ]
+    },
+    "Time vrai de 13000 a 23500 (nuit)": {
+      "yes": [
+        "Time (0 - 23500)"
+      ],
+      "no": [
+        "Time (0 - 13000)"
+      ]
+    },
+    "Time vrai de 23500 a 23999 (demi aube cote nuit)": {
+      "yes": [],
+      "no": [
+        "Time (0 - 23500)"
+      ]
+    },
+    "Time vrai de 500 a 11500 (jour)": {
+      "yes": [
+        "Time (0 - 11500)"
+      ],
+      "no": [
+        "Time (0 - 500)"
+      ]
+    },
+    "Wet cave": {
+      "yes": [
+        "Rocks (24 S)",
+        "Nearby water",
+        "Sunlight lower than 10/15"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "00jon_The_End": {
+      "allow": [
+        "00jon_player_in_end"
+      ],
+      "restrict": [
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_The_End_LP",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_The_End_dragon",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_Xtrem_alti_vent-in": {
+      "allow": [
+        "Highlands (96, Visible)"
+      ],
+      "restrict": [
+        "Outdoor",
+        "Is Raining",
+        "Incave",
+        "00jon_define_biome_jungle",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_vent_hautalti",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": 1.0
+        }
+      ]
+    },
+    "00jon_Xtrem_alti_vent-out": {
+      "allow": [
+        "Highlands (96, Visible)"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_define_indoor",
+        "Incave",
+        "Is Raining",
+        "00jon_define_biome_jungle",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_vent_hautalti",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_LP-jour-in": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Outdoor",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_LP",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 7.5,
+          "delay_max": 8.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_LP-jour-out": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_LP",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 7.5,
+          "delay_max": 8.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_LP-nuit-in": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Outdoor",
+        "Time vrai de 500 a 11500 (jour)",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_LP",
+          "vol_mod": 0.02,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_LP-nuit-out": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Incave",
+        "Time vrai de 500 a 11500 (jour)",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_LP",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_UN-jour-in": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Incave",
+        "00jon_underwater",
+        "Is Raining",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_UN",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_bord_de_mer_UN-jour-out": {
+      "allow": [
+        "00jon_bord_de_mer"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_define_biome_in_ocean",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_UN",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_desert_AL_jour-in": {
+      "allow": [
+        "00jon_define_biome_desert"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_jour_UN",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_desert_jour_UN_vent",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_desert_jour_LP",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_desert_AL_jour-out": {
+      "allow": [
+        "00jon_define_biome_desert"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_jour_UN",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_desert_jour_UN_vent",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_desert_jour_LP",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_desert_jour_UN",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 90.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_desert_LP-nuit-in": {
+      "allow": [
+        "00jon_define_biome_desert"
+      ],
+      "restrict": [
+        "Outdoor",
+        "Incave",
+        "00jon_underwater",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_nuit_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_desert_LP-nuit-out": {
+      "allow": [
+        "00jon_define_biome_desert"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_nuit_LP",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-aube-in": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Is Raining",
+        "Incave",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)",
+        "00jon_underwater",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_aube_UN",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 5.0
+        },
+        {
+          "event": "00jon_foret_aube_LP",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-aube-out": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Incave",
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_aube_UN",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 5.0
+        },
+        {
+          "event": "00jon_foret_aube_LP",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_foret_aube_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-crep-in": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_crepuscule_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_crepuscule_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-crep-out": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_crepuscule_UN",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_crepuscule_LP",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_foret_crepuscule_UN",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-jour-in": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Incave",
+        "00jon_underwater",
+        "Is Raining",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_jour_UN",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_UN_coucou",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_UN_vent",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-jour-out": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_jour_UN",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_UN_coucou",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 70.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_UN_vent",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_LP",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_foret_jour_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_jour_UN_coucou",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 80.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-nuit-in": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Incave",
+        "Is Raining",
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "00jon_underwater",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_nuit_UN_oiseau",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 10.0
+        },
+        {
+          "event": "00jon_foret_nuit_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 4.0
+        },
+        {
+          "event": "00jon_foret_nuit_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_foret_AL-nuit-out": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_nuit_UN",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 5.0
+        },
+        {
+          "event": "00jon_foret_nuit_UN_oiseau",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 10.0
+        },
+        {
+          "event": "00jon_foret_nuit_LP",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_foret_nuit_UN_oiseau",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_foret_nuit_UN",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_foret_LP-nuit-out": {
+      "allow": [
+        "00jon_define_biome_foret"
+      ],
+      "restrict": [
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_foret_nuit_LP",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_furnace": {
+      "allow": [
+        "00jon_chemine_on"
+      ],
+      "restrict": [
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_feu_crepite",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_incave_LP": {
+      "allow": [
+        "Incave"
+      ],
+      "restrict": [
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Cave rumble",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 9.0,
+          "delay_max": 9.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_incave_faille_winds": {
+      "allow": [
+        "00jon_incave_faille"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_cave_sound_faille_winds_LP",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 12.0,
+          "delay_max": 12.1,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "00jon_run_incave_general_UN": {
+      "allow": [
+        "Incave"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_cave_sound_UN",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_cave_sound_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 25.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_incave_mine": {
+      "allow": [
+        "00jon_set_mine"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_wood_mine",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 5.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_jungle_LP-jour-in": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "00jon_bord_de_mer",
+        "00jon_underwater",
+        "Outdoor",
+        "Incave",
+        "Is Raining",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 12250 a 23500 (mi nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_jour_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_jungle_LP-jour-out": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "00jon_define_indoor",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_jour_LP",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_jungle_LP-nuit-in": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "Outdoor",
+        "Incave",
+        "00jon_underwater",
+        "Is Raining",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_nuit_LP",
+          "vol_mod": 0.03,
+          "pitch_mod": 1.0,
+          "delay_min": 5.7,
+          "delay_max": 6.3,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_jungle_LP-nuit-out": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_bord_de_mer",
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_nuit_LP",
+          "vol_mod": 0.18,
+          "pitch_mod": 1.0,
+          "delay_min": 5.7,
+          "delay_max": 6.3,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_jungle_UN-jour-in": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_bord_de_mer",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_jour_Long_Event",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 50.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_jungle_jour_Short_Event",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_jungle_UN-jour-out": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_no_outdoor_sound_thickness8",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_jungle_jour_Long_Event",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 70.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_jungle_jour_Short_Event",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_jungle_jour_Short_Event",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_mosquito",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_jungle_UN-nuit-in": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_junlge_night_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_jungle_UN-nuit-out": {
+      "allow": [
+        "00jon_define_biome_jungle"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_junlge_night_UN",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_junlge_night_UN",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_mosquito",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_lava_outdoor": {
+      "allow": [
+        "00jon_lava_surface"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_lave_out",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 2.5,
+          "delay_max": 3.0,
+          "delay_start": 2.0
+        },
+        {
+          "event": "00jon_lava_plop",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 10.0,
+          "delay_start": 4.0
+        },
+        {
+          "event": "00jon_lava_in",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 2.5,
+          "delay_max": 3.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "00jon_run_marais_LP-jour-in": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "Outdoor",
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_jour_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_marais_LP-jour-out": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_jour_LP",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_marais_LP-nuit-in": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "Outdoor",
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_nuit_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_marais_LP-nuit-out": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_nuit_LP",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_marais_UN-jour-in": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_jour_UN",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_marais_UN-jour-out": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "00jon_no_outdoor_sound_no_air",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_jour_UN",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_UN-flies",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_mosquito",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_marais_UN-nuit-in": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "Is Raining",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_nuit_UN",
+          "vol_mod": 0.03,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_marais_UN-nuit-out": {
+      "allow": [
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "00jon_no_outdoor_sound_no_air",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "Is Raining",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)",
+        "00jon_bord_de_mer"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_marais_nuit_UN",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_mosquito",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_ICE": {
+      "allow": [
+        "00jon_neige_ice_kicrake"
+      ],
+      "restrict": [
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_ICE_craque",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 15.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_neige_foret_AL-jour-in": {
+      "allow": [
+        "00jon_define_biome_neige_foret"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_LP_foret_jour",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_neige_foret_AL-jour-out": {
+      "allow": [
+        "00jon_define_biome_neige_foret"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 10.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 230.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_LP_foret_jour",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 230.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_foret_UN_jour-vent-in": {
+      "allow": [
+        "00jon_define_biome_neige_foret"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Outdoor",
+        "Incave",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Highlands (96, Visible)",
+        "Is Raining"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_UN_foret_jour-vent",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_foret_UN_jour-vent-out": {
+      "allow": [
+        "00jon_define_biome_neige_foret"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)",
+        "Is Raining"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_UN_foret_jour-vent",
+          "vol_mod": 0.35,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_frozen_ocean-in": {
+      "allow": [
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "Outdoor",
+        "00jon_no_outdoor_sound_45m",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_LP_frozen_ocean",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_ICE_craque",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 5.0,
+          "delay_max": 20.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_frozen_ocean-out": {
+      "allow": [
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_LP_frozen_ocean",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_ICE_craque",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 5.0,
+          "delay_max": 20.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_general_LP-nuit-in": {
+      "allow": [
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine"
+      ],
+      "restrict": [
+        "00jon_no_outdoor_sound_45m",
+        "Incave",
+        "00jon_underwater",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_jour_LP",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_UN_general_nuit-vent",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_nuit-chouette",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 300.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_general_LP-nuit-out": {
+      "allow": [
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)",
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_desert_jour_LP",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_UN_general_nuit-vent",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_nuit-chouette",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_nuit-chouette",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 200.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 300.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_plaine_AL-jour-in": {
+      "allow": [
+        "00jon_define_biome_neige_plaine"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Outdoor",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)",
+        "00jon_define_biome_neige_foret"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_LP_mount_jour",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.08,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_plaine_mount_jour-vent",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_neige_plaine_AL-jour-out": {
+      "allow": [
+        "00jon_define_biome_neige_plaine"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Highlands (96, Visible)",
+        "00jon_define_biome_neige_foret"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_neige_LP_mount_jour",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_plaine_mount_jour-vent",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_general_jour-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 60.0,
+          "delay_max": 220.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_neige_UN_loup",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 220.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_nether_LP": {
+      "allow": [
+        "In Nether"
+      ],
+      "restrict": [
+        "00jon_nether_small_corridor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_Nether_loop",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_Nether_heart",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_Nether_Explode",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_nether_LP_complement": {
+      "allow": [
+        "00jon_nether_no_complet_soun_obsi"
+      ],
+      "restrict": [
+        "00jon_nether_small_corridor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_Nether_loop_complementary",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_Nether_UN_wind",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_Nether_UN_scream",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_Nether_rock",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 40.0,
+          "delay_start": 5.0
+        },
+        {
+          "event": "00jon_Nether_fear",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 40.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_nether_corridor": {
+      "allow": [
+        "00jon_nether_small_corridor"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_Nether_loop_corrdior",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 6.5,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_Nether_heart",
+          "vol_mod": 1.2,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_Nether_fear",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_Nether_Explode",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_ocean_LP-in": {
+      "allow": [
+        "00jon_define_biome_in_ocean"
+      ],
+      "restrict": [
+        "Outdoor",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_underwater",
+        "Incave"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_OceanLP",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 8.0,
+          "delay_max": 8.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_ocean_LP-out": {
+      "allow": [
+        "00jon_define_biome_in_ocean"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "00jon_define_indoor",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_no_air"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_OceanLP",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 8.0,
+          "delay_max": 8.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_ocean_UN-jour-in": {
+      "allow": [
+        "00jon_define_biome_in_ocean"
+      ],
+      "restrict": [
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Incave",
+        "00jon_underwater",
+        "00jon_no_outdoor_sound_45m",
+        "Is Raining"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_UN",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_ocean_UN-jour-out": {
+      "allow": [
+        "00jon_define_biome_in_ocean"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_underwater",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_define_indoor",
+        "Time vrai de 12250 a 23500 (mi nuit)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Is Raining"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_bord_de_mer_UN",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 8.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-aube-crep-in": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Incave",
+        "00jon_underwater",
+        "Is Raining",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2",
+        "00jon_player_in_end",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_crep_UN-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_crep_UN-criquets",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_crep_LP",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-aube-crep-out": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 500 a 11500 (jour)",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_crep_UN-birds",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 40.0,
+          "delay_start": 3.0
+        },
+        {
+          "event": "00jon_plaine_crep_UN-criquets",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_crep_LP",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_plaine_crep_UN-criquets",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_crep_UN-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-jour-in": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Is Raining",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Highlands (96, Visible)",
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2",
+        "00jon_player_in_end",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_jour_UN-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_UN-vent",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 70.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-jour",
+          "vol_mod": 0.15,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 25.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_LP",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-jour-out": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "Highlands (96, Visible)",
+        "00jon_define_biome_marais2",
+        "00jon_define_biome_marais",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_jour_UN-birds",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_UN-vent",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-jour",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 80.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_LP",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-jour",
+          "vol_mod": 0.2,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_UN-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_jour_UN-flies",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-nuit-in": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "00jon_underwater",
+        "Incave",
+        "Is Raining",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2",
+        "00jon_player_in_end",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_nuit_UN-birds",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-nuit",
+          "vol_mod": 0.07,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_nuit_LP",
+          "vol_mod": 0.12,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_plaine_AL-nuit-out": {
+      "allow": [
+        "00jon_define_biome_plaine"
+      ],
+      "restrict": [
+        "Time vrai de 0 a 500 (demi aube cote jour)",
+        "Time vrai de 23500 a 23999 (demi aube cote nuit)",
+        "Time vrai de 500 a 11500 (jour)",
+        "Time vrai de 11500 a 13000 (crepuscule)",
+        "Incave",
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Is Raining",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_no_outdoor_sound_thickness8",
+        "00jon_no_outdoor_sound_test",
+        "00jon_no_outdoor_sound_45m",
+        "00jon_bord_de_mer",
+        "00jon_define_biome_marais",
+        "00jon_define_biome_marais2",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_plaine_nuit_UN-birds",
+          "vol_mod": 0.8,
+          "pitch_mod": 1.0,
+          "delay_min": 20.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-nuit",
+          "vol_mod": 0.4,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 30.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_nuit_LP",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_general_criquet_UN-nuit",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        },
+        {
+          "event": "00jon_plaine_nuit_UN-birds",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 15.0,
+          "delay_max": 45.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_run_rain_in": {
+      "allow": [
+        "00jon_rain_in_maison",
+        "00jon_rain_in_grotte"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Outdoor",
+        "Incave",
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine",
+        "00jon_define_biome_desert",
+        "00jon_define_biome_frozen_ocean",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_pluie_in",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_rain_out": {
+      "allow": [
+        "00jon_rain_out",
+        "00jon_rain_grotte_near_exit"
+      ],
+      "restrict": [
+        "00jon_define_indoor",
+        "00jon_underwater",
+        "Incave",
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine",
+        "00jon_define_biome_desert",
+        "00jon_define_biome_frozen_ocean",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_pluie_out",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_rain_under_tree": {
+      "allow": [
+        "00jon_rain_under_tree"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "00jon_define_indoor",
+        "Incave",
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine",
+        "00jon_define_biome_desert",
+        "00jon_define_biome_frozen_ocean",
+        "00jon_player_in_end"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_pluie_out_tree",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 3.5,
+          "delay_max": 4.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_the_mouche_story": {
+      "allow": [
+        "00jon_contact_glass"
+      ],
+      "restrict": [
+        "Is Raining",
+        "Outdoor",
+        "Time vrai de 13000 a 23500 (nuit)",
+        "00jon_underwater",
+        "00jon_define_biome_neige_plaine",
+        "00jon_define_biome_neige_foret"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_panicked_mouche",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Fire (Class 1)": {
+      "allow": [
+        "Feu_petit"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Fire (Small)",
+          "vol_mod": 0.05,
+          "pitch_mod": 1.0,
+          "delay_min": 2.0,
+          "delay_max": 3.0,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Fire (Class 2)": {
+      "allow": [
+        "Feu_grand"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Fire (Big)",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 3.0,
+          "delay_max": 5.0,
+          "delay_start": 2.0
+        },
+        {
+          "event": "00jon_feu_crepite",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 7.5,
+          "delay_start": 2.0
+        }
+      ]
+    },
+    "Rain hitting windows": {
+      "allow": [
+        "00jon_rain_vitre"
+      ],
+      "restrict": [
+        "00jon_underwater",
+        "Incave",
+        "Outdoor",
+        "00jon_no_outdoor_sound_no_air",
+        "00jon_define_biome_neige_foret",
+        "00jon_define_biome_neige_plaine",
+        "00jon_define_biome_desert",
+        "00jon_define_biome_frozen_ocean"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Rain hitting windows",
+          "vol_mod": 0.25,
+          "pitch_mod": 1.0,
+          "delay_min": 4.0,
+          "delay_max": 4.5,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Thunderstorm, indoor": {
+      "allow": [
+        "Thunderstorm"
+      ],
+      "restrict": [
+        "Incave",
+        "Outdoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Thunderstorm",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 32.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Thunderstorm, outdoor": {
+      "allow": [
+        "Thunderstorm"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_define_indoor"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Thunderstorm",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 7.0,
+          "delay_max": 32.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Water, indoor": {
+      "allow": [
+        "Abundant water"
+      ],
+      "restrict": [
+        "Outdoor",
+        "Incave",
+        "00jon_neige_ice_kicrake",
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Lake",
+          "vol_mod": 0.1,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.0,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "Water, outdoor": {
+      "allow": [
+        "Abundant water"
+      ],
+      "restrict": [
+        "Incave",
+        "00jon_neige_ice_kicrake",
+        "00jon_define_indoor",
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Lake",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 6.0,
+          "delay_max": 6.0,
+          "delay_start": 3.0
+        }
+      ]
+    },
+    "Wet cave": {
+      "allow": [
+        "Wet cave"
+      ],
+      "restrict": [
+        "00jon_underwater"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Drops",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.0,
+          "delay_max": 7.0,
+          "delay_start": -1.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "00jon_Nether_Explode": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.85,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/hell/expl1.ogg",
+        "matmos_msi/hell/expl2.ogg",
+        "matmos_msi/hell/expl3.ogg",
+        "matmos_msi/hell/expl4.ogg",
+        "matmos_msi/hell/expl5.ogg",
+        "matmos_msi/hell/expl6.ogg",
+        "matmos_msi/hell/expl7.ogg"
+      ]
+    },
+    "00jon_Nether_UN_scream": {
+      "vol_min": 1.0,
+      "vol_max": 1.5,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 40,
+      "path": [
+        "matmos_msi/hell/un1.ogg",
+        "matmos_msi/hell/un2.ogg",
+        "matmos_msi/hell/un3.ogg",
+        "matmos_msi/hell/un4.ogg",
+        "matmos_msi/hell/un5.ogg",
+        "matmos_msi/hell/un6.ogg",
+        "matmos_msi/hell/un7.ogg",
+        "matmos_msi/hell/un8.ogg"
+      ]
+    },
+    "00jon_Nether_UN_wind": {
+      "vol_min": 1.0,
+      "vol_max": 1.5,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 40,
+      "path": [
+        "matmos_msi/hell/un_wind1.ogg",
+        "matmos_msi/hell/un_wind2.ogg",
+        "matmos_msi/hell/un_wind3.ogg",
+        "matmos_msi/hell/un_wind4.ogg",
+        "matmos_msi/hell/un_wind5.ogg",
+        "matmos_msi/hell/un_wind6.ogg",
+        "matmos_msi/hell/un_wind7.ogg",
+        "matmos_msi/hell/un_wind8.ogg",
+        "matmos_msi/hell/un_wind9.ogg",
+        "matmos_msi/hell/un_winda.ogg",
+        "matmos_msi/hell/un_windb.ogg",
+        "matmos_msi/hell/un_windc.ogg",
+        "matmos_msi/hell/un_windd.ogg",
+        "matmos_msi/hell/un_winde.ogg"
+      ]
+    },
+    "00jon_Nether_fear": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/hell/laugher2.ogg",
+        "matmos_msi/hell/scream10.ogg",
+        "matmos_msi/hell/scream11.ogg",
+        "matmos_msi/hell/wisper1.ogg",
+        "matmos_msi/hell/wisper2.ogg",
+        "matmos_msi/hell/wisper3.ogg",
+        "matmos_msi/hell/wisper4.ogg",
+        "matmos_msi/hell/wisper5.ogg",
+        "matmos_msi/hell/wisper6.ogg",
+        "matmos_msi/hell/wisper7.ogg",
+        "matmos_msi/hell/wisper8.ogg"
+      ]
+    },
+    "00jon_Nether_heart": {
+      "vol_min": 1.0,
+      "vol_max": 1.5,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/hell/heartbeat.ogg"
+      ]
+    },
+    "00jon_Nether_loop": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 0,
+      "path": [
+        "matmos_msi/hell/hellp1.ogg",
+        "matmos_msi/hell/hellp2.ogg",
+        "matmos_msi/hell/hellp3.ogg",
+        "matmos_msi/hell/hellp4.ogg",
+        "matmos_msi/hell/hellp5.ogg",
+        "matmos_msi/hell/hellp6.ogg",
+        "matmos_msi/hell/hellp7.ogg"
+      ]
+    },
+    "00jon_Nether_loop_complementary": {
+      "vol_min": 1.0,
+      "vol_max": 2.5,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 40,
+      "path": [
+        "matmos_msi/hell/hellx1.ogg",
+        "matmos_msi/hell/hellx2.ogg",
+        "matmos_msi/hell/hellx3.ogg",
+        "matmos_msi/hell/hellx4.ogg",
+        "matmos_msi/hell/hellx5.ogg",
+        "matmos_msi/hell/hellx6.ogg"
+      ]
+    },
+    "00jon_Nether_loop_corrdior": {
+      "vol_min": 0.8,
+      "vol_max": 0.8,
+      "pitch_min": 0.8,
+      "pitch_max": 1.4,
+      "distance": 0,
+      "path": [
+        "matmos_msi/hell/inlp1.ogg",
+        "matmos_msi/hell/inlp2.ogg",
+        "matmos_msi/hell/inlp3.ogg",
+        "matmos_msi/hell/inlp4.ogg"
+      ]
+    },
+    "00jon_Nether_rock": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.6,
+      "pitch_max": 0.8,
+      "distance": 40,
+      "path": [
+        "matmos_msi/cave/cavea.ogg",
+        "matmos_msi/cave/caveb.ogg",
+        "matmos_msi/cave/cavec.ogg",
+        "matmos_msi/cave/caved.ogg"
+      ]
+    },
+    "00jon_OceanLP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/seaside/oceanina.ogg",
+        "matmos_msi/seaside/oceaninb.ogg",
+        "matmos_msi/seaside/oceaninc.ogg",
+        "matmos_msi/seaside/oceanind.ogg",
+        "matmos_msi/seaside/oceanina.ogg",
+        "matmos_msi/seaside/oceanind.ogg",
+        "matmos_msi/seaside/oceanina.ogg",
+        "matmos_msi/seaside/oceanind.ogg"
+      ]
+    },
+    "00jon_The_End_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/end/loop1.ogg",
+        "matmos_msi/end/loop2.ogg",
+        "matmos_msi/end/loop3.ogg",
+        "matmos_msi/end/loop4.ogg",
+        "matmos_msi/end/loop5.ogg",
+        "matmos_msi/end/loop6.ogg",
+        "matmos_msi/end/loop7.ogg",
+        "matmos_msi/end/loop8.ogg"
+      ]
+    },
+    "00jon_The_End_dragon": {
+      "vol_min": 0.3,
+      "vol_max": 0.5,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/end/dragon1.ogg",
+        "matmos_msi/end/dragon2.ogg",
+        "matmos_msi/end/dragon3.ogg",
+        "matmos_msi/end/dragon4.ogg",
+        "matmos_msi/end/dragon5.ogg",
+        "matmos_msi/end/dragon6.ogg",
+        "matmos_msi/end/dragon7.ogg",
+        "matmos_msi/end/dragon8.ogg",
+        "matmos_msi/end/dragon9.ogg"
+      ]
+    },
+    "00jon_bord_de_mer_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/seaside/sea1.ogg",
+        "matmos_msi/seaside/sea2.ogg",
+        "matmos_msi/seaside/sea3.ogg",
+        "matmos_msi/seaside/sea4.ogg",
+        "matmos_msi/seaside/sea5.ogg",
+        "matmos_msi/seaside/sea6.ogg",
+        "matmos_msi/seaside/sea7.ogg",
+        "matmos_msi/seaside/sea8.ogg",
+        "matmos_msi/seaside/sea9.ogg",
+        "matmos_msi/seaside/seaa.ogg",
+        "matmos_msi/seaside/seab.ogg"
+      ]
+    },
+    "00jon_bord_de_mer_UN": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/seaside/coastbirda.ogg",
+        "matmos_msi/seaside/coastbirdb.ogg",
+        "matmos_msi/seaside/coastbirdc.ogg",
+        "matmos_msi/seaside/coastbirdd.ogg",
+        "matmos_msi/seaside/coastbirde.ogg",
+        "matmos_msi/seaside/coastbirdf.ogg",
+        "matmos_msi/seaside/coastbirdg.ogg"
+      ]
+    },
+    "00jon_cave_sound_UN": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/cave/cave1.ogg",
+        "matmos_msi/cave/cave2.ogg",
+        "matmos_msi/cave/cave3.ogg",
+        "matmos_msi/cave/cave4.ogg",
+        "matmos_msi/cave/cave5.ogg",
+        "matmos_msi/cave/cave6.ogg",
+        "matmos_msi/cave/cave7.ogg",
+        "matmos_msi/cave/cave8.ogg",
+        "matmos_msi/cave/cave9.ogg",
+        "matmos_msi/cave/cavea.ogg",
+        "matmos_msi/cave/caveb.ogg",
+        "matmos_msi/cave/cavec.ogg",
+        "matmos_msi/cave/caved.ogg",
+        "matmos_msi/cave/wind.ogg",
+        "matmos_msi/cave/wind2.ogg",
+        "matmos_msi/sharedonce/bat1.ogg",
+        "matmos_msi/sharedonce/bata.ogg",
+        "matmos_msi/cave/lava.ogg",
+        "matmos_msi/cave/lava2.ogg",
+        "matmos_msi/cave/lava3.ogg"
+      ]
+    },
+    "00jon_cave_sound_faille_winds_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/cave/vent_canyon1.ogg",
+        "matmos_msi/cave/vent_canyon2.ogg",
+        "matmos_msi/cave/vent_canyon3.ogg"
+      ]
+    },
+    "00jon_desert_jour_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/desert/jour-desert1.ogg",
+        "matmos_msi/desert/jour-desert2.ogg",
+        "matmos_msi/desert/jour-desert3.ogg",
+        "matmos_msi/desert/jour-desert4.ogg",
+        "matmos_msi/desert/jour-desert5.ogg",
+        "matmos_msi/desert/jour-desert6.ogg"
+      ]
+    },
+    "00jon_desert_jour_UN": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/criquet7.ogg",
+        "matmos_msi/sharedonce/criquet8.ogg",
+        "matmos_msi/desert/cigale1.ogg",
+        "matmos_msi/desert/cigale2.ogg",
+        "matmos_msi/desert/cigale3.ogg",
+        "matmos_msi/desert/cigale4.ogg",
+        "matmos_msi/desert/cigale5.ogg"
+      ]
+    },
+    "00jon_desert_jour_UN_vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "matmos_msi/sharedonce/ventfort1.ogg",
+        "matmos_msi/sharedonce/ventfort2.ogg",
+        "matmos_msi/sharedonce/ventfort3.ogg",
+        "matmos_msi/sharedonce/ventfort4.ogg"
+      ]
+    },
+    "00jon_desert_nuit_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/desert/nuit-desert1.ogg",
+        "matmos_msi/desert/nuit-desert2.ogg",
+        "matmos_msi/desert/nuit-desert3.ogg",
+        "matmos_msi/desert/nuit-desert4.ogg",
+        "matmos_msi/desert/nuit-desert5.ogg",
+        "matmos_msi/desert/nuit-desert6.ogg",
+        "matmos_msi/desert/nuit-desert7.ogg"
+      ]
+    },
+    "00jon_feu_crepite": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/fire1.ogg",
+        "matmos_msi/human/fire2.ogg",
+        "matmos_msi/human/fire3.ogg"
+      ]
+    },
+    "00jon_foret_aube_LP": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/forest/matin-foret1.ogg",
+        "matmos_msi/forest/matin-foret2.ogg",
+        "matmos_msi/forest/matin-foret3.ogg",
+        "matmos_msi/forest/matin-foret4.ogg",
+        "matmos_msi/forest/matin-foret5.ogg",
+        "matmos_msi/forest/matin-foret6.ogg",
+        "matmos_msi/forest/matin-foret7.ogg",
+        "matmos_msi/forest/matin-foret8.ogg"
+      ]
+    },
+    "00jon_foret_aube_UN": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.0,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/flies2.ogg",
+        "matmos_msi/sharedonce/flies4.ogg",
+        "matmos_msi/sharedonce/flies5.ogg",
+        "matmos_msi/sharedonce/flyc1.ogg",
+        "matmos_msi/sharedonce/criquet5.ogg",
+        "matmos_msi/sharedonce/criquet6.ogg",
+        "matmos_msi/sharedonce/criquet7.ogg",
+        "matmos_msi/sharedonce/criquet8.ogg",
+        "matmos_msi/sharedonce/criqueta.ogg",
+        "matmos_msi/sharedonce/criquetb.ogg",
+        "matmos_msi/sharedonce/criquetc.ogg",
+        "matmos_msi/sharedonce/criquetd.ogg",
+        "matmos_msi/forest/oiseaua.ogg",
+        "matmos_msi/forest/oiseaud.ogg",
+        "matmos_msi/forest/oiseauf.ogg",
+        "matmos_msi/sharedonce/oizoa.ogg",
+        "matmos_msi/sharedonce/oizog.ogg",
+        "matmos_msi/sharedonce/oizoh.ogg"
+      ]
+    },
+    "00jon_foret_crepuscule_LP": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/forest/crep-forest1.ogg",
+        "matmos_msi/forest/crep-forest2.ogg",
+        "matmos_msi/forest/crep-forest3.ogg",
+        "matmos_msi/forest/crep-forest4.ogg",
+        "matmos_msi/forest/crep-forest5.ogg",
+        "matmos_msi/forest/crep-forest6.ogg"
+      ]
+    },
+    "00jon_foret_crepuscule_UN": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/chouette3.ogg",
+        "matmos_msi/sharedonce/flies4.ogg",
+        "matmos_msi/sharedonce/flyc2.ogg",
+        "matmos_msi/forest/matin-foret2.ogg",
+        "matmos_msi/forest/matin-foret6.ogg",
+        "matmos_msi/sharedonce/bat1.ogg",
+        "matmos_msi/forest/oiseauc.ogg",
+        "matmos_msi/forest/oiseaud.ogg",
+        "matmos_msi/sharedonce/moino2.ogg",
+        "matmos_msi/forest/matin-foret4.ogg",
+        "matmos_msi/forest/matin-foret8.ogg",
+        "matmos_msi/sharedonce/critterm.ogg",
+        "matmos_msi/sharedonce/crittern.ogg",
+        "matmos_msi/sharedonce/criquet5.ogg",
+        "matmos_msi/sharedonce/criquet6.ogg",
+        "matmos_msi/sharedonce/criquet7.ogg",
+        "matmos_msi/sharedonce/criquet8.ogg"
+      ]
+    },
+    "00jon_foret_jour_LP": {
+      "vol_min": 0.5,
+      "vol_max": 0.8,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/forest/jour-foret1.ogg",
+        "matmos_msi/forest/jour-foret10.ogg",
+        "matmos_msi/forest/jour-foret2.ogg",
+        "matmos_msi/forest/jour-foret3.ogg",
+        "matmos_msi/forest/jour-foret4.ogg",
+        "matmos_msi/forest/jour-foret5.ogg",
+        "matmos_msi/forest/jour-foret6.ogg",
+        "matmos_msi/forest/jour-foret7.ogg",
+        "matmos_msi/forest/jour-foret8.ogg",
+        "matmos_msi/forest/jour-foret9.ogg"
+      ]
+    },
+    "00jon_foret_jour_UN": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/forest/oiseaua.ogg",
+        "matmos_msi/forest/oiseaub.ogg",
+        "matmos_msi/forest/oiseauc.ogg",
+        "matmos_msi/forest/oiseaud.ogg",
+        "matmos_msi/forest/oiseaue.ogg",
+        "matmos_msi/forest/oiseauf.ogg",
+        "matmos_msi/forest/oiseaug.ogg",
+        "matmos_msi/forest/oiseauh.ogg",
+        "matmos_msi/forest/pique.ogg",
+        "matmos_msi/sharedonce/flies1.ogg",
+        "matmos_msi/sharedonce/flies2.ogg",
+        "matmos_msi/sharedonce/flies3.ogg",
+        "matmos_msi/sharedonce/flies4.ogg",
+        "matmos_msi/sharedonce/flies5.ogg",
+        "matmos_msi/sharedonce/flyc1.ogg",
+        "matmos_msi/sharedonce/flyc2.ogg",
+        "matmos_msi/sharedonce/moino1.ogg",
+        "matmos_msi/sharedonce/moino2.ogg",
+        "matmos_msi/sharedonce/oizoa.ogg",
+        "matmos_msi/sharedonce/oizob.ogg",
+        "matmos_msi/sharedonce/oizoc.ogg",
+        "matmos_msi/sharedonce/oizod.ogg",
+        "matmos_msi/sharedonce/oizoe.ogg",
+        "matmos_msi/sharedonce/oizof.ogg",
+        "matmos_msi/sharedonce/oizog.ogg",
+        "matmos_msi/sharedonce/oizoh.ogg"
+      ]
+    },
+    "00jon_foret_jour_UN_coucou": {
+      "vol_min": 0.7,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/forest/coucou.ogg"
+      ]
+    },
+    "00jon_foret_jour_UN_vent": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "matmos_msi/forest/ventfa.ogg",
+        "matmos_msi/forest/ventfb.ogg",
+        "matmos_msi/forest/ventfc.ogg",
+        "matmos_msi/forest/ventfd.ogg",
+        "matmos_msi/forest/ventfe.ogg"
+      ]
+    },
+    "00jon_foret_nuit_LP": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/forest/nuit-forest1.ogg",
+        "matmos_msi/forest/nuit-forest2.ogg",
+        "matmos_msi/forest/nuit-forest3.ogg",
+        "matmos_msi/forest/nuit-forest4.ogg"
+      ]
+    },
+    "00jon_foret_nuit_UN": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/forest/nuit-foresta.ogg",
+        "matmos_msi/forest/nuit-forestb.ogg",
+        "matmos_msi/sharedonce/critterm.ogg",
+        "matmos_msi/sharedonce/crittern.ogg",
+        "matmos_msi/sharedonce/criquet5.ogg",
+        "matmos_msi/sharedonce/criquet6.ogg"
+      ]
+    },
+    "00jon_foret_nuit_UN_oiseau": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/bat1.ogg",
+        "matmos_msi/sharedonce/chouette1.ogg",
+        "matmos_msi/sharedonce/chouette2.ogg",
+        "matmos_msi/sharedonce/chouette3.ogg",
+        "matmos_msi/sharedonce/chouettea.ogg"
+      ]
+    },
+    "00jon_general_criquet_UN-jour": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/criquet5.ogg",
+        "matmos_msi/sharedonce/criquet6.ogg",
+        "matmos_msi/sharedonce/criquet7.ogg",
+        "matmos_msi/sharedonce/criquet8.ogg",
+        "matmos_msi/sharedonce/criqueta.ogg",
+        "matmos_msi/sharedonce/criquetb.ogg",
+        "matmos_msi/sharedonce/criquetc.ogg",
+        "matmos_msi/sharedonce/criquetd.ogg",
+        "matmos_msi/sharedonce/criquete.ogg"
+      ]
+    },
+    "00jon_general_criquet_UN-nuit": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/critterm.ogg",
+        "matmos_msi/sharedonce/crittern.ogg",
+        "matmos_msi/sharedonce/crittero.ogg"
+      ]
+    },
+    "00jon_jungle_jour_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/jungle/jour-jungle1.ogg",
+        "matmos_msi/jungle/jour-jungle2.ogg",
+        "matmos_msi/jungle/jour-jungle3.ogg",
+        "matmos_msi/jungle/jour-jungle4.ogg",
+        "matmos_msi/jungle/jour-jungle5.ogg",
+        "matmos_msi/jungle/jour-jungle6.ogg",
+        "matmos_msi/jungle/jour-jungle7.ogg",
+        "matmos_msi/jungle/jour-jungle8.ogg",
+        "matmos_msi/jungle/jour-jungle10.ogg",
+        "matmos_msi/jungle/jour-jungle11.ogg",
+        "matmos_msi/jungle/jour-jungle12.ogg",
+        "matmos_msi/jungle/jour-jungle13.ogg",
+        "matmos_msi/jungle/jour-jungle14.ogg",
+        "matmos_msi/jungle/jour-jungle15.ogg",
+        "matmos_msi/jungle/jour-jungle9.ogg"
+      ]
+    },
+    "00jon_jungle_jour_Long_Event": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/jungle/junglela.ogg",
+        "matmos_msi/jungle/junglelb.ogg",
+        "matmos_msi/jungle/junglelc.ogg",
+        "matmos_msi/jungle/jungleld.ogg",
+        "matmos_msi/jungle/junglele.ogg",
+        "matmos_msi/jungle/junglelf.ogg",
+        "matmos_msi/jungle/junglelg.ogg",
+        "matmos_msi/jungle/junglelh.ogg"
+      ]
+    },
+    "00jon_jungle_jour_Short_Event": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 30,
+      "path": [
+        "matmos_msi/jungle/junglesa.ogg",
+        "matmos_msi/jungle/junglesb.ogg",
+        "matmos_msi/jungle/junglesc.ogg",
+        "matmos_msi/jungle/junglesd.ogg",
+        "matmos_msi/jungle/junglese.ogg",
+        "matmos_msi/jungle/junglesf.ogg",
+        "matmos_msi/jungle/junglesg.ogg",
+        "matmos_msi/jungle/junglesh.ogg",
+        "matmos_msi/jungle/junglesi.ogg",
+        "matmos_msi/jungle/junglesj.ogg",
+        "matmos_msi/jungle/junglesk.ogg",
+        "matmos_msi/jungle/junglesl.ogg"
+      ]
+    },
+    "00jon_jungle_nuit_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/jungle/nuit-jungle1.ogg",
+        "matmos_msi/jungle/nuit-jungle2.ogg",
+        "matmos_msi/jungle/nuit-jungle3.ogg",
+        "matmos_msi/jungle/nuit-jungle4.ogg",
+        "matmos_msi/jungle/nuit-jungle5.ogg",
+        "matmos_msi/jungle/nuit-jungle6.ogg",
+        "matmos_msi/jungle/nuit-jungle7.ogg",
+        "matmos_msi/jungle/nuit-jungle8.ogg"
+      ]
+    },
+    "00jon_junlge_night_UN": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.85,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/jungle/unnight1.ogg",
+        "matmos_msi/jungle/unnight2.ogg",
+        "matmos_msi/jungle/unnight3.ogg",
+        "matmos_msi/jungle/unnight4.ogg",
+        "matmos_msi/jungle/unnight5.ogg",
+        "matmos_msi/jungle/unnight6.ogg",
+        "matmos_msi/jungle/unnight7.ogg",
+        "matmos_msi/jungle/unnight8.ogg",
+        "matmos_msi/jungle/unnight9.ogg",
+        "matmos_msi/jungle/unnighta.ogg",
+        "matmos_msi/jungle/unnightb.ogg",
+        "matmos_msi/jungle/unnightc.ogg"
+      ]
+    },
+    "00jon_lava_in": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/lava/in-lava1.ogg",
+        "matmos_msi/lava/in-lava2.ogg",
+        "matmos_msi/lava/in-lava3.ogg",
+        "matmos_msi/lava/in-lava4.ogg",
+        "matmos_msi/lava/in-lava5.ogg",
+        "matmos_msi/lava/in-lava6.ogg",
+        "matmos_msi/lava/in-lavaa.ogg",
+        "matmos_msi/lava/in-lavab.ogg",
+        "matmos_msi/lava/in-lavac.ogg",
+        "matmos_msi/lava/in-lavad.ogg",
+        "matmos_msi/lava/in-lavae.ogg",
+        "matmos_msi/lava/in-lavaf.ogg"
+      ]
+    },
+    "00jon_lava_plop": {
+      "vol_min": 0.6,
+      "vol_max": 1.0,
+      "pitch_min": 0.65,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/lava/lavaplop2.ogg",
+        "matmos_msi/lava/lavaplop3.ogg",
+        "matmos_msi/lava/lavaplop4.ogg"
+      ]
+    },
+    "00jon_lave_out": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/lava/out-lava1.ogg",
+        "matmos_msi/lava/out-lava2.ogg",
+        "matmos_msi/lava/out-lava3.ogg",
+        "matmos_msi/lava/out-lava4.ogg",
+        "matmos_msi/lava/out-lavaa.ogg",
+        "matmos_msi/lava/out-lavab.ogg",
+        "matmos_msi/lava/out-lavac.ogg",
+        "matmos_msi/lava/out-lavad.ogg"
+      ]
+    },
+    "00jon_marais_jour_LP": {
+      "vol_min": 0.3,
+      "vol_max": 0.5,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/marais/jour-marais1.ogg",
+        "matmos_msi/marais/jour-marais2.ogg",
+        "matmos_msi/marais/jour-marais3.ogg",
+        "matmos_msi/marais/jour-marais4.ogg",
+        "matmos_msi/marais/jour-marais5.ogg",
+        "matmos_msi/marais/jour-marais6.ogg",
+        "matmos_msi/marais/jour-marais7.ogg",
+        "matmos_msi/marais/jour-marais8.ogg"
+      ]
+    },
+    "00jon_marais_jour_UN": {
+      "vol_min": 1.0,
+      "vol_max": 1.2,
+      "pitch_min": 0.85,
+      "pitch_max": 1.15,
+      "distance": 40,
+      "path": [
+        "matmos_msi/marais/duck1.ogg",
+        "matmos_msi/marais/duck2.ogg",
+        "matmos_msi/marais/frog1.ogg",
+        "matmos_msi/marais/frog2.ogg",
+        "matmos_msi/marais/frog3.ogg",
+        "matmos_msi/marais/frog4.ogg",
+        "matmos_msi/marais/frog5.ogg",
+        "matmos_msi/marais/frog6.ogg"
+      ]
+    },
+    "00jon_marais_nuit_LP": {
+      "vol_min": 0.3,
+      "vol_max": 0.5,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/marais/nuit-marais1.ogg",
+        "matmos_msi/marais/nuit-marais2.ogg",
+        "matmos_msi/marais/nuit-marais3.ogg",
+        "matmos_msi/marais/nuit-marais4.ogg",
+        "matmos_msi/marais/nuit-marais5.ogg"
+      ]
+    },
+    "00jon_marais_nuit_UN": {
+      "vol_min": 0.5,
+      "vol_max": 0.9,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/marais/frogna.ogg",
+        "matmos_msi/marais/frognb.ogg",
+        "matmos_msi/marais/frognc.ogg",
+        "matmos_msi/marais/frognd.ogg",
+        "matmos_msi/marais/frogne.ogg",
+        "matmos_msi/marais/frognh.ogg",
+        "matmos_msi/marais/frogni.ogg",
+        "matmos_msi/marais/frognj.ogg",
+        "matmos_msi/marais/frognk.ogg"
+      ]
+    },
+    "00jon_mosquito": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/marais/mosquito1.ogg",
+        "matmos_msi/marais/mosquito2.ogg",
+        "matmos_msi/marais/mosquito3.ogg"
+      ]
+    },
+    "00jon_neige_ICE_craque": {
+      "vol_min": 0.8,
+      "vol_max": 1.5,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/craque1.ogg",
+        "matmos_msi/snow/craque2.ogg",
+        "matmos_msi/snow/craque3.ogg",
+        "matmos_msi/snow/craque4.ogg",
+        "matmos_msi/snow/craque5.ogg",
+        "matmos_msi/snow/craquea.ogg",
+        "matmos_msi/snow/craqueb.ogg",
+        "matmos_msi/snow/craquec.ogg"
+      ]
+    },
+    "00jon_neige_LP_foret_jour": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/foretneige1.ogg",
+        "matmos_msi/snow/foretneige2.ogg",
+        "matmos_msi/snow/foretneige3.ogg",
+        "matmos_msi/snow/foretneige4.ogg",
+        "matmos_msi/snow/foretneige5.ogg",
+        "matmos_msi/snow/foretneige6.ogg",
+        "matmos_msi/snow/foretneige7.ogg",
+        "matmos_msi/snow/foretneige8.ogg"
+      ]
+    },
+    "00jon_neige_LP_frozen_ocean": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/plaineneige1.ogg",
+        "matmos_msi/snow/plaineneige2.ogg",
+        "matmos_msi/snow/plaineneige3.ogg",
+        "matmos_msi/snow/plaineneige4.ogg",
+        "matmos_msi/snow/plaineneige5.ogg",
+        "matmos_msi/snow/plaineneige6.ogg"
+      ]
+    },
+    "00jon_neige_LP_mount_jour": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.2,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/mountneige1.ogg",
+        "matmos_msi/snow/mountneige2.ogg",
+        "matmos_msi/snow/mountneige3.ogg",
+        "matmos_msi/snow/mountneige4.ogg",
+        "matmos_msi/snow/mountneige5.ogg",
+        "matmos_msi/snow/mountneige6.ogg",
+        "matmos_msi/snow/mountneige7.ogg",
+        "matmos_msi/snow/mountneige8.ogg"
+      ]
+    },
+    "00jon_neige_UN_foret_jour-vent": {
+      "vol_min": 0.6,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/unforeta.ogg",
+        "matmos_msi/snow/unforetb.ogg",
+        "matmos_msi/snow/unforetc.ogg",
+        "matmos_msi/snow/unforetd.ogg",
+        "matmos_msi/snow/unforete.ogg",
+        "matmos_msi/snow/unforetf.ogg",
+        "matmos_msi/snow/unforetg.ogg",
+        "matmos_msi/snow/unforeth.ogg",
+        "matmos_msi/snow/unforeti.ogg"
+      ]
+    },
+    "00jon_neige_UN_general_jour-birds": {
+      "vol_min": 0.6,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.15,
+      "distance": 40,
+      "path": [
+        "matmos_msi/snow/corb1.ogg",
+        "matmos_msi/snow/corb2.ogg",
+        "matmos_msi/snow/corb3.ogg",
+        "matmos_msi/snow/corb4.ogg",
+        "matmos_msi/sharedonce/chouette1.ogg",
+        "matmos_msi/sharedonce/chouette2.ogg",
+        "matmos_msi/sharedonce/chouette3.ogg"
+      ]
+    },
+    "00jon_neige_UN_general_nuit-vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.1,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/vent_nuita.ogg",
+        "matmos_msi/snow/vent_nuitb.ogg",
+        "matmos_msi/snow/vent_nuitc.ogg",
+        "matmos_msi/snow/vent_nuitd.ogg"
+      ]
+    },
+    "00jon_neige_UN_loup": {
+      "vol_min": 0.7,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/snow/loup1.ogg",
+        "matmos_msi/snow/loup2.ogg"
+      ]
+    },
+    "00jon_neige_UN_nuit-chouette": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/chouette1.ogg",
+        "matmos_msi/sharedonce/chouette2.ogg",
+        "matmos_msi/sharedonce/chouette3.ogg"
+      ]
+    },
+    "00jon_neige_UN_plaine_mount_jour-vent": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.15,
+      "distance": 0,
+      "path": [
+        "matmos_msi/snow/vent_froid1.ogg",
+        "matmos_msi/snow/vent_froid2.ogg",
+        "matmos_msi/snow/vent_froid5.ogg",
+        "matmos_msi/snow/vent_froid7.ogg"
+      ]
+    },
+    "00jon_panicked_mouche": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/sharedonce/flyin1.ogg",
+        "matmos_msi/sharedonce/flyin2.ogg"
+      ]
+    },
+    "00jon_plaine_crep_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/plain/evening1.ogg",
+        "matmos_msi/plain/evening2.ogg",
+        "matmos_msi/plain/evening3.ogg",
+        "matmos_msi/plain/evening4.ogg"
+      ]
+    },
+    "00jon_plaine_crep_UN-birds": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.85,
+      "pitch_max": 1.15,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/etourneau1.ogg",
+        "matmos_msi/sharedonce/moino1.ogg",
+        "matmos_msi/sharedonce/flyc1.ogg",
+        "matmos_msi/sharedonce/oizoa.ogg",
+        "matmos_msi/sharedonce/oizof.ogg",
+        "matmos_msi/sharedonce/etourneau1.ogg"
+      ]
+    },
+    "00jon_plaine_crep_UN-criquets": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/criquet7.ogg",
+        "matmos_msi/sharedonce/criquet8.ogg",
+        "matmos_msi/sharedonce/criqueta.ogg",
+        "matmos_msi/sharedonce/criquetb.ogg",
+        "matmos_msi/sharedonce/crittero.ogg"
+      ]
+    },
+    "00jon_plaine_jour_LP": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/plain/jour-plain1.ogg",
+        "matmos_msi/plain/jour-plain2.ogg",
+        "matmos_msi/plain/jour-plain3.ogg",
+        "matmos_msi/plain/jour-plain4.ogg",
+        "matmos_msi/plain/jour-plain5.ogg",
+        "matmos_msi/plain/jour-plain6.ogg",
+        "matmos_msi/plain/jour-plain7.ogg",
+        "matmos_msi/plain/jour-plain8.ogg"
+      ]
+    },
+    "00jon_plaine_jour_UN-birds": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.85,
+      "pitch_max": 1.15,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/moino1.ogg",
+        "matmos_msi/sharedonce/moino2.ogg",
+        "matmos_msi/sharedonce/oizoa.ogg",
+        "matmos_msi/sharedonce/oizob.ogg",
+        "matmos_msi/sharedonce/oizoc.ogg",
+        "matmos_msi/sharedonce/oizod.ogg",
+        "matmos_msi/sharedonce/oizoe.ogg",
+        "matmos_msi/sharedonce/oizof.ogg",
+        "matmos_msi/sharedonce/oizog.ogg",
+        "matmos_msi/sharedonce/oizoh.ogg"
+      ]
+    },
+    "00jon_plaine_jour_UN-flies": {
+      "vol_min": 1.0,
+      "vol_max": 1.1,
+      "pitch_min": 0.8,
+      "pitch_max": 1.2,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/flies1.ogg",
+        "matmos_msi/sharedonce/flies2.ogg",
+        "matmos_msi/sharedonce/flies3.ogg",
+        "matmos_msi/sharedonce/flies4.ogg",
+        "matmos_msi/sharedonce/flies5.ogg",
+        "matmos_msi/sharedonce/flyc1.ogg",
+        "matmos_msi/sharedonce/flyc2.ogg",
+        "matmos_msi/sharedonce/flyc3.ogg"
+      ]
+    },
+    "00jon_plaine_jour_UN-vent": {
+      "vol_min": 0.8,
+      "vol_max": 1.1,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/plain/ventpa.ogg",
+        "matmos_msi/plain/ventpb.ogg",
+        "matmos_msi/plain/ventpc.ogg",
+        "matmos_msi/plain/ventpd.ogg",
+        "matmos_msi/plain/ventforta.ogg",
+        "matmos_msi/plain/ventfortb.ogg",
+        "matmos_msi/plain/ventfortc.ogg"
+      ]
+    },
+    "00jon_plaine_nuit_LP": {
+      "vol_min": 0.4,
+      "vol_max": 0.5,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/plain/nuit-plain1.ogg",
+        "matmos_msi/plain/nuit-plain2.ogg",
+        "matmos_msi/plain/nuit-plain3.ogg",
+        "matmos_msi/plain/nuit-plain4.ogg",
+        "matmos_msi/plain/nuit-plain5.ogg",
+        "matmos_msi/plain/nuit-plain6.ogg",
+        "matmos_msi/plain/nuit-plain7.ogg",
+        "matmos_msi/plain/nuit-plain8.ogg"
+      ]
+    },
+    "00jon_plaine_nuit_UN-birds": {
+      "vol_min": 0.8,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 40,
+      "path": [
+        "matmos_msi/sharedonce/bat1.ogg",
+        "matmos_msi/sharedonce/chouette1.ogg",
+        "matmos_msi/sharedonce/chouette2.ogg",
+        "matmos_msi/sharedonce/chouette3.ogg",
+        "matmos_msi/sharedonce/bat1.ogg",
+        "matmos_msi/sharedonce/chouettea.ogg"
+      ]
+    },
+    "00jon_pluie_in": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/pluie/rain-in1.ogg",
+        "matmos_msi/pluie/rain-in2.ogg",
+        "matmos_msi/pluie/rain-in3.ogg",
+        "matmos_msi/pluie/rain-in4.ogg",
+        "matmos_msi/pluie/rain-in5.ogg",
+        "matmos_msi/pluie/rain-in6.ogg"
+      ]
+    },
+    "00jon_pluie_out": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/pluie/rain-out1.ogg",
+        "matmos_msi/pluie/rain-out2.ogg",
+        "matmos_msi/pluie/rain-out3.ogg",
+        "matmos_msi/pluie/rain-out4.ogg",
+        "matmos_msi/pluie/rain-out5.ogg",
+        "matmos_msi/pluie/rain-out6.ogg",
+        "matmos_msi/pluie/rain-out7.ogg"
+      ]
+    },
+    "00jon_pluie_out_tree": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/pluie/rain-tree1.ogg",
+        "matmos_msi/pluie/rain-tree2.ogg",
+        "matmos_msi/pluie/rain-tree3.ogg",
+        "matmos_msi/pluie/rain-tree4.ogg",
+        "matmos_msi/pluie/rain-tree5.ogg",
+        "matmos_msi/pluie/rain-tree6.ogg"
+      ]
+    },
+    "00jon_vent_hautalti": {
+      "vol_min": 0.5,
+      "vol_max": 0.5,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/mount/haute_alti1.ogg",
+        "matmos_msi/mount/haute_alti2.ogg",
+        "matmos_msi/mount/haute_alti3.ogg",
+        "matmos_msi/mount/haute_alti4.ogg",
+        "matmos_msi/mount/haute_alti5.ogg",
+        "matmos_msi/mount/haute_alti6.ogg",
+        "matmos_msi/mount/haute_alti7.ogg",
+        "matmos_msi/mount/haute_alti8.ogg"
+      ]
+    },
+    "00jon_wood_mine": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/cave/wood1.ogg",
+        "matmos_msi/cave/wood2.ogg",
+        "matmos_msi/cave/wood4.ogg",
+        "matmos_msi/cave/wood5.ogg",
+        "matmos_msi/cave/wood6.ogg",
+        "matmos_msi/cave/wood7.ogg",
+        "matmos_msi/cave/wood8.ogg",
+        "matmos_msi/cave/wood9.ogg",
+        "matmos_msi/cave/woodb.ogg",
+        "matmos_msi/cave/woodc.ogg",
+        "matmos_msi/cave/wooda.ogg"
+      ]
+    },
+    "Cave rumble": {
+      "vol_min": 0.3,
+      "vol_max": 0.6,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_hl/cave/rumble1.ogg",
+        "matmos_hl/cave/rumble2.ogg",
+        "matmos_hl/cave/rumble3.ogg"
+      ]
+    },
+    "Drops": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.8,
+      "pitch_max": 1.3,
+      "distance": 0,
+      "path": [
+        "matmos_hl/water/rain_drip1.ogg",
+        "matmos_hl/water/rain_drip2.ogg",
+        "matmos_hl/water/rain_drip3.ogg",
+        "matmos_hl/water/rain_drip4.ogg"
+      ]
+    },
+    "Fire (Big)": {
+      "vol_min": 0.5,
+      "vol_max": 0.7,
+      "pitch_min": 0.3,
+      "pitch_max": 0.5,
+      "distance": 0,
+      "path": [
+        "matmos_hl/atmosphere/flame_thrower_fire_hit.ogg"
+      ]
+    },
+    "Fire (Small)": {
+      "vol_min": 1.0,
+      "vol_max": 0.7,
+      "pitch_min": 0.7,
+      "pitch_max": 0.9,
+      "distance": 0,
+      "path": [
+        "matmos_hl/atmosphere/flame_thrower_fire_hit.ogg"
+      ]
+    },
+    "Lake": {
+      "vol_min": 0.5,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.3,
+      "distance": 0,
+      "path": [
+        "matmos_hl/water/lake1.ogg",
+        "matmos_hl/water/lake2.ogg",
+        "matmos_hl/water/lake3.ogg"
+      ]
+    },
+    "Rain hitting windows": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_hl/weather/rainonwindow1.ogg",
+        "matmos_hl/weather/rainonwindow2.ogg",
+        "matmos_hl/weather/rainonwindow3.ogg",
+        "matmos_hl/weather/rainonwindow4.ogg",
+        "matmos_hl/weather/rainonwindow5.ogg",
+        "matmos_hl/weather/rainonwindow6.ogg"
+      ]
+    },
+    "Thunderstorm": {
+      "vol_min": 0.5,
+      "vol_max": 1.5,
+      "pitch_min": 0.7,
+      "pitch_max": 1.5,
+      "distance": 128,
+      "path": [
+        "matmos_hl/weather/thunder1.ogg",
+        "matmos_hl/weather/thunder2.ogg",
+        "matmos_hl/weather/thunder3.ogg",
+        "matmos_hl/weather/thunder4.ogg",
+        "matmos_hl/weather/thunder5.ogg",
+        "matmos_hl/weather/thunder6.ogg",
+        "matmos_hl/weather/thunder7.ogg",
+        "matmos_hl/weather/thunder8.ogg",
+        "matmos_hl/weather/thunder9.ogg",
+        "matmos_hl/weather/thundera.ogg",
+        "matmos_hl/weather/thunderb.ogg",
+        "matmos_hl/weather/thunderc.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {
+    "00jon_seaside": {
+      "entries": [
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:grass"
+        },
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:sand"
+        },
+        {
+          "sheet": "scan_large_p1k",
+          "index": "minecraft:dirt"
+        },
+        {
+          "sheet": "scan_large",
+          "index": "minecraft:vine"
+        }
+      ]
+    },
+    "00jon_vitre": {
+      "entries": [
+        {
+          "sheet": "scan_contact",
+          "index": "minecraft:glass"
+        },
+        {
+          "sheet": "scan_contact",
+          "index": "minecraft:glass_pane"
+        }
+      ]
+    },
+    "Iceland (Large)": {
+      "entries": [
+        {
+          "sheet": "scan_large",
+          "index": "minecraft:snow_layer"
+        },
+        {
+          "sheet": "scan_large",
+          "index": "minecraft:ice"
+        }
+      ]
+    },
+    "Lava (Small)": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:flowing_lava"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:lava"
+        }
+      ]
+    },
+    "Manmade Structures (Small)": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:cobblestone"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:planks"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:wool"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:gold_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:iron_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_slab"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:double_stone_slab"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brick_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:bookshelf"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:oak_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:diamond_block"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:sandstone"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:bed"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:wooden_door"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:crafting_table"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:iron_door"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:glass_pane"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:stone_brick_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:cauldron"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:furnace"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brick_stairs"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:enchanting_table"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:brewing_stand"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:glass"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:torch"
+        }
+      ]
+    },
+    "Rocks (SmallperMil)": {
+      "entries": [
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:stone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:cobblestone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:mossy_cobblestone"
+        },
+        {
+          "sheet": "scan_small_p1k",
+          "index": "minecraft:air"
+        }
+      ]
+    },
+    "Water (Small)": {
+      "entries": [
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:flowing_water"
+        },
+        {
+          "sheet": "scan_small",
+          "index": "minecraft:water"
+        }
+      ]
+    }
+  }
+}

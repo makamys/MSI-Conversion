@@ -1,0 +1,248 @@
+{
+  "condition": {
+    "In Boat": {
+      "sheet": "legacy",
+      "index": "riding_boat",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "In Minecart": {
+      "sheet": "legacy",
+      "index": "riding_minecart",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Is Speedy": {
+      "sheet": "ride_motion",
+      "index": "sqrt_xx_zz",
+      "symbol": "GREATER",
+      "value": "100"
+    },
+    "Is very Speedy": {
+      "sheet": "ride_motion",
+      "index": "sqrt_xx_zz",
+      "symbol": "GREATER",
+      "value": "400"
+    },
+    "water_under": {
+      "sheet": "ply_general",
+      "index": "wet",
+      "symbol": "EQUAL",
+      "value": "water"
+    }
+  },
+  "set": {
+    "00jon_inboat": {
+      "yes": [
+        "In Boat",
+        "water_under"
+      ],
+      "no": []
+    },
+    "00jon_moving_boat": {
+      "yes": [
+        "In Boat",
+        "Is Speedy"
+      ],
+      "no": []
+    },
+    "Is moving in Minecart": {
+      "yes": [
+        "In Minecart",
+        "Is Speedy"
+      ],
+      "no": []
+    },
+    "Is moving in Minecart fast": {
+      "yes": [
+        "In Minecart",
+        "Is very Speedy"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "00Jon_move_in_boat": {
+      "allow": [
+        "00jon_moving_boat"
+      ],
+      "restrict": [],
+      "fadein": 3.0,
+      "fadeout": 3.0,
+      "delay_fadein": 1.0,
+      "delay_fadeout": 1.0,
+      "event": [],
+      "stream": {
+        "path": "matmos_msi/human/ship_drive.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": true,
+        "pause": false
+      }
+    },
+    "00jon_in_boat": {
+      "allow": [
+        "00jon_inboat"
+      ],
+      "restrict": [
+        "00jon_moving_boat"
+      ],
+      "fadein": 2.0,
+      "fadeout": 5.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [],
+      "stream": {
+        "path": "matmos_msi/seaside/waterhitwood.ogg",
+        "vol": 1.0,
+        "pitch": 1.0,
+        "looping": true,
+        "pause": false
+      }
+    },
+    "Moving in Minecart": {
+      "allow": [
+        "Is moving in Minecart"
+      ],
+      "restrict": [
+        "Is moving in Minecart fast"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Moving in Minecart",
+          "vol_mod": 0.6,
+          "pitch_mod": 1.0,
+          "delay_min": 0.8,
+          "delay_max": 0.9,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_grince",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 20.0,
+          "delay_start": 3.0
+        },
+        {
+          "event": "00jon_rail_hit",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 1.0,
+          "delay_max": 3.0,
+          "delay_start": 1.0
+        }
+      ]
+    },
+    "Moving in Minecart Fast": {
+      "allow": [
+        "Is moving in Minecart fast"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Moving in Minecart fast",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 0.6,
+          "delay_max": 0.7,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_rail_hit",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 0.5,
+          "delay_max": 0.5,
+          "delay_start": -1.0
+        },
+        {
+          "event": "00jon_grince",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 5.0,
+          "delay_max": 15.0,
+          "delay_start": 2.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "00jon_grince": {
+      "vol_min": 0.3,
+      "vol_max": 0.5,
+      "pitch_min": 0.5,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_extras/grincea.ogg",
+        "matmos_extras/grinceb.ogg",
+        "matmos_extras/grincec.ogg",
+        "matmos_extras/grinced.ogg",
+        "matmos_extras/grincee.ogg",
+        "matmos_extras/grincef.ogg",
+        "matmos_extras/grinceg.ogg",
+        "matmos_extras/grinceh.ogg",
+        "matmos_extras/grincei.ogg",
+        "matmos_extras/grincej.ogg"
+      ]
+    },
+    "00jon_rail_hit": {
+      "vol_min": 0.7,
+      "vol_max": 2.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_extras/rail_a.ogg",
+        "matmos_extras/rail_b.ogg",
+        "matmos_extras/rail_c.ogg",
+        "matmos_extras/rail_d.ogg"
+      ]
+    },
+    "Moving in Minecart": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.98,
+      "pitch_max": 1.08,
+      "distance": 0,
+      "path": [
+        "matmos_extras/minecart1.ogg",
+        "matmos_extras/minecart2.ogg",
+        "matmos_extras/minecart3.ogg",
+        "matmos_extras/minecart4.ogg",
+        "matmos_extras/minecart5.ogg",
+        "matmos_extras/minecart6.ogg",
+        "matmos_extras/minecart7.ogg",
+        "matmos_extras/minecart8.ogg"
+      ]
+    },
+    "Moving in Minecart fast": {
+      "vol_min": 1.5,
+      "vol_max": 2.0,
+      "pitch_min": 1.25,
+      "pitch_max": 1.35,
+      "distance": 0,
+      "path": [
+        "matmos_extras/minecart1.ogg",
+        "matmos_extras/minecart2.ogg",
+        "matmos_extras/minecart3.ogg",
+        "matmos_extras/minecart4.ogg",
+        "matmos_extras/minecart5.ogg",
+        "matmos_extras/minecart6.ogg",
+        "matmos_extras/minecart7.ogg",
+        "matmos_extras/minecart8.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {}
+}

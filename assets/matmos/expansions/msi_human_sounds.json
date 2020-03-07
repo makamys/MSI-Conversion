@@ -1,0 +1,405 @@
+{
+  "condition": {
+    "00jno_crit_life": {
+      "sheet": "legacy",
+      "index": "player_health_ceil",
+      "symbol": "LESSER",
+      "value": "4"
+    },
+    "00jon_Hs_Y_motion": {
+      "sheet": "ply_motion",
+      "index": "y_1k",
+      "symbol": "LESSER",
+      "value": "-1250"
+    },
+    "00jon_jai_faim": {
+      "sheet": "ply_stats",
+      "index": "food",
+      "symbol": "LESSER",
+      "value": "5"
+    },
+    "00jon_no_life": {
+      "sheet": "legacy",
+      "index": "player_health_ceil",
+      "symbol": "LESSER",
+      "value": "1"
+    },
+    "Falling Impact Hurt": {
+      "sheet": "ply_action_delta",
+      "index": "fall_distance1k",
+      "symbol": "LESSER",
+      "value": "-3000"
+    },
+    "Falling more than 11 blocks": {
+      "sheet": "ply_action",
+      "index": "fall_distance1k",
+      "symbol": "GREATER",
+      "value": "11"
+    },
+    "Health Decrease": {
+      "sheet": "legacy_delta",
+      "index": "player_health_ceil",
+      "symbol": "LESSER",
+      "value": "0"
+    },
+    "ManonFire": {
+      "sheet": "ply_general",
+      "index": "burning",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Under Water": {
+      "sheet": "ply_stats",
+      "index": "oxygen",
+      "symbol": "LESSER",
+      "value": "300"
+    },
+    "creative=0": {
+      "sheet": "ply_general",
+      "index": "creative",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
+    "no_water": {
+      "sheet": "scan_contact",
+      "index": "minecraft:water",
+      "symbol": "GREATER",
+      "value": "0"
+    }
+  },
+  "set": {
+    "00jon_crit_life": {
+      "yes": [
+        "00jno_crit_life"
+      ],
+      "no": []
+    },
+    "00jon_je_dois_manger": {
+      "yes": [
+        "00jon_jai_faim"
+      ],
+      "no": []
+    },
+    "00jon_take_dammage": {
+      "yes": [
+        "Health Decrease"
+      ],
+      "no": [
+        "Under Water",
+        "ManonFire"
+      ]
+    },
+    "00jon_try_again": {
+      "yes": [
+        "00jon_no_life"
+      ],
+      "no": []
+    },
+    "Fall Damage": {
+      "yes": [
+        "Falling Impact Hurt",
+        "creative=0"
+      ],
+      "no": [
+        "no_water"
+      ]
+    },
+    "Falling more than 11 blocks": {
+      "yes": [
+        "00jon_Hs_Y_motion"
+      ],
+      "no": [
+        "Under Water"
+      ]
+    },
+    "Iburn": {
+      "yes": [
+        "ManonFire"
+      ],
+      "no": []
+    },
+    "Under Water": {
+      "yes": [
+        "Under Water"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "00jon_Onfire": {
+      "allow": [
+        "Iburn"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_Fire",
+          "vol_mod": 1.0,
+          "pitch_mod": 1.0,
+          "delay_min": 25.0,
+          "delay_max": 25.0,
+          "delay_start": 1.0
+        }
+      ]
+    },
+    "00jon_dommage": {
+      "allow": [
+        "00jon_take_dammage"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_aie",
+          "vol_mod": 1.2,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_fall_scream": {
+      "allow": [
+        "Falling more than 11 blocks"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_Fall",
+          "vol_mod": 0.7,
+          "pitch_mod": 1.0,
+          "delay_min": 5000.0,
+          "delay_max": 5000.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_gameover": {
+      "allow": [
+        "00jon_try_again"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_dead",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 500.0,
+          "delay_max": 500.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "00jon_run_manger": {
+      "allow": [
+        "00jon_je_dois_manger"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_ventre_gazoulli",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 30.0,
+          "delay_max": 60.0,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "00jon_souffle": {
+      "allow": [
+        "00jon_crit_life"
+      ],
+      "restrict": [
+        "Iburn",
+        "00jon_try_again"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "00jon_souffle",
+          "vol_mod": 0.3,
+          "pitch_mod": 1.0,
+          "delay_min": 50000.0,
+          "delay_max": 5000.0,
+          "delay_start": -1.0
+        }
+      ]
+    },
+    "Fall Damage": {
+      "allow": [
+        "Fall Damage"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Fall Damage",
+          "vol_mod": 2.0,
+          "pitch_mod": 1.0,
+          "delay_min": 10.0,
+          "delay_max": 10.0,
+          "delay_start": -1.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "00jon_Fall": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/fall1.ogg",
+        "matmos_msi/human/fall2.ogg",
+        "matmos_msi/human/fall3.ogg",
+        "matmos_msi/human/fall4.ogg",
+        "matmos_msi/human/fall6.ogg",
+        "matmos_msi/human/fall7.ogg",
+        "matmos_msi/human/fall8.ogg",
+        "matmos_msi/human/fall9.ogg",
+        "matmos_msi/human/falla.ogg",
+        "matmos_msi/human/fallb.ogg"
+      ]
+    },
+    "00jon_Fire": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.05,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/on_fire1.ogg",
+        "matmos_msi/human/on_fire2.ogg",
+        "matmos_msi/human/on_fire3.ogg"
+      ]
+    },
+    "00jon_aie": {
+      "vol_min": 0.7,
+      "vol_max": 1.3,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/ext_man_grunt_pain_1.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_10.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_11.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_12.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_2.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_3.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_4.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_5.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_6.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_7.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_8.ogg",
+        "matmos_msi/human/ext_man_grunt_pain_9.ogg"
+      ]
+    },
+    "00jon_dead": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.95,
+      "pitch_max": 1.15,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/ext_man_die_1.ogg",
+        "matmos_msi/human/ext_man_die_10.ogg",
+        "matmos_msi/human/ext_man_die_11.ogg",
+        "matmos_msi/human/ext_man_die_12.ogg",
+        "matmos_msi/human/ext_man_die_13.ogg",
+        "matmos_msi/human/ext_man_die_14.ogg",
+        "matmos_msi/human/ext_man_die_15.ogg",
+        "matmos_msi/human/ext_man_die_16.ogg",
+        "matmos_msi/human/ext_man_die_17.ogg",
+        "matmos_msi/human/ext_man_die_18.ogg",
+        "matmos_msi/human/ext_man_die_2.ogg",
+        "matmos_msi/human/ext_man_die_3.ogg",
+        "matmos_msi/human/ext_man_die_4.ogg",
+        "matmos_msi/human/ext_man_die_5.ogg",
+        "matmos_msi/human/ext_man_die_6.ogg",
+        "matmos_msi/human/ext_man_die_7.ogg",
+        "matmos_msi/human/ext_man_die_8.ogg",
+        "matmos_msi/human/ext_man_die_9.ogg"
+      ]
+    },
+    "00jon_souffle": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.85,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/souffle.ogg"
+      ]
+    },
+    "00jon_ventre_gazoulli": {
+      "vol_min": 0.5,
+      "vol_max": 0.7,
+      "pitch_min": 0.8,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/faim1.ogg",
+        "matmos_msi/human/faim2.ogg",
+        "matmos_msi/human/faim3.ogg",
+        "matmos_msi/human/faim4.ogg"
+      ]
+    },
+    "Fall Damage": {
+      "vol_min": 1.0,
+      "vol_max": 2.0,
+      "pitch_min": 0.7,
+      "pitch_max": 0.9,
+      "distance": 0,
+      "path": [
+        "matmos_msi/human/fallbig1.ogg",
+        "matmos_msi/human/fallbig2.ogg"
+      ]
+    },
+    "Under Water": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.9,
+      "pitch_max": 1.1,
+      "distance": 0,
+      "path": [
+        "matmos_interactions/bubble1.ogg",
+        "matmos_interactions/bubble2.ogg",
+        "matmos_interactions/bubble3.ogg",
+        "matmos_interactions/bubble5.ogg",
+        "matmos_interactions/bubble6.ogg",
+        "matmos_interactions/bubble7.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {}
+}

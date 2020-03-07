@@ -1,0 +1,5774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contents>
+<dynamic name="00jon_seaside">
+	<descriptible>
+		<nickname>00jon_seaside</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="LargeScanPerMil">2</entry>
+	<entry sheet="LargeScanPerMil">12</entry>
+	<entry sheet="LargeScanPerMil">3</entry>
+	<entry sheet="LargeScan">106</entry>
+</dynamic>
+<dynamic name="00jon_vitre">
+	<descriptible>
+		<nickname>00jon_vitre</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="ContactScan">20</entry>
+	<entry sheet="ContactScan">102</entry>
+</dynamic>
+<dynamic name="Iceland (Large)">
+	<descriptible>
+		<nickname>Iceland (Large)</nickname>
+		<description>Snow and ice</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="LargeScan">78</entry>
+	<entry sheet="LargeScan">79</entry>
+</dynamic>
+<dynamic name="Lava (Small)">
+	<descriptible>
+		<nickname>Lava (Small)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="SmallScan">10</entry>
+	<entry sheet="SmallScan">11</entry>
+</dynamic>
+<dynamic name="Manmade Structures (Small)">
+	<descriptible>
+		<nickname>Manmade Structures (Small)</nickname>
+		<description>Items commonly used by players to build houses, that aren't proeminent somewhere else like Tree Log and Stone</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="SmallScan">4</entry>
+	<entry sheet="SmallScan">5</entry>
+	<entry sheet="SmallScan">35</entry>
+	<entry sheet="SmallScan">41</entry>
+	<entry sheet="SmallScan">42</entry>
+	<entry sheet="SmallScan">44</entry>
+	<entry sheet="SmallScan">43</entry>
+	<entry sheet="SmallScan">45</entry>
+	<entry sheet="SmallScan">47</entry>
+	<entry sheet="SmallScan">53</entry>
+	<entry sheet="SmallScan">57</entry>
+	<entry sheet="SmallScan">67</entry>
+	<entry sheet="SmallScan">24</entry>
+	<entry sheet="SmallScan">26</entry>
+	<entry sheet="SmallScan">64</entry>
+	<entry sheet="SmallScan">58</entry>
+	<entry sheet="SmallScan">71</entry>
+	<entry sheet="SmallScan">102</entry>
+	<entry sheet="SmallScan">109</entry>
+	<entry sheet="SmallScan">118</entry>
+	<entry sheet="SmallScan">61</entry>
+	<entry sheet="SmallScan">108</entry>
+	<entry sheet="SmallScan">116</entry>
+	<entry sheet="SmallScan">117</entry>
+	<entry sheet="SmallScan">20</entry>
+	<entry sheet="SmallScan">50</entry>
+</dynamic>
+<dynamic name="Rocks (SmallperMil)">
+	<descriptible>
+		<nickname>Rocks (SmallperMil)</nickname>
+		<description>Natural stones and cobblestone, including netherrack (does not include slabs)
+* Contains traces of the Aether</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="SmallScanPerMil">1</entry>
+	<entry sheet="SmallScanPerMil">4</entry>
+	<entry sheet="SmallScanPerMil">48</entry>
+	<entry sheet="SmallScanPerMil">189</entry>
+</dynamic>
+<dynamic name="Water (Small)">
+	<descriptible>
+		<nickname>Water (Small)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<entry sheet="SmallScan">8</entry>
+	<entry sheet="SmallScan">9</entry>
+</dynamic>
+<condition name="00jon_Nether_obsidian_sup_6">
+	<descriptible>
+		<nickname>00jon_Nether_obsidian_sup_6</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>49</key>
+	<symbol>&gt;</symbol>
+	<constant>6</constant>
+	<list></list>
+</condition>
+<condition name="00jon_a_burning_furnace">
+	<descriptible>
+		<nickname>00jon_a_burning_furnace</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>62</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="00jon_air_12_100">
+	<descriptible>
+		<nickname>00jon_air_12_100</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>0</key>
+	<symbol>&lt;</symbol>
+	<constant>125</constant>
+	<list></list>
+</condition>
+<condition name="00jon_air_33_100">
+	<descriptible>
+		<nickname>00jon_air_33_100</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>0</key>
+	<symbol>&gt;</symbol>
+	<constant>330</constant>
+	<list></list>
+</condition>
+<condition name="00jon_air_75_100">
+	<descriptible>
+		<nickname>00jon_air_75_100</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>0</key>
+	<symbol>&gt;</symbol>
+	<constant>750</constant>
+	<list></list>
+</condition>
+<condition name="00jon_au_dessous_de_45_m">
+	<descriptible>
+		<nickname>00jon_au_dessous_de_45_m</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>4</key>
+	<symbol>&lt;</symbol>
+	<constant>45</constant>
+	<list></list>
+</condition>
+<condition name="00jon_biome_bord_de_mer">
+	<descriptible>
+		<nickname>00jon_biome_bord_de_mer</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>9</key>
+	<symbol>&gt;</symbol>
+	<constant>65</constant>
+	<list></list>
+</condition>
+<condition name="00jon_biome_bord_de_mer_no_land">
+	<descriptible>
+		<nickname>00jon_biome_bord_de_mer_no_land</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>00jon_seaside</dynamickey>
+	<symbol>&lt;</symbol>
+	<constant>150</constant>
+	<list></list>
+</condition>
+<condition name="00jon_biome_in_ocean">
+	<descriptible>
+		<nickname>00jon_biome_in_ocean</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>9</key>
+	<symbol>&gt;</symbol>
+	<constant>200</constant>
+	<list></list>
+</condition>
+<condition name="00jon_biome_in_ocean_no_dirt">
+	<descriptible>
+		<nickname>00jon_biome_in_ocean_no_dirt</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="00jon_biome_in_ocean_no_sand">
+	<descriptible>
+		<nickname>00jon_biome_in_ocean_no_sand</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>12</key>
+	<symbol>&lt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_DG_stonebrick">
+	<descriptible>
+		<nickname>00jon_detect_DG_stonebrick</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>98</key>
+	<symbol>&gt;</symbol>
+	<constant>20</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_DG_woodendoor">
+	<descriptible>
+		<nickname>00jon_detect_DG_woodendoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScan</sheet>
+	<key>64</key>
+	<symbol>&gt;</symbol>
+	<constant>2</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LSPM_feuille">
+	<descriptible>
+		<nickname>00jon_detect_LSPM_feuille</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>18</key>
+	<symbol>&gt;</symbol>
+	<constant>15</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LSPM_sandstone">
+	<descriptible>
+		<nickname>00jon_detect_LSPM_sandstone</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>24</key>
+	<symbol>&gt;</symbol>
+	<constant>8</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LSPM_snow">
+	<descriptible>
+		<nickname>00jon_detect_LSPM_snow</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>78</key>
+	<symbol>&gt;</symbol>
+	<constant>8</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LSPM_vine_jungle">
+	<descriptible>
+		<nickname>00jon_detect_LSPM_vine_jungle</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>106</key>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LSPM_vines_marais">
+	<descriptible>
+		<nickname>00jon_detect_LSPM_vines_marais</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>106</key>
+	<symbol>&gt;</symbol>
+	<constant>5</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LS_cactus">
+	<descriptible>
+		<nickname>00jon_detect_LS_cactus</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScan</sheet>
+	<key>81</key>
+	<symbol>&gt;</symbol>
+	<constant>2</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LS_champi_marais">
+	<descriptible>
+		<nickname>00jon_detect_LS_champi_marais</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScan</sheet>
+	<key>39</key>
+	<symbol>&gt;</symbol>
+	<constant>2</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LS_ice">
+	<descriptible>
+		<nickname>00jon_detect_LS_ice</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>79</key>
+	<symbol>&gt;</symbol>
+	<constant>2</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_LS_lilly">
+	<descriptible>
+		<nickname>00jon_detect_LS_lilly</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScan</sheet>
+	<key>111</key>
+	<symbol>&gt;</symbol>
+	<constant>2</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_SSPM_littlesnow">
+	<descriptible>
+		<nickname>00jon_detect_SSPM_littlesnow</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>78</key>
+	<symbol>&gt;</symbol>
+	<constant>5</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_SS_fence">
+	<descriptible>
+		<nickname>00jon_detect_SS_fence</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>85</key>
+	<symbol>&gt;</symbol>
+	<constant>5</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_SS_leaves">
+	<descriptible>
+		<nickname>00jon_detect_SS_leaves</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>18</key>
+	<symbol>&gt;</symbol>
+	<constant>3</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_SS_plank">
+	<descriptible>
+		<nickname>00jon_detect_SS_plank</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>5</key>
+	<symbol>&gt;</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_SS_wood">
+	<descriptible>
+		<nickname>00jon_detect_SS_wood</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>17</key>
+	<symbol>&gt;</symbol>
+	<constant>3</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_frozen_ocean">
+	<descriptible>
+		<nickname>00jon_detect_frozen_ocean</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScanPerMil</sheet>
+	<key>79</key>
+	<symbol>&gt;</symbol>
+	<constant>4</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_player_in_The_End">
+	<descriptible>
+		<nickname>00jon_detect_player_in_The_End</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>LargeScan</sheet>
+	<key>121</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="00jon_detect_under_tree">
+	<descriptible>
+		<nickname>00jon_detect_under_tree</nickname>
+		<description>Tickness = -1 pour les arbres et !=-1 pour les autre verre y compris !</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>28</key>
+	<symbol>&lt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="00jon_incave_definition_trop_roche">
+	<descriptible>
+		<nickname>00jon_incave_definition_trop_roche</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Rocks (SmallperMil)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>300</constant>
+	<list></list>
+</condition>
+<condition name="00jon_lava_10_near">
+	<descriptible>
+		<nickname>00jon_lava_10_near</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Lava (Small)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="00jon_lava_lightlevel_sup9">
+	<descriptible>
+		<nickname>00jon_lava_lightlevel_sup9</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>2</key>
+	<symbol>&gt;</symbol>
+	<constant>9</constant>
+	<list></list>
+</condition>
+<condition name="00jon_near_man_made_structure">
+	<descriptible>
+		<nickname>00jon_near_man_made_structure</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Manmade Structures (Small)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>25</constant>
+	<list></list>
+</condition>
+<condition name="00jon_neige_holiday_on_ice">
+	<descriptible>
+		<nickname>00jon_neige_holiday_on_ice</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>37</key>
+	<symbol>==</symbol>
+	<constant>79</constant>
+	<list></list>
+</condition>
+<condition name="00jon_too_deep_from_surface_8block">
+	<descriptible>
+		<nickname>00jon_too_deep_from_surface_8block</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>28</key>
+	<symbol>&gt;</symbol>
+	<constant>7</constant>
+	<list></list>
+</condition>
+<condition name="00jon_underwater">
+	<descriptible>
+		<nickname>00jon_underwater</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>23</key>
+	<symbol>&lt;</symbol>
+	<constant>300</constant>
+	<list></list>
+</condition>
+<condition name="00jon_vitre1">
+	<descriptible>
+		<nickname>00jon_vitre1</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>00jon_vitre</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="00jon_water_10_near">
+	<descriptible>
+		<nickname>00jon_water_10_near</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>9</key>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="Air is tight 35%">
+	<descriptible>
+		<nickname>Air is tight 35%</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScanPerMil</sheet>
+	<key>0</key>
+	<symbol>&gt;</symbol>
+	<constant>500</constant>
+	<list></list>
+</condition>
+<condition name="Can rain on">
+	<descriptible>
+		<nickname>Can rain on</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>26</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Highlands (100)">
+	<descriptible>
+		<nickname>Highlands (100)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>4</key>
+	<symbol>&gt;</symbol>
+	<constant>100</constant>
+	<list></list>
+</condition>
+<condition name="In Nether">
+	<descriptible>
+		<nickname>In Nether</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>10</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="In Thunderstorm">
+	<descriptible>
+		<nickname>In Thunderstorm</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>8</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Is Raining">
+	<descriptible>
+		<nickname>Is Raining</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>7</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Is Underwater">
+	<descriptible>
+		<nickname>Is Underwater</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>6</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Lava">
+	<descriptible>
+		<nickname>Lava</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Lava (Small)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>12</constant>
+	<list></list>
+</condition>
+<condition name="Nearby fire (1)">
+	<descriptible>
+		<nickname>Nearby fire (1)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>51</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="Nearby fire (12)">
+	<descriptible>
+		<nickname>Nearby fire (12)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>SmallScan</sheet>
+	<key>51</key>
+	<symbol>&gt;</symbol>
+	<constant>11</constant>
+	<list></list>
+</condition>
+<condition name="Nearby water">
+	<descriptible>
+		<nickname>Nearby water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Water (Small)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="Receive Sunlight">
+	<descriptible>
+		<nickname>Receive Sunlight</nickname>
+		<description>Uses the stored sunlight in memory, therefore it is still true at might.</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>&gt;</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="Rocks (24 S)">
+	<descriptible>
+		<nickname>Rocks (24 S)</nickname>
+		<description>* Contains traces of the Aether</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<key>-1</key>
+	<dynamickey>Rocks (SmallperMil)</dynamickey>
+	<symbol>&gt;</symbol>
+	<constant>450</constant>
+	<list></list>
+</condition>
+<condition name="Sunlight Maximum 15/15">
+	<descriptible>
+		<nickname>Sunlight Maximum 15/15</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>==</symbol>
+	<constant>15</constant>
+	<list></list>
+</condition>
+<condition name="Sunlight greater than 10/15">
+	<descriptible>
+		<nickname>Sunlight greater than 10/15</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="Sunlight lower than 10/15">
+	<descriptible>
+		<nickname>Sunlight lower than 10/15</nickname>
+		<description>Sunlight under 10</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>&lt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="Sunlight lower than 3/15">
+	<descriptible>
+		<nickname>Sunlight lower than 3/15</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>&lt;</symbol>
+	<constant>3</constant>
+	<list></list>
+</condition>
+<condition name="Sunlight lower than 5/15">
+	<descriptible>
+		<nickname>Sunlight lower than 5/15</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>0</key>
+	<symbol>&lt;</symbol>
+	<constant>5</constant>
+	<list></list>
+</condition>
+<condition name="Time (0 - 11500)">
+	<descriptible>
+		<nickname>Time (0 - 11500)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>11500</constant>
+	<list></list>
+</condition>
+<condition name="Time (0 - 12250)">
+	<descriptible>
+		<nickname>Time (0 - 12250)</nickname>
+		<description>Early to End Dusk</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>12250</constant>
+	<list></list>
+</condition>
+<condition name="Time (0 - 13000)">
+	<descriptible>
+		<nickname>Time (0 - 13000)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>13000</constant>
+	<list></list>
+</condition>
+<condition name="Time (0 - 23500)">
+	<descriptible>
+		<nickname>Time (0 - 23500)</nickname>
+		<description>Early to End of the night</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>23500</constant>
+	<list></list>
+</condition>
+<condition name="Time (0 - 500)">
+	<descriptible>
+		<nickname>Time (0 - 500)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>3</key>
+	<symbol>&lt;</symbol>
+	<constant>500</constant>
+	<list></list>
+</condition>
+<set name="00jon_bord_de_mer">
+	<descriptible>
+		<nickname>00jon_bord_de_mer</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_biome_bord_de_mer</truepart>
+	<truepart>00jon_biome_bord_de_mer_no_land</truepart>
+	<falsepart>00jon_detect_LSPM_vine_jungle</falsepart>
+	<falsepart>00jon_detect_LS_lilly</falsepart>
+	<falsepart>00jon_detect_LS_ice</falsepart>
+</set>
+<set name="00jon_chemine_on">
+	<descriptible>
+		<nickname>00jon_chemine_on</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_a_burning_furnace</truepart>
+</set>
+<set name="00jon_contact_glass">
+	<descriptible>
+		<nickname>00jon_contact_glass</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_vitre1</truepart>
+	<truepart>00jon_near_man_made_structure</truepart>
+</set>
+<set name="00jon_define_biome_desert">
+	<descriptible>
+		<nickname>00jon_define_biome_desert</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LS_cactus</truepart>
+	<truepart>00jon_detect_LSPM_sandstone</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>00jon_detect_LSPM_feuille</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_foret">
+	<descriptible>
+		<nickname>00jon_define_biome_foret</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LSPM_feuille</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>00jon_detect_LSPM_vines_marais</falsepart>
+</set>
+<set name="00jon_define_biome_frozen_ocean">
+	<descriptible>
+		<nickname>00jon_define_biome_frozen_ocean</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_frozen_ocean</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>00jon_detect_LSPM_sandstone</falsepart>
+	<falsepart>00jon_detect_LSPM_feuille</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_in_ocean">
+	<descriptible>
+		<nickname>00jon_define_biome_in_ocean</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_biome_in_ocean_no_dirt</truepart>
+	<truepart>00jon_biome_in_ocean</truepart>
+	<truepart>00jon_biome_in_ocean_no_sand</truepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>00jon_detect_LS_ice</falsepart>
+</set>
+<set name="00jon_define_biome_jungle">
+	<descriptible>
+		<nickname>00jon_define_biome_jungle</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LSPM_vine_jungle</truepart>
+	<truepart>00jon_detect_LSPM_feuille</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_marais">
+	<descriptible>
+		<nickname>00jon_define_biome_marais</nickname>
+		<description>Definition de la reconnaissance du Biome MARAIS.</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LS_lilly</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>00jon_detect_LSPM_sandstone</falsepart>
+	<falsepart>00jon_detect_LSPM_vine_jungle</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_marais2">
+	<descriptible>
+		<nickname>00jon_define_biome_marais2</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LS_champi_marais</truepart>
+	<truepart>00jon_detect_LSPM_vines_marais</truepart>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>00jon_detect_LSPM_sandstone</falsepart>
+	<falsepart>00jon_detect_LSPM_vine_jungle</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_neige_foret">
+	<descriptible>
+		<nickname>00jon_define_biome_neige_foret</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LSPM_snow</truepart>
+	<truepart>00jon_detect_LSPM_feuille</truepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_neige_plaine">
+	<descriptible>
+		<nickname>00jon_define_biome_neige_plaine</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_LSPM_snow</truepart>
+	<falsepart>00jon_detect_LSPM_feuille</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_define_biome_plaine">
+	<descriptible>
+		<nickname>00jon_define_biome_plaine</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<falsepart>00jon_detect_LSPM_snow</falsepart>
+	<falsepart>00jon_detect_LSPM_sandstone</falsepart>
+	<falsepart>00jon_detect_frozen_ocean</falsepart>
+	<falsepart>00jon_detect_SSPM_littlesnow</falsepart>
+	<falsepart>00jon_detect_LSPM_feuille</falsepart>
+	<falsepart>00jon_biome_in_ocean</falsepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>00jon_detect_LSPM_vines_marais</falsepart>
+</set>
+<set name="00jon_define_indoor">
+	<descriptible>
+		<nickname>00jon_define_indoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_near_man_made_structure</truepart>
+	<falsepart>00jon_detect_under_tree</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_incave_faille">
+	<descriptible>
+		<nickname>00jon_incave_faille</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Air is tight 35%</truepart>
+	<falsepart>Receive Sunlight</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_lava_surface">
+	<descriptible>
+		<nickname>00jon_lava_surface</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_lava_10_near</truepart>
+</set>
+<set name="00jon_neige_ice_kicrake">
+	<descriptible>
+		<nickname>00jon_neige_ice_kicrake</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_neige_holiday_on_ice</truepart>
+</set>
+<set name="00jon_nether_no_complet_soun_obsi">
+	<descriptible>
+		<nickname>00jon_nether_no_complet_soun_obsi</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Nether</truepart>
+	<falsepart>00jon_Nether_obsidian_sup_6</falsepart>
+</set>
+<set name="00jon_nether_small_corridor">
+	<descriptible>
+		<nickname>00jon_nether_small_corridor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_air_12_100</truepart>
+	<truepart>In Nether</truepart>
+</set>
+<set name="00jon_no_outdoor_sound_45m">
+	<descriptible>
+		<nickname>00jon_no_outdoor_sound_45m</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_au_dessous_de_45_m</truepart>
+</set>
+<set name="00jon_no_outdoor_sound_no_air">
+	<descriptible>
+		<nickname>00jon_no_outdoor_sound_no_air</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_air_12_100</truepart>
+	<truepart>Sunlight lower than 10/15</truepart>
+</set>
+<set name="00jon_no_outdoor_sound_test">
+	<descriptible>
+		<nickname>00jon_no_outdoor_sound_test</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_incave_definition_trop_roche</truepart>
+	<truepart>Sunlight lower than 10/15</truepart>
+</set>
+<set name="00jon_no_outdoor_sound_thickness8">
+	<descriptible>
+		<nickname>00jon_no_outdoor_sound_thickness8</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_too_deep_from_surface_8block</truepart>
+	<truepart>Sunlight lower than 10/15</truepart>
+</set>
+<set name="00jon_player_in_dungeon">
+	<descriptible>
+		<nickname>00jon_player_in_dungeon</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_DG_stonebrick</truepart>
+	<truepart>00jon_detect_DG_woodendoor</truepart>
+	<truepart>Sunlight lower than 10/15</truepart>
+</set>
+<set name="00jon_player_in_end">
+	<descriptible>
+		<nickname>00jon_player_in_end</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_player_in_The_End</truepart>
+</set>
+<set name="00jon_rain_grotte_near_exit">
+	<descriptible>
+		<nickname>00jon_rain_grotte_near_exit</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Sunlight greater than 10/15</truepart>
+	<truepart>Is Raining</truepart>
+	<falsepart>00jon_detect_SS_leaves</falsepart>
+	<falsepart>00jon_detect_SS_wood</falsepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_rain_in_grotte">
+	<descriptible>
+		<nickname>00jon_rain_in_grotte</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Is Raining</truepart>
+	<falsepart>00jon_detect_SS_leaves</falsepart>
+	<falsepart>Sunlight greater than 10/15</falsepart>
+	<falsepart>Sunlight lower than 3/15</falsepart>
+	<falsepart>00jon_detect_SS_wood</falsepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_rain_in_maison">
+	<descriptible>
+		<nickname>00jon_rain_in_maison</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Is Raining</truepart>
+	<truepart>00jon_near_man_made_structure</truepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_rain_out">
+	<descriptible>
+		<nickname>00jon_rain_out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Is Raining</truepart>
+	<truepart>Can rain on</truepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_rain_under_tree">
+	<descriptible>
+		<nickname>00jon_rain_under_tree</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_SS_leaves</truepart>
+	<truepart>Is Raining</truepart>
+	<truepart>00jon_detect_SS_wood</truepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_rain_vitre">
+	<descriptible>
+		<nickname>00jon_rain_vitre</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_vitre1</truepart>
+	<truepart>Is Raining</truepart>
+	<truepart>00jon_near_man_made_structure</truepart>
+	<falsepart>In Nether</falsepart>
+	<falsepart>Can rain on</falsepart>
+</set>
+<set name="00jon_set_mine">
+	<descriptible>
+		<nickname>00jon_set_mine</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_detect_SS_plank</truepart>
+	<truepart>00jon_detect_SS_fence</truepart>
+	<falsepart>Receive Sunlight</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="00jon_underwater">
+	<descriptible>
+		<nickname>00jon_underwater</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_underwater</truepart>
+</set>
+<set name="Abundant water">
+	<descriptible>
+		<nickname>Abundant water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_water_10_near</truepart>
+	<falsepart>00jon_detect_LS_ice</falsepart>
+</set>
+<set name="Feu_grand">
+	<descriptible>
+		<nickname>Feu_grand</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Nearby fire (12)</truepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="Feu_petit">
+	<descriptible>
+		<nickname>Feu_petit</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Nearby fire (1)</truepart>
+</set>
+<set name="Highlands (96, Visible)">
+	<descriptible>
+		<nickname>Highlands (96, Visible)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_air_75_100</truepart>
+	<truepart>Highlands (100)</truepart>
+	<falsepart>Is Raining</falsepart>
+	<falsepart>Sunlight lower than 10/15</falsepart>
+</set>
+<set name="In Nether">
+	<descriptible>
+		<nickname>In Nether</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Nether</truepart>
+</set>
+<set name="Incave">
+	<descriptible>
+		<nickname>Incave</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<falsepart>Receive Sunlight</falsepart>
+	<falsepart>In Nether</falsepart>
+</set>
+<set name="Is Raining">
+	<descriptible>
+		<nickname>Is Raining</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Is Raining</truepart>
+</set>
+<set name="Nearby water">
+	<descriptible>
+		<nickname>Nearby water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_water_10_near</truepart>
+	<falsepart>00jon_detect_LS_ice</falsepart>
+</set>
+<set name="Outdoor">
+	<descriptible>
+		<nickname>Outdoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Can rain on</truepart>
+	<falsepart>Sunlight lower than 10/15</falsepart>
+</set>
+<set name="Thunderstorm">
+	<descriptible>
+		<nickname>Thunderstorm</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>In Thunderstorm</truepart>
+	<truepart>Is Raining</truepart>
+</set>
+<set name="Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)">
+	<descriptible>
+		<nickname>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 12250)</truepart>
+</set>
+<set name="Time vrai de 0 a 500 (demi aube cote jour)">
+	<descriptible>
+		<nickname>Time vrai de 0 a 500 (demi aube cote jour)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 500)</truepart>
+</set>
+<set name="Time vrai de 11500 a 13000 (crepuscule)">
+	<descriptible>
+		<nickname>Time vrai de 11500 a 13000 (crepuscule)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 13000)</truepart>
+	<falsepart>Time (0 - 11500)</falsepart>
+</set>
+<set name="Time vrai de 12250 a 23500 (mi nuit)">
+	<descriptible>
+		<nickname>Time vrai de 12250 a 23500 (mi nuit)</nickname>
+		<description>Dark night</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 23500)</truepart>
+	<falsepart>Time (0 - 12250)</falsepart>
+</set>
+<set name="Time vrai de 13000 a 23500 (nuit)">
+	<descriptible>
+		<nickname>Time vrai de 13000 a 23500 (nuit)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 23500)</truepart>
+	<falsepart>Time (0 - 13000)</falsepart>
+</set>
+<set name="Time vrai de 23500 a 23999 (demi aube cote nuit)">
+	<descriptible>
+		<nickname>Time vrai de 23500 a 23999 (demi aube cote nuit)</nickname>
+		<description>Sun rising</description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<falsepart>Time (0 - 23500)</falsepart>
+</set>
+<set name="Time vrai de 500 a 11500 (jour)">
+	<descriptible>
+		<nickname>Time vrai de 500 a 11500 (jour)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Time (0 - 11500)</truepart>
+	<falsepart>Time (0 - 500)</falsepart>
+</set>
+<set name="Wet cave">
+	<descriptible>
+		<nickname>Wet cave</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Rocks (24 S)</truepart>
+	<truepart>Nearby water</truepart>
+	<truepart>Sunlight lower than 10/15</truepart>
+</set>
+<event name="00jon_Nether_Explode">
+	<descriptible>
+		<nickname>00jon_Nether_Explode</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/expl1.ogg</path>
+	<path>matmos_MSI/hell/expl2.ogg</path>
+	<path>matmos_MSI/hell/expl3.ogg</path>
+	<path>matmos_MSI/hell/expl4.ogg</path>
+	<path>matmos_MSI/hell/expl5.ogg</path>
+	<path>matmos_MSI/hell/expl6.ogg</path>
+	<path>matmos_MSI/hell/expl7.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.85</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_Nether_UN_scream">
+	<descriptible>
+		<nickname>00jon_Nether_UN_scream</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/Un1.ogg</path>
+	<path>matmos_MSI/hell/Un2.ogg</path>
+	<path>matmos_MSI/hell/Un3.ogg</path>
+	<path>matmos_MSI/hell/Un4.ogg</path>
+	<path>matmos_MSI/hell/Un5.ogg</path>
+	<path>matmos_MSI/hell/Un6.ogg</path>
+	<path>matmos_MSI/hell/Un7.ogg</path>
+	<path>matmos_MSI/hell/Un8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.4</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_Nether_UN_wind">
+	<descriptible>
+		<nickname>00jon_Nether_UN_wind</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/Un_wind1.ogg</path>
+	<path>matmos_MSI/hell/Un_wind2.ogg</path>
+	<path>matmos_MSI/hell/Un_wind3.ogg</path>
+	<path>matmos_MSI/hell/Un_wind4.ogg</path>
+	<path>matmos_MSI/hell/Un_wind5.ogg</path>
+	<path>matmos_MSI/hell/Un_wind6.ogg</path>
+	<path>matmos_MSI/hell/Un_wind7.ogg</path>
+	<path>matmos_MSI/hell/Un_wind8.ogg</path>
+	<path>matmos_MSI/hell/Un_wind9.ogg</path>
+	<path>matmos_MSI/hell/Un_windA.ogg</path>
+	<path>matmos_MSI/hell/Un_windB.ogg</path>
+	<path>matmos_MSI/hell/Un_windC.ogg</path>
+	<path>matmos_MSI/hell/Un_windD.ogg</path>
+	<path>matmos_MSI/hell/Un_windE.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.4</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_Nether_fear">
+	<descriptible>
+		<nickname>00jon_Nether_fear</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/Laugher2.ogg</path>
+	<path>matmos_MSI/hell/scream10.ogg</path>
+	<path>matmos_MSI/hell/scream11.ogg</path>
+	<path>matmos_MSI/hell/wisper1.ogg</path>
+	<path>matmos_MSI/hell/wisper2.ogg</path>
+	<path>matmos_MSI/hell/wisper3.ogg</path>
+	<path>matmos_MSI/hell/wisper4.ogg</path>
+	<path>matmos_MSI/hell/wisper5.ogg</path>
+	<path>matmos_MSI/hell/wisper6.ogg</path>
+	<path>matmos_MSI/hell/wisper7.ogg</path>
+	<path>matmos_MSI/hell/wisper8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_Nether_heart">
+	<descriptible>
+		<nickname>00jon_Nether_heart</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/heartbeat.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_Nether_loop">
+	<descriptible>
+		<nickname>00jon_Nether_loop</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/hellP1.ogg</path>
+	<path>matmos_MSI/hell/hellP2.ogg</path>
+	<path>matmos_MSI/hell/hellP3.ogg</path>
+	<path>matmos_MSI/hell/hellP4.ogg</path>
+	<path>matmos_MSI/hell/hellP5.ogg</path>
+	<path>matmos_MSI/hell/hellP6.ogg</path>
+	<path>matmos_MSI/hell/hellP7.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.4</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_Nether_loop_complementary">
+	<descriptible>
+		<nickname>00jon_Nether_loop_complementary</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/hellX1.ogg</path>
+	<path>matmos_MSI/hell/hellX2.ogg</path>
+	<path>matmos_MSI/hell/hellX3.ogg</path>
+	<path>matmos_MSI/hell/hellX4.ogg</path>
+	<path>matmos_MSI/hell/hellX5.ogg</path>
+	<path>matmos_MSI/hell/hellX6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>2.5</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.4</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_Nether_loop_corrdior">
+	<descriptible>
+		<nickname>00jon_Nether_loop_corrdior</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/hell/inLP1.ogg</path>
+	<path>matmos_MSI/hell/inLP2.ogg</path>
+	<path>matmos_MSI/hell/inLP3.ogg</path>
+	<path>matmos_MSI/hell/inLP4.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>0.8</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.4</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_Nether_rock">
+	<descriptible>
+		<nickname>00jon_Nether_rock</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/cave/caveA.ogg</path>
+	<path>matmos_MSI/cave/caveB.ogg</path>
+	<path>matmos_MSI/cave/caveC.ogg</path>
+	<path>matmos_MSI/cave/caveD.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.6</pitchmin>
+	<pitchmax>0.8</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_OceanLP">
+	<descriptible>
+		<nickname>00jon_OceanLP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/seaside/oceanINA.ogg</path>
+	<path>matmos_MSI/seaside/oceanINB.ogg</path>
+	<path>matmos_MSI/seaside/oceanINC.ogg</path>
+	<path>matmos_MSI/seaside/oceanIND.ogg</path>
+	<path>matmos_MSI/seaside/oceanINA.ogg</path>
+	<path>matmos_MSI/seaside/oceanIND.ogg</path>
+	<path>matmos_MSI/seaside/oceanINA.ogg</path>
+	<path>matmos_MSI/seaside/oceanIND.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_The_End_LP">
+	<descriptible>
+		<nickname>00jon_The_End_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/end/loop1.ogg</path>
+	<path>matmos_MSI/end/loop2.ogg</path>
+	<path>matmos_MSI/end/loop3.ogg</path>
+	<path>matmos_MSI/end/loop4.ogg</path>
+	<path>matmos_MSI/end/loop5.ogg</path>
+	<path>matmos_MSI/end/loop6.ogg</path>
+	<path>matmos_MSI/end/loop7.ogg</path>
+	<path>matmos_MSI/end/loop8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_The_End_dragon">
+	<descriptible>
+		<nickname>00jon_The_End_dragon</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/end/dragon1.ogg</path>
+	<path>matmos_MSI/end/dragon2.ogg</path>
+	<path>matmos_MSI/end/dragon3.ogg</path>
+	<path>matmos_MSI/end/dragon4.ogg</path>
+	<path>matmos_MSI/end/dragon5.ogg</path>
+	<path>matmos_MSI/end/dragon6.ogg</path>
+	<path>matmos_MSI/end/dragon7.ogg</path>
+	<path>matmos_MSI/end/dragon8.ogg</path>
+	<path>matmos_MSI/end/dragon9.ogg</path>
+	<volmin>0.3</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_bord_de_mer_LP">
+	<descriptible>
+		<nickname>00jon_bord_de_mer_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/seaside/sea1.ogg</path>
+	<path>matmos_MSI/seaside/sea2.ogg</path>
+	<path>matmos_MSI/seaside/sea3.ogg</path>
+	<path>matmos_MSI/seaside/sea4.ogg</path>
+	<path>matmos_MSI/seaside/sea5.ogg</path>
+	<path>matmos_MSI/seaside/sea6.ogg</path>
+	<path>matmos_MSI/seaside/sea7.ogg</path>
+	<path>matmos_MSI/seaside/sea8.ogg</path>
+	<path>matmos_MSI/seaside/sea9.ogg</path>
+	<path>matmos_MSI/seaside/seaA.ogg</path>
+	<path>matmos_MSI/seaside/seaB.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_bord_de_mer_UN">
+	<descriptible>
+		<nickname>00jon_bord_de_mer_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/seaside/coastbirdA.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdB.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdC.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdD.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdE.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdF.ogg</path>
+	<path>matmos_MSI/seaside/coastbirdG.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_cave_sound_UN">
+	<descriptible>
+		<nickname>00jon_cave_sound_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/cave/cave1.ogg</path>
+	<path>matmos_MSI/cave/cave2.ogg</path>
+	<path>matmos_MSI/cave/cave3.ogg</path>
+	<path>matmos_MSI/cave/cave4.ogg</path>
+	<path>matmos_MSI/cave/cave5.ogg</path>
+	<path>matmos_MSI/cave/cave6.ogg</path>
+	<path>matmos_MSI/cave/cave7.ogg</path>
+	<path>matmos_MSI/cave/cave8.ogg</path>
+	<path>matmos_MSI/cave/cave9.ogg</path>
+	<path>matmos_MSI/cave/caveA.ogg</path>
+	<path>matmos_MSI/cave/caveB.ogg</path>
+	<path>matmos_MSI/cave/caveC.ogg</path>
+	<path>matmos_MSI/cave/caveD.ogg</path>
+	<path>matmos_MSI/cave/wind.ogg</path>
+	<path>matmos_MSI/cave/wind2.ogg</path>
+	<path>matmos_MSI/sharedONCE/bat1.ogg</path>
+	<path>matmos_MSI/sharedONCE/batA.ogg</path>
+	<path>matmos_MSI/cave/LAVA.ogg</path>
+	<path>matmos_MSI/cave/LAVA2.ogg</path>
+	<path>matmos_MSI/cave/LAVA3.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_cave_sound_faille_winds_LP">
+	<descriptible>
+		<nickname>00jon_cave_sound_faille_winds_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/cave/vent_canyon1.ogg</path>
+	<path>matmos_MSI/cave/vent_canyon2.ogg</path>
+	<path>matmos_MSI/cave/vent_canyon3.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_desert_jour_LP">
+	<descriptible>
+		<nickname>00jon_desert_jour_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/desert/jour-desert1.ogg</path>
+	<path>matmos_MSI/desert/jour-desert2.ogg</path>
+	<path>matmos_MSI/desert/jour-desert3.ogg</path>
+	<path>matmos_MSI/desert/jour-desert4.ogg</path>
+	<path>matmos_MSI/desert/jour-desert5.ogg</path>
+	<path>matmos_MSI/desert/jour-desert6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_desert_jour_UN">
+	<descriptible>
+		<nickname>00jon_desert_jour_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/criquet7.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet8.ogg</path>
+	<path>matmos_MSI/desert/cigale1.ogg</path>
+	<path>matmos_MSI/desert/cigale2.ogg</path>
+	<path>matmos_MSI/desert/cigale3.ogg</path>
+	<path>matmos_MSI/desert/cigale4.ogg</path>
+	<path>matmos_MSI/desert/cigale5.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_desert_jour_UN_vent">
+	<descriptible>
+		<nickname>00jon_desert_jour_UN_vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/Ventfort1.ogg</path>
+	<path>matmos_MSI/sharedONCE/Ventfort2.ogg</path>
+	<path>matmos_MSI/sharedONCE/ventfort3.ogg</path>
+	<path>matmos_MSI/sharedONCE/ventfort4.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_desert_nuit_LP">
+	<descriptible>
+		<nickname>00jon_desert_nuit_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/desert/nuit-desert1.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert2.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert3.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert4.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert5.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert6.ogg</path>
+	<path>matmos_MSI/desert/nuit-desert7.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_feu_crepite">
+	<descriptible>
+		<nickname>00jon_feu_crepite</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/fire1.ogg</path>
+	<path>matmos_MSI/human/fire2.ogg</path>
+	<path>matmos_MSI/human/fire3.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_aube_LP">
+	<descriptible>
+		<nickname>00jon_foret_aube_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/matin-foret1.ogg</path>
+	<path>matmos_MSI/forest/matin-foret2.ogg</path>
+	<path>matmos_MSI/forest/matin-foret3.ogg</path>
+	<path>matmos_MSI/forest/matin-foret4.ogg</path>
+	<path>matmos_MSI/forest/matin-foret5.ogg</path>
+	<path>matmos_MSI/forest/matin-foret6.ogg</path>
+	<path>matmos_MSI/forest/matin-foret7.ogg</path>
+	<path>matmos_MSI/forest/matin-foret8.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_aube_UN">
+	<descriptible>
+		<nickname>00jon_foret_aube_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/flies2.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies4.OGG</path>
+	<path>matmos_MSI/sharedONCE/flies5.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc1.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet5.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet6.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet7.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet8.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetA.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetB.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetC.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetD.ogg</path>
+	<path>matmos_MSI/forest/oiseauA.ogg</path>
+	<path>matmos_MSI/forest/oiseauD.ogg</path>
+	<path>matmos_MSI/forest/oiseauF.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoA.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoG.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoH.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_foret_crepuscule_LP">
+	<descriptible>
+		<nickname>00jon_foret_crepuscule_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/crep-forest1.ogg</path>
+	<path>matmos_MSI/forest/crep-forest2.ogg</path>
+	<path>matmos_MSI/forest/crep-forest3.ogg</path>
+	<path>matmos_MSI/forest/crep-forest4.ogg</path>
+	<path>matmos_MSI/forest/crep-forest5.ogg</path>
+	<path>matmos_MSI/forest/crep-forest6.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_crepuscule_UN">
+	<descriptible>
+		<nickname>00jon_foret_crepuscule_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/chouette3.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies4.OGG</path>
+	<path>matmos_MSI/sharedONCE/flyc2.ogg</path>
+	<path>matmos_MSI/forest/matin-foret2.ogg</path>
+	<path>matmos_MSI/forest/matin-foret6.ogg</path>
+	<path>matmos_MSI/sharedONCE/bat1.ogg</path>
+	<path>matmos_MSI/forest/oiseauC.ogg</path>
+	<path>matmos_MSI/forest/oiseauD.ogg</path>
+	<path>matmos_MSI/sharedONCE/moino2.ogg</path>
+	<path>matmos_MSI/forest/matin-foret4.ogg</path>
+	<path>matmos_MSI/forest/matin-foret8.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterM.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterN.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet5.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet6.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet7.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet8.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_foret_jour_LP">
+	<descriptible>
+		<nickname>00jon_foret_jour_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/jour-foret1.ogg</path>
+	<path>matmos_MSI/forest/jour-foret10.ogg</path>
+	<path>matmos_MSI/forest/jour-foret2.ogg</path>
+	<path>matmos_MSI/forest/jour-foret3.ogg</path>
+	<path>matmos_MSI/forest/jour-foret4.ogg</path>
+	<path>matmos_MSI/forest/jour-foret5.ogg</path>
+	<path>matmos_MSI/forest/jour-foret6.ogg</path>
+	<path>matmos_MSI/forest/jour-foret7.ogg</path>
+	<path>matmos_MSI/forest/jour-foret8.ogg</path>
+	<path>matmos_MSI/forest/jour-foret9.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.8</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_jour_UN">
+	<descriptible>
+		<nickname>00jon_foret_jour_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/oiseauA.ogg</path>
+	<path>matmos_MSI/forest/oiseauB.ogg</path>
+	<path>matmos_MSI/forest/oiseauC.ogg</path>
+	<path>matmos_MSI/forest/oiseauD.ogg</path>
+	<path>matmos_MSI/forest/oiseauE.ogg</path>
+	<path>matmos_MSI/forest/oiseauF.ogg</path>
+	<path>matmos_MSI/forest/oiseauG.ogg</path>
+	<path>matmos_MSI/forest/oiseauH.ogg</path>
+	<path>matmos_MSI/forest/pique.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies2.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies3.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies4.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies5.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc2.ogg</path>
+	<path>matmos_MSI/sharedONCE/moino1.ogg</path>
+	<path>matmos_MSI/sharedONCE/moino2.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoA.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoB.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoC.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoD.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoE.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoF.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoG.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoH.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_foret_jour_UN_coucou">
+	<descriptible>
+		<nickname>00jon_foret_jour_UN_coucou</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/coucou.ogg</path>
+	<volmin>0.7</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_foret_jour_UN_vent">
+	<descriptible>
+		<nickname>00jon_foret_jour_UN_vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/ventFA.ogg</path>
+	<path>matmos_MSI/forest/ventFB.ogg</path>
+	<path>matmos_MSI/forest/ventFC.ogg</path>
+	<path>matmos_MSI/forest/ventFD.ogg</path>
+	<path>matmos_MSI/forest/ventFE.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_nuit_LP">
+	<descriptible>
+		<nickname>00jon_foret_nuit_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/nuit-forest1.ogg</path>
+	<path>matmos_MSI/forest/nuit-forest2.ogg</path>
+	<path>matmos_MSI/forest/nuit-forest3.ogg</path>
+	<path>matmos_MSI/forest/nuit-forest4.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_foret_nuit_UN">
+	<descriptible>
+		<nickname>00jon_foret_nuit_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/forest/nuit-forestA.ogg</path>
+	<path>matmos_MSI/forest/nuit-forestB.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterM.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterN.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet5.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet6.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_foret_nuit_UN_oiseau">
+	<descriptible>
+		<nickname>00jon_foret_nuit_UN_oiseau</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/bat1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette2.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette3.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouetteA.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_general_criquet_UN-jour">
+	<descriptible>
+		<nickname>00jon_general_criquet_UN-jour</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/criquet5.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet6.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet7.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet8.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetA.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetB.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetC.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetD.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetE.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_general_criquet_UN-nuit">
+	<descriptible>
+		<nickname>00jon_general_criquet_UN-nuit</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/critterM.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterN.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterO.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_jungle_jour_LP">
+	<descriptible>
+		<nickname>00jon_jungle_jour_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/jungle/jour-jungle1.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle2.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle3.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle4.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle5.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle6.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle7.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle8.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle10.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle11.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle12.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle13.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle14.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle15.ogg</path>
+	<path>matmos_MSI/jungle/jour-jungle9.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_jungle_jour_Long_Event">
+	<descriptible>
+		<nickname>00jon_jungle_jour_Long_Event</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/jungle/jungleLA.ogg</path>
+	<path>matmos_MSI/jungle/jungleLB.ogg</path>
+	<path>matmos_MSI/jungle/jungleLC.ogg</path>
+	<path>matmos_MSI/jungle/jungleLD.ogg</path>
+	<path>matmos_MSI/jungle/jungleLE.ogg</path>
+	<path>matmos_MSI/jungle/jungleLF.ogg</path>
+	<path>matmos_MSI/jungle/jungleLG.ogg</path>
+	<path>matmos_MSI/jungle/jungleLH.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_jungle_jour_Short_Event">
+	<descriptible>
+		<nickname>00jon_jungle_jour_Short_Event</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/jungle/jungleSA.ogg</path>
+	<path>matmos_MSI/jungle/jungleSB.ogg</path>
+	<path>matmos_MSI/jungle/jungleSC.ogg</path>
+	<path>matmos_MSI/jungle/jungleSD.ogg</path>
+	<path>matmos_MSI/jungle/jungleSE.ogg</path>
+	<path>matmos_MSI/jungle/jungleSF.ogg</path>
+	<path>matmos_MSI/jungle/jungleSG.ogg</path>
+	<path>matmos_MSI/jungle/jungleSH.ogg</path>
+	<path>matmos_MSI/jungle/jungleSI.ogg</path>
+	<path>matmos_MSI/jungle/jungleSJ.ogg</path>
+	<path>matmos_MSI/jungle/jungleSK.ogg</path>
+	<path>matmos_MSI/jungle/jungleSL.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>30</metasound>
+</event>
+<event name="00jon_jungle_nuit_LP">
+	<descriptible>
+		<nickname>00jon_jungle_nuit_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/jungle/nuit-jungle1.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle2.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle3.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle4.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle5.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle6.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle7.ogg</path>
+	<path>matmos_MSI/jungle/nuit-jungle8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_junlge_night_UN">
+	<descriptible>
+		<nickname>00jon_junlge_night_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/jungle/UNnight1.ogg</path>
+	<path>matmos_MSI/jungle/UNnight2.ogg</path>
+	<path>matmos_MSI/jungle/UNnight3.ogg</path>
+	<path>matmos_MSI/jungle/UNnight4.ogg</path>
+	<path>matmos_MSI/jungle/UNnight5.ogg</path>
+	<path>matmos_MSI/jungle/UNnight6.ogg</path>
+	<path>matmos_MSI/jungle/UNnight7.ogg</path>
+	<path>matmos_MSI/jungle/UNnight8.ogg</path>
+	<path>matmos_MSI/jungle/UNnight9.ogg</path>
+	<path>matmos_MSI/jungle/UNnightA.ogg</path>
+	<path>matmos_MSI/jungle/UNnightB.ogg</path>
+	<path>matmos_MSI/jungle/UNnightC.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.85</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_lava_in">
+	<descriptible>
+		<nickname>00jon_lava_in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/lava/in-lava1.ogg</path>
+	<path>matmos_MSI/lava/in-lava2.ogg</path>
+	<path>matmos_MSI/lava/in-lava3.ogg</path>
+	<path>matmos_MSI/lava/in-lava4.ogg</path>
+	<path>matmos_MSI/lava/in-lava5.ogg</path>
+	<path>matmos_MSI/lava/in-lava6.ogg</path>
+	<path>matmos_MSI/lava/in-lavaA.ogg</path>
+	<path>matmos_MSI/lava/in-lavaB.ogg</path>
+	<path>matmos_MSI/lava/in-lavaC.ogg</path>
+	<path>matmos_MSI/lava/in-lavaD.ogg</path>
+	<path>matmos_MSI/lava/in-lavaE.ogg</path>
+	<path>matmos_MSI/lava/in-lavaF.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_lava_plop">
+	<descriptible>
+		<nickname>00jon_lava_plop</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/lava/lavaplop2.ogg</path>
+	<path>matmos_MSI/lava/lavaplop3.ogg</path>
+	<path>matmos_MSI/lava/lavaplop4.ogg</path>
+	<volmin>0.6</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.65</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_lave_out">
+	<descriptible>
+		<nickname>00jon_lave_out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/lava/out-lava1.ogg</path>
+	<path>matmos_MSI/lava/out-lava2.ogg</path>
+	<path>matmos_MSI/lava/out-lava3.ogg</path>
+	<path>matmos_MSI/lava/out-lava4.ogg</path>
+	<path>matmos_MSI/lava/out-lavaA.ogg</path>
+	<path>matmos_MSI/lava/out-lavaB.ogg</path>
+	<path>matmos_MSI/lava/out-lavaC.ogg</path>
+	<path>matmos_MSI/lava/out-lavaD.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_marais_jour_LP">
+	<descriptible>
+		<nickname>00jon_marais_jour_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/marais/jour-marais1.ogg</path>
+	<path>matmos_MSI/marais/jour-marais2.ogg</path>
+	<path>matmos_MSI/marais/jour-marais3.ogg</path>
+	<path>matmos_MSI/marais/jour-marais4.ogg</path>
+	<path>matmos_MSI/marais/jour-marais5.ogg</path>
+	<path>matmos_MSI/marais/jour-marais6.ogg</path>
+	<path>matmos_MSI/marais/jour-marais7.ogg</path>
+	<path>matmos_MSI/marais/jour-marais8.ogg</path>
+	<volmin>0.3</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_marais_jour_UN">
+	<descriptible>
+		<nickname>00jon_marais_jour_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/marais/duck1.OGG</path>
+	<path>matmos_MSI/marais/duck2.OGG</path>
+	<path>matmos_MSI/marais/frog1.ogg</path>
+	<path>matmos_MSI/marais/frog2.ogg</path>
+	<path>matmos_MSI/marais/frog3.ogg</path>
+	<path>matmos_MSI/marais/frog4.ogg</path>
+	<path>matmos_MSI/marais/frog5.ogg</path>
+	<path>matmos_MSI/marais/frog6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.2</volmax>
+	<pitchmin>0.85</pitchmin>
+	<pitchmax>1.15</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_marais_nuit_LP">
+	<descriptible>
+		<nickname>00jon_marais_nuit_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/marais/nuit-marais1.ogg</path>
+	<path>matmos_MSI/marais/nuit-marais2.ogg</path>
+	<path>matmos_MSI/marais/nuit-marais3.ogg</path>
+	<path>matmos_MSI/marais/nuit-marais4.ogg</path>
+	<path>matmos_MSI/marais/nuit-marais5.ogg</path>
+	<volmin>0.3</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_marais_nuit_UN">
+	<descriptible>
+		<nickname>00jon_marais_nuit_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/marais/frogna.ogg</path>
+	<path>matmos_MSI/marais/frognb.ogg</path>
+	<path>matmos_MSI/marais/frognc.ogg</path>
+	<path>matmos_MSI/marais/frognd.ogg</path>
+	<path>matmos_MSI/marais/frogne.ogg</path>
+	<path>matmos_MSI/marais/frognh.ogg</path>
+	<path>matmos_MSI/marais/frogni.ogg</path>
+	<path>matmos_MSI/marais/frognj.ogg</path>
+	<path>matmos_MSI/marais/frognk.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.9</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_mosquito">
+	<descriptible>
+		<nickname>00jon_mosquito</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/marais/mosquito1.ogg</path>
+	<path>matmos_MSI/marais/mosquito2.ogg</path>
+	<path>matmos_MSI/marais/mosquito3.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_ICE_craque">
+	<descriptible>
+		<nickname>00jon_neige_ICE_craque</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/craque1.ogg</path>
+	<path>matmos_MSI/snow/craque2.ogg</path>
+	<path>matmos_MSI/snow/craque3.ogg</path>
+	<path>matmos_MSI/snow/craque4.ogg</path>
+	<path>matmos_MSI/snow/craque5.ogg</path>
+	<path>matmos_MSI/snow/craqueA.ogg</path>
+	<path>matmos_MSI/snow/craqueB.ogg</path>
+	<path>matmos_MSI/snow/craqueC.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_LP_foret_jour">
+	<descriptible>
+		<nickname>00jon_neige_LP_foret_jour</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/foretneige1.ogg</path>
+	<path>matmos_MSI/snow/foretneige2.ogg</path>
+	<path>matmos_MSI/snow/foretneige3.ogg</path>
+	<path>matmos_MSI/snow/foretneige4.ogg</path>
+	<path>matmos_MSI/snow/foretneige5.ogg</path>
+	<path>matmos_MSI/snow/foretneige6.ogg</path>
+	<path>matmos_MSI/snow/foretneige7.ogg</path>
+	<path>matmos_MSI/snow/foretneige8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_LP_frozen_ocean">
+	<descriptible>
+		<nickname>00jon_neige_LP_frozen_ocean</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/plaineneige1.ogg</path>
+	<path>matmos_MSI/snow/plaineneige2.ogg</path>
+	<path>matmos_MSI/snow/plaineneige3.ogg</path>
+	<path>matmos_MSI/snow/plaineneige4.ogg</path>
+	<path>matmos_MSI/snow/plaineneige5.ogg</path>
+	<path>matmos_MSI/snow/plaineneige6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_LP_mount_jour">
+	<descriptible>
+		<nickname>00jon_neige_LP_mount_jour</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/mountneige1.ogg</path>
+	<path>matmos_MSI/snow/mountneige2.ogg</path>
+	<path>matmos_MSI/snow/mountneige3.ogg</path>
+	<path>matmos_MSI/snow/mountneige4.ogg</path>
+	<path>matmos_MSI/snow/mountneige5.ogg</path>
+	<path>matmos_MSI/snow/mountneige6.ogg</path>
+	<path>matmos_MSI/snow/mountneige7.ogg</path>
+	<path>matmos_MSI/snow/mountneige8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_UN_foret_jour-vent">
+	<descriptible>
+		<nickname>00jon_neige_UN_foret_jour-vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/UNforetA.ogg</path>
+	<path>matmos_MSI/snow/UNforetB.ogg</path>
+	<path>matmos_MSI/snow/UNforetC.ogg</path>
+	<path>matmos_MSI/snow/UNforetD.ogg</path>
+	<path>matmos_MSI/snow/UNforetE.ogg</path>
+	<path>matmos_MSI/snow/UNforetF.ogg</path>
+	<path>matmos_MSI/snow/UNforetG.ogg</path>
+	<path>matmos_MSI/snow/UNforetH.ogg</path>
+	<path>matmos_MSI/snow/UNforetI.ogg</path>
+	<volmin>0.6</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_UN_general_jour-birds">
+	<descriptible>
+		<nickname>00jon_neige_UN_general_jour-birds</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/corb1.ogg</path>
+	<path>matmos_MSI/snow/corb2.ogg</path>
+	<path>matmos_MSI/snow/corb3.ogg</path>
+	<path>matmos_MSI/snow/corb4.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette2.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette3.ogg</path>
+	<volmin>0.6</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.15</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_neige_UN_general_nuit-vent">
+	<descriptible>
+		<nickname>00jon_neige_UN_general_nuit-vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/vent_nuitA.ogg</path>
+	<path>matmos_MSI/snow/vent_nuitB.ogg</path>
+	<path>matmos_MSI/snow/vent_nuitC.ogg</path>
+	<path>matmos_MSI/snow/vent_nuitD.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.1</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_neige_UN_loup">
+	<descriptible>
+		<nickname>00jon_neige_UN_loup</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/loup1.OGG</path>
+	<path>matmos_MSI/snow/loup2.OGG</path>
+	<volmin>0.7</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_neige_UN_nuit-chouette">
+	<descriptible>
+		<nickname>00jon_neige_UN_nuit-chouette</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/chouette1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette2.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette3.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_neige_UN_plaine_mount_jour-vent">
+	<descriptible>
+		<nickname>00jon_neige_UN_plaine_mount_jour-vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/snow/Vent_froid1.ogg</path>
+	<path>matmos_MSI/snow/Vent_froid2.ogg</path>
+	<path>matmos_MSI/snow/Vent_froid5.ogg</path>
+	<path>matmos_MSI/snow/Vent_froid7.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.15</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_panicked_mouche">
+	<descriptible>
+		<nickname>00jon_panicked_mouche</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/flyin1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyin2.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_plaine_crep_LP">
+	<descriptible>
+		<nickname>00jon_plaine_crep_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/plain/evening1.ogg</path>
+	<path>matmos_MSI/plain/evening2.ogg</path>
+	<path>matmos_MSI/plain/evening3.ogg</path>
+	<path>matmos_MSI/plain/evening4.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_plaine_crep_UN-birds">
+	<descriptible>
+		<nickname>00jon_plaine_crep_UN-birds</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/etourneau1.ogg</path>
+	<path>matmos_MSI/sharedONCE/moino1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc1.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoA.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoF.ogg</path>
+	<path>matmos_MSI/sharedONCE/etourneau1.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.85</pitchmin>
+	<pitchmax>1.15</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_plaine_crep_UN-criquets">
+	<descriptible>
+		<nickname>00jon_plaine_crep_UN-criquets</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/criquet7.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquet8.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetA.ogg</path>
+	<path>matmos_MSI/sharedONCE/criquetB.ogg</path>
+	<path>matmos_MSI/sharedONCE/critterO.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_plaine_jour_LP">
+	<descriptible>
+		<nickname>00jon_plaine_jour_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/plain/jour-plain1.ogg</path>
+	<path>matmos_MSI/plain/jour-plain2.ogg</path>
+	<path>matmos_MSI/plain/jour-plain3.ogg</path>
+	<path>matmos_MSI/plain/jour-plain4.ogg</path>
+	<path>matmos_MSI/plain/jour-plain5.ogg</path>
+	<path>matmos_MSI/plain/jour-plain6.ogg</path>
+	<path>matmos_MSI/plain/jour-plain7.ogg</path>
+	<path>matmos_MSI/plain/jour-plain8.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_plaine_jour_UN-birds">
+	<descriptible>
+		<nickname>00jon_plaine_jour_UN-birds</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/moino1.ogg</path>
+	<path>matmos_MSI/sharedONCE/moino2.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoA.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoB.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoC.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoD.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoE.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoF.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoG.ogg</path>
+	<path>matmos_MSI/sharedONCE/oizoH.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.85</pitchmin>
+	<pitchmax>1.15</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_plaine_jour_UN-flies">
+	<descriptible>
+		<nickname>00jon_plaine_jour_UN-flies</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/flies1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies2.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies3.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies4.ogg</path>
+	<path>matmos_MSI/sharedONCE/flies5.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc1.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc2.ogg</path>
+	<path>matmos_MSI/sharedONCE/flyc3.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.1</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_plaine_jour_UN-vent">
+	<descriptible>
+		<nickname>00jon_plaine_jour_UN-vent</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/plain/ventPA.ogg</path>
+	<path>matmos_MSI/plain/ventPB.ogg</path>
+	<path>matmos_MSI/plain/ventPC.ogg</path>
+	<path>matmos_MSI/plain/ventPD.ogg</path>
+	<path>matmos_MSI/plain/VentfortA.ogg</path>
+	<path>matmos_MSI/plain/VentfortB.ogg</path>
+	<path>matmos_MSI/plain/ventfortC.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.1</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_plaine_nuit_LP">
+	<descriptible>
+		<nickname>00jon_plaine_nuit_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/plain/nuit-plain1.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain2.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain3.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain4.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain5.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain6.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain7.ogg</path>
+	<path>matmos_MSI/plain/nuit-plain8.ogg</path>
+	<volmin>0.4</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_plaine_nuit_UN-birds">
+	<descriptible>
+		<nickname>00jon_plaine_nuit_UN-birds</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/sharedONCE/bat1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette2.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouette3.ogg</path>
+	<path>matmos_MSI/sharedONCE/bat1.ogg</path>
+	<path>matmos_MSI/sharedONCE/chouetteA.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>40</metasound>
+</event>
+<event name="00jon_pluie_in">
+	<descriptible>
+		<nickname>00jon_pluie_in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/pluie/rain-in1.ogg</path>
+	<path>matmos_MSI/pluie/rain-in2.ogg</path>
+	<path>matmos_MSI/pluie/rain-in3.ogg</path>
+	<path>matmos_MSI/pluie/rain-in4.ogg</path>
+	<path>matmos_MSI/pluie/rain-in5.ogg</path>
+	<path>matmos_MSI/pluie/rain-in6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_pluie_out">
+	<descriptible>
+		<nickname>00jon_pluie_out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/pluie/rain-out1.ogg</path>
+	<path>matmos_MSI/pluie/rain-out2.ogg</path>
+	<path>matmos_MSI/pluie/rain-out3.ogg</path>
+	<path>matmos_MSI/pluie/rain-out4.ogg</path>
+	<path>matmos_MSI/pluie/rain-out5.ogg</path>
+	<path>matmos_MSI/pluie/rain-out6.ogg</path>
+	<path>matmos_MSI/pluie/rain-out7.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_pluie_out_tree">
+	<descriptible>
+		<nickname>00jon_pluie_out_tree</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/pluie/rain-tree1.ogg</path>
+	<path>matmos_MSI/pluie/rain-tree2.ogg</path>
+	<path>matmos_MSI/pluie/rain-tree3.ogg</path>
+	<path>matmos_MSI/pluie/rain-tree4.ogg</path>
+	<path>matmos_MSI/pluie/rain-tree5.ogg</path>
+	<path>matmos_MSI/pluie/rain-tree6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_vent_hautalti">
+	<descriptible>
+		<nickname>00jon_vent_hautalti</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/mount/haute_alti1.ogg</path>
+	<path>matmos_MSI/mount/haute_alti2.ogg</path>
+	<path>matmos_MSI/mount/haute_alti3.ogg</path>
+	<path>matmos_MSI/mount/haute_alti4.ogg</path>
+	<path>matmos_MSI/mount/haute_alti5.ogg</path>
+	<path>matmos_MSI/mount/haute_alti6.ogg</path>
+	<path>matmos_MSI/mount/haute_alti7.ogg</path>
+	<path>matmos_MSI/mount/haute_alti8.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_wood_mine">
+	<descriptible>
+		<nickname>00jon_wood_mine</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/cave/wood1.ogg</path>
+	<path>matmos_MSI/cave/wood2.ogg</path>
+	<path>matmos_MSI/cave/wood4.ogg</path>
+	<path>matmos_MSI/cave/wood5.ogg</path>
+	<path>matmos_MSI/cave/wood6.ogg</path>
+	<path>matmos_MSI/cave/wood7.ogg</path>
+	<path>matmos_MSI/cave/wood8.ogg</path>
+	<path>matmos_MSI/cave/wood9.ogg</path>
+	<path>matmos_MSI/cave/woodB.ogg</path>
+	<path>matmos_MSI/cave/woodC.ogg</path>
+	<path>matmos_MSI/cave/wooda.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.05</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Cave rumble">
+	<descriptible>
+		<nickname>Cave rumble</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/cave/rumble1.ogg</path>
+	<path>matmos_hl/cave/rumble2.ogg</path>
+	<path>matmos_hl/cave/rumble3.ogg</path>
+	<volmin>0.3</volmin>
+	<volmax>0.6</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Drops">
+	<descriptible>
+		<nickname>Drops</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/water/rain_drip1.ogg</path>
+	<path>matmos_hl/water/rain_drip2.ogg</path>
+	<path>matmos_hl/water/rain_drip3.ogg</path>
+	<path>matmos_hl/water/rain_drip4.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.3</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Fire (Big)">
+	<descriptible>
+		<nickname>Fire (Big)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/atmosphere/flame_thrower_fire_hit.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.7</volmax>
+	<pitchmin>0.3</pitchmin>
+	<pitchmax>0.5</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Fire (Small)">
+	<descriptible>
+		<nickname>Fire (Small)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/atmosphere/flame_thrower_fire_hit.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>0.7</volmax>
+	<pitchmin>0.7</pitchmin>
+	<pitchmax>0.9</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Lake">
+	<descriptible>
+		<nickname>Lake</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/water/lake1.ogg</path>
+	<path>matmos_hl/water/lake2.ogg</path>
+	<path>matmos_hl/water/lake3.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.3</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Rain hitting windows">
+	<descriptible>
+		<nickname>Rain hitting windows</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/weather/rainonwindow1.ogg</path>
+	<path>matmos_hl/weather/rainonwindow2.ogg</path>
+	<path>matmos_hl/weather/rainonwindow3.ogg</path>
+	<path>matmos_hl/weather/rainonwindow4.ogg</path>
+	<path>matmos_hl/weather/rainonwindow5.ogg</path>
+	<path>matmos_hl/weather/rainonwindow6.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.95</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Thunderstorm">
+	<descriptible>
+		<nickname>Thunderstorm</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_hl/weather/thunder1.ogg</path>
+	<path>matmos_hl/weather/thunder2.ogg</path>
+	<path>matmos_hl/weather/thunder3.ogg</path>
+	<path>matmos_hl/weather/thunder4.ogg</path>
+	<path>matmos_hl/weather/thunder5.ogg</path>
+	<path>matmos_hl/weather/thunder6.ogg</path>
+	<path>matmos_hl/weather/thunder7.ogg</path>
+	<path>matmos_hl/weather/thunder8.ogg</path>
+	<path>matmos_hl/weather/thunder9.ogg</path>
+	<path>matmos_hl/weather/thunderA.ogg</path>
+	<path>matmos_hl/weather/thunderB.ogg</path>
+	<path>matmos_hl/weather/thunderC.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>0.7</pitchmin>
+	<pitchmax>1.5</pitchmax>
+	<metasound>128</metasound>
+</event>
+<machine name="00jon_The_End">
+	<descriptible>
+		<nickname>00jon_The_End</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_player_in_end</allow>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>00jon_The_End_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_The_End_dragon</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_Xtrem_alti_vent-in">
+	<descriptible>
+		<nickname>00jon_Xtrem_alti_vent-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Highlands (96, Visible)</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_biome_jungle</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>00jon_vent_hautalti</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>1.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_Xtrem_alti_vent-out">
+	<descriptible>
+		<nickname>00jon_Xtrem_alti_vent-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Highlands (96, Visible)</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_define_biome_jungle</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<eventtimed>
+		<eventname>00jon_vent_hautalti</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_LP-jour-in">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_LP-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_LP</eventname>
+		<delaymin>7.5</delaymin>
+		<delaymax>8.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.02</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_LP-jour-out">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_LP-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_LP</eventname>
+		<delaymin>7.5</delaymin>
+		<delaymax>8.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_LP-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_LP-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_LP</eventname>
+		<delaymin>9.0</delaymin>
+		<delaymax>9.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.02</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_LP</eventname>
+		<delaymin>9.0</delaymin>
+		<delaymax>9.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_UN-jour-in">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_UN-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_bord_de_mer_UN-jour-out">
+	<descriptible>
+		<nickname>00jon_run_bord_de_mer_UN-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_bord_de_mer</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_define_biome_in_ocean</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_desert_AL_jour-in">
+	<descriptible>
+		<nickname>00jon_run_desert_AL_jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_desert</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_jour_UN</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>90.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_desert_jour_UN_vent</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>90.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_desert_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_desert_AL_jour-out">
+	<descriptible>
+		<nickname>00jon_run_desert_AL_jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_desert</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_jour_UN</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>90.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_desert_jour_UN_vent</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>90.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_desert_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_desert_jour_UN</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>90.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_desert_LP-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_desert_LP-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_desert</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_desert_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_desert_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_desert</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-aube-in">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-aube-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Is Raining</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_aube_UN</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>5.0</delaystart>
+		<volmod>0.07</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_aube_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.07</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-aube-out">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-aube-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_aube_UN</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>5.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_aube_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_aube_UN</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-crep-in">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-crep-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_crepuscule_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_crepuscule_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-crep-out">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-crep-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_crepuscule_UN</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_crepuscule_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_crepuscule_UN</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-jour-in">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN_coucou</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN_vent</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-jour-out">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN_coucou</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>70.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN_vent</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_jour_UN_coucou</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN_oiseau</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>10.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>4.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_AL-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_foret_AL-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>5.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN_oiseau</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>10.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN_oiseau</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_UN</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_foret_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_foret_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_foret</allow>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_foret_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_furnace">
+	<descriptible>
+		<nickname>00jon_run_furnace</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_chemine_on</allow>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_feu_crepite</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>7.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_incave_LP">
+	<descriptible>
+		<nickname>00jon_run_incave_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Incave</allow>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>Cave rumble</eventname>
+		<delaymin>9.0</delaymin>
+		<delaymax>9.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_incave_faille_winds">
+	<descriptible>
+		<nickname>00jon_run_incave_faille_winds</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_incave_faille</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_cave_sound_faille_winds_LP</eventname>
+		<delaymin>12.0</delaymin>
+		<delaymax>12.1</delaymax>
+		<delaystart>3.0</delaystart>
+		<volmod>0.3</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_incave_general_UN">
+	<descriptible>
+		<nickname>00jon_run_incave_general_UN</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Incave</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_cave_sound_UN</eventname>
+		<delaymin>25.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_cave_sound_UN</eventname>
+		<delaymin>25.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_incave_mine">
+	<descriptible>
+		<nickname>00jon_run_incave_mine</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_set_mine</allow>
+	<eventtimed>
+		<eventname>00jon_wood_mine</eventname>
+		<delaymin>5.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_LP-jour-in">
+	<descriptible>
+		<nickname>00jon_run_jungle_LP-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_LP-jour-out">
+	<descriptible>
+		<nickname>00jon_run_jungle_LP-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_LP-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_jungle_LP-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_nuit_LP</eventname>
+		<delaymin>5.7</delaymin>
+		<delaymax>6.3</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.03</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_jungle_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_nuit_LP</eventname>
+		<delaymin>5.7</delaymin>
+		<delaymax>6.3</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.18</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_UN-jour-in">
+	<descriptible>
+		<nickname>00jon_run_jungle_UN-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_Long_Event</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>50.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_Short_Event</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_UN-jour-out">
+	<descriptible>
+		<nickname>00jon_run_jungle_UN-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_Long_Event</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>70.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_Short_Event</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_jungle_jour_Short_Event</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_mosquito</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_UN-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_jungle_UN-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_junlge_night_UN</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_jungle_UN-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_jungle_UN-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_jungle</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_junlge_night_UN</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_junlge_night_UN</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_mosquito</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_lava_outdoor">
+	<descriptible>
+		<nickname>00jon_run_lava_outdoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_lava_surface</allow>
+	<eventtimed>
+		<eventname>00jon_lave_out</eventname>
+		<delaymin>2.5</delaymin>
+		<delaymax>3.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_lava_plop</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>10.0</delaymax>
+		<delaystart>4.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_lava_in</eventname>
+		<delaymin>2.5</delaymin>
+		<delaymax>3.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_LP-jour-in">
+	<descriptible>
+		<nickname>00jon_run_marais_LP-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_LP-jour-out">
+	<descriptible>
+		<nickname>00jon_run_marais_LP-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_LP-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_marais_LP-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_marais_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_UN-jour-in">
+	<descriptible>
+		<nickname>00jon_run_marais_UN-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_jour_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_UN-jour-out">
+	<descriptible>
+		<nickname>00jon_run_marais_UN-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_jour_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-flies</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_mosquito</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_UN-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_marais_UN-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_nuit_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.03</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_marais_UN-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_marais_UN-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_marais</allow>
+	<allow>00jon_define_biome_marais2</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<eventtimed>
+		<eventname>00jon_marais_nuit_UN</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.3</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_mosquito</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_ICE">
+	<descriptible>
+		<nickname>00jon_run_neige_ICE</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_neige_ice_kicrake</allow>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_ICE_craque</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>15.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_foret_AL-jour-in">
+	<descriptible>
+		<nickname>00jon_run_neige_foret_AL-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>200.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_LP_foret_jour</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_foret_AL-jour-out">
+	<descriptible>
+		<nickname>00jon_run_neige_foret_AL-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>10.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>230.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_LP_foret_jour</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>230.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_foret_UN_jour-vent-in">
+	<descriptible>
+		<nickname>00jon_run_neige_foret_UN_jour-vent-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>Is Raining</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_UN_foret_jour-vent</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_foret_UN_jour-vent-out">
+	<descriptible>
+		<nickname>00jon_run_neige_foret_UN_jour-vent-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>Is Raining</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_UN_foret_jour-vent</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.35</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_frozen_ocean-in">
+	<descriptible>
+		<nickname>00jon_run_neige_frozen_ocean-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_frozen_ocean</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_LP_frozen_ocean</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>7.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_ICE_craque</eventname>
+		<delaymin>5.0</delaymin>
+		<delaymax>20.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_frozen_ocean-out">
+	<descriptible>
+		<nickname>00jon_run_neige_frozen_ocean-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_frozen_ocean</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_LP_frozen_ocean</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>7.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_ICE_craque</eventname>
+		<delaymin>5.0</delaymin>
+		<delaymax>20.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_general_LP-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_neige_general_LP-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<allow>00jon_define_biome_neige_plaine</allow>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_nuit-vent</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_nuit-chouette</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>300.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_general_LP-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_neige_general_LP-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_foret</allow>
+	<allow>00jon_define_biome_neige_plaine</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 0 a 12250 (demi aube jusquau mi-crepuscule)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>00jon_desert_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_nuit-vent</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.3</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_nuit-chouette</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_nuit-chouette</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>200.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>300.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.07</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_plaine_AL-jour-in">
+	<descriptible>
+		<nickname>00jon_run_neige_plaine_AL-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_plaine</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_LP_mount_jour</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.08</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_plaine_mount_jour-vent</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_neige_plaine_AL-jour-out">
+	<descriptible>
+		<nickname>00jon_run_neige_plaine_AL-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_neige_plaine</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<eventtimed>
+		<eventname>00jon_neige_LP_mount_jour</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_plaine_mount_jour-vent</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_general_jour-birds</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>60.0</delaymin>
+		<delaymax>220.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.3</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_neige_UN_loup</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>220.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_nether_LP">
+	<descriptible>
+		<nickname>00jon_run_nether_LP</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>In Nether</allow>
+	<restrict>00jon_nether_small_corridor</restrict>
+	<eventtimed>
+		<eventname>00jon_Nether_loop</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_heart</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>2.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_Explode</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_nether_LP_complement">
+	<descriptible>
+		<nickname>00jon_run_nether_LP_complement</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_nether_no_complet_soun_obsi</allow>
+	<restrict>00jon_nether_small_corridor</restrict>
+	<eventtimed>
+		<eventname>00jon_Nether_loop_complementary</eventname>
+		<delaymin>25.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_UN_wind</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_UN_scream</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_rock</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>5.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_fear</eventname>
+		<delaymin>40.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_nether_corridor">
+	<descriptible>
+		<nickname>00jon_run_nether_corridor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_nether_small_corridor</allow>
+	<eventtimed>
+		<eventname>00jon_Nether_loop_corrdior</eventname>
+		<delaymin>6.5</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_heart</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_fear</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_Nether_Explode</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_ocean_LP-in">
+	<descriptible>
+		<nickname>00jon_run_ocean_LP-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_in_ocean</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<eventtimed>
+		<eventname>00jon_OceanLP</eventname>
+		<delaymin>8.0</delaymin>
+		<delaymax>8.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_ocean_LP-out">
+	<descriptible>
+		<nickname>00jon_run_ocean_LP-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_in_ocean</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<eventtimed>
+		<eventname>00jon_OceanLP</eventname>
+		<delaymin>8.0</delaymin>
+		<delaymax>8.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_ocean_UN-jour-in">
+	<descriptible>
+		<nickname>00jon_run_ocean_UN-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_in_ocean</allow>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>Is Raining</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_UN</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_ocean_UN-jour-out">
+	<descriptible>
+		<nickname>00jon_run_ocean_UN-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_in_ocean</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Time vrai de 12250 a 23500 (mi nuit)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Is Raining</restrict>
+	<eventtimed>
+		<eventname>00jon_bord_de_mer_UN</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>8.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-aube-crep-in">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-aube-crep-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-criquets</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-aube-crep-out">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-aube-crep-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>40.0</delaymax>
+		<delaystart>3.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-criquets</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-criquets</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_crep_UN-birds</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-jour-in">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-jour-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-vent</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>70.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-jour</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>25.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.15</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-jour-out">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-jour-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>Highlands (96, Visible)</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-birds</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-vent</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-jour</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>80.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-jour</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-birds</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_jour_UN-flies</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-nuit-in">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-nuit-in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_nuit_UN-birds</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.07</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-nuit</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.07</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.12</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_plaine_AL-nuit-out">
+	<descriptible>
+		<nickname>00jon_run_plaine_AL-nuit-out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_define_biome_plaine</allow>
+	<restrict>Time vrai de 0 a 500 (demi aube cote jour)</restrict>
+	<restrict>Time vrai de 23500 a 23999 (demi aube cote nuit)</restrict>
+	<restrict>Time vrai de 500 a 11500 (jour)</restrict>
+	<restrict>Time vrai de 11500 a 13000 (crepuscule)</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Is Raining</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_no_outdoor_sound_thickness8</restrict>
+	<restrict>00jon_no_outdoor_sound_test</restrict>
+	<restrict>00jon_no_outdoor_sound_45m</restrict>
+	<restrict>00jon_bord_de_mer</restrict>
+	<restrict>00jon_define_biome_marais</restrict>
+	<restrict>00jon_define_biome_marais2</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_plaine_nuit_UN-birds</eventname>
+		<delaymin>20.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.8</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-nuit</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.4</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_nuit_LP</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.6</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_general_criquet_UN-nuit</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_plaine_nuit_UN-birds</eventname>
+		<delaymin>15.0</delaymin>
+		<delaymax>45.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_rain_in">
+	<descriptible>
+		<nickname>00jon_run_rain_in</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_rain_in_maison</allow>
+	<allow>00jon_rain_in_grotte</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<restrict>00jon_define_biome_neige_plaine</restrict>
+	<restrict>00jon_define_biome_desert</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_pluie_in</eventname>
+		<delaymin>3.5</delaymin>
+		<delaymax>4.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_rain_out">
+	<descriptible>
+		<nickname>00jon_run_rain_out</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_rain_out</allow>
+	<allow>00jon_rain_grotte_near_exit</allow>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<restrict>00jon_define_biome_neige_plaine</restrict>
+	<restrict>00jon_define_biome_desert</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_pluie_out</eventname>
+		<delaymin>3.5</delaymin>
+		<delaymax>4.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_rain_under_tree">
+	<descriptible>
+		<nickname>00jon_run_rain_under_tree</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_rain_under_tree</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<restrict>00jon_define_biome_neige_plaine</restrict>
+	<restrict>00jon_define_biome_desert</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<restrict>00jon_player_in_end</restrict>
+	<eventtimed>
+		<eventname>00jon_pluie_out_tree</eventname>
+		<delaymin>3.5</delaymin>
+		<delaymax>4.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_the_mouche_story">
+	<descriptible>
+		<nickname>00jon_the_mouche_story</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_contact_glass</allow>
+	<restrict>Is Raining</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>Time vrai de 13000 a 23500 (nuit)</restrict>
+	<restrict>00jon_underwater</restrict>
+	<restrict>00jon_define_biome_neige_plaine</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<eventtimed>
+		<eventname>00jon_panicked_mouche</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Fire (Class 1)">
+	<descriptible>
+		<nickname>Fire (Class 1)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Feu_petit</allow>
+	<eventtimed>
+		<eventname>Fire (Small)</eventname>
+		<delaymin>2.0</delaymin>
+		<delaymax>3.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.05</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Fire (Class 2)">
+	<descriptible>
+		<nickname>Fire (Class 2)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Feu_grand</allow>
+	<eventtimed>
+		<eventname>Fire (Big)</eventname>
+		<delaymin>3.0</delaymin>
+		<delaymax>5.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.3</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<eventtimed>
+		<eventname>00jon_feu_crepite</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>7.5</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Rain hitting windows">
+	<descriptible>
+		<nickname>Rain hitting windows</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_rain_vitre</allow>
+	<restrict>00jon_underwater</restrict>
+	<restrict>Incave</restrict>
+	<restrict>Outdoor</restrict>
+	<restrict>00jon_no_outdoor_sound_no_air</restrict>
+	<restrict>00jon_define_biome_neige_foret</restrict>
+	<restrict>00jon_define_biome_neige_plaine</restrict>
+	<restrict>00jon_define_biome_desert</restrict>
+	<restrict>00jon_define_biome_frozen_ocean</restrict>
+	<eventtimed>
+		<eventname>Rain hitting windows</eventname>
+		<delaymin>4.0</delaymin>
+		<delaymax>4.5</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Thunderstorm, indoor">
+	<descriptible>
+		<nickname>Thunderstorm, indoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Thunderstorm</allow>
+	<restrict>Incave</restrict>
+	<restrict>Outdoor</restrict>
+	<eventtimed>
+		<eventname>Thunderstorm</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>32.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Thunderstorm, outdoor">
+	<descriptible>
+		<nickname>Thunderstorm, outdoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Thunderstorm</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<eventtimed>
+		<eventname>Thunderstorm</eventname>
+		<delaymin>7.0</delaymin>
+		<delaymax>32.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>2.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Water, indoor">
+	<descriptible>
+		<nickname>Water, indoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Abundant water</allow>
+	<restrict>Outdoor</restrict>
+	<restrict>Incave</restrict>
+	<restrict>00jon_neige_ice_kicrake</restrict>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>Lake</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.0</delaymax>
+		<delaystart>3.0</delaystart>
+		<volmod>0.1</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Water, outdoor">
+	<descriptible>
+		<nickname>Water, outdoor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Abundant water</allow>
+	<restrict>Incave</restrict>
+	<restrict>00jon_neige_ice_kicrake</restrict>
+	<restrict>00jon_define_indoor</restrict>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>Lake</eventname>
+		<delaymin>6.0</delaymin>
+		<delaymax>6.0</delaymax>
+		<delaystart>3.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Wet cave">
+	<descriptible>
+		<nickname>Wet cave</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Wet cave</allow>
+	<restrict>00jon_underwater</restrict>
+	<eventtimed>
+		<eventname>Drops</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>7.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>2.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+</contents>

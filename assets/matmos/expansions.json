@@ -1,0 +1,34 @@
+{
+	"expansions" : [
+		{
+			"uniquename" : "msi_biome_atmosphere",
+			"friendlyname" : "MSI: Biome Atmosphere",
+			"pointer" : "expansions/msi_biome_atmosphere.json"
+		},
+		{
+			"uniquename" : "msi_human_sounds",
+			"friendlyname" : "MSI: Human Sounds",
+			"pointer" : "expansions/msi_human_sounds.json"
+		},
+		{
+			"uniquename" : "msi_interact_environments",
+			"friendlyname" : "MSI: Interact Environments",
+			"pointer" : "expansions/msi_interact_environments.json"
+		},
+		{
+			"uniquename" : "msi_interact_weapons",
+			"friendlyname" : "MSI: Interact Weapons",
+			"pointer" : "expansions/msi_interact_weapons.json"
+		},
+		{
+			"uniquename" : "msi_minecart_boat",
+			"friendlyname" : "MSI: Minecart Boat",
+			"pointer" : "expansions/msi_minecart_boat.json"
+		},
+		{
+			"uniquename" : "msi_ore_detector",
+			"friendlyname" : "MSI: Ore Detector",
+			"pointer" : "expansions/msi_ore_detector.json"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+How to convert XML to JSON:
+- Open expansions.json
+- Set the "pointer" to an XML file
+- Run a Minecraft world, MAtmos enabled
+- The expansion will be generated in:
+.minecraft/mods/matmos/expansions_r27_userconfig/DO NOT EDIT UNLESS COPIED/...
+- Copy the contents of this folder somewhere else;
+  The contents are overwritten each start
+- Continue from here by changing the pointer to a json file

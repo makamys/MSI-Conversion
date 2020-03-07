@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contents>
+<list name="lava">
+	<descriptible>
+		<nickname>lava</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<constant>10</constant>
+	<constant>11</constant>
+</list>
+<list name="water">
+	<descriptible>
+		<nickname>water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<constant>8</constant>
+	<constant>9</constant>
+</list>
+<condition name="00jon_no_life">
+	<descriptible>
+		<nickname>00jon_no_life</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>24</key>
+	<symbol>&lt;</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="00jon_vie_critique">
+	<descriptible>
+		<nickname>00jon_vie_critique</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>24</key>
+	<symbol>&lt;</symbol>
+	<constant>4</constant>
+	<list></list>
+</condition>
+<condition name="00jon_vie_inf_25coeur">
+	<descriptible>
+		<nickname>00jon_vie_inf_25coeur</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>24</key>
+	<symbol>&lt;</symbol>
+	<constant>7</constant>
+	<list></list>
+</condition>
+<condition name="00jon_vie_inf_45coeur">
+	<descriptible>
+		<nickname>00jon_vie_inf_45coeur</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>24</key>
+	<symbol>&lt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<condition name="Breathing again">
+	<descriptible>
+		<nickname>Breathing again</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>23</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="Contact Lava">
+	<descriptible>
+		<nickname>Contact Lava</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>36</key>
+	<symbol>in</symbol>
+	<constant>11</constant>
+	<list>lava</list>
+</condition>
+<condition name="Contact Water">
+	<descriptible>
+		<nickname>Contact Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>36</key>
+	<symbol>in</symbol>
+	<constant>9</constant>
+	<list>water</list>
+</condition>
+<condition name="Entering Water">
+	<descriptible>
+		<nickname>Entering Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>6</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="Falling Impact fast">
+	<descriptible>
+		<nickname>Falling Impact fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>43</key>
+	<symbol>&lt;</symbol>
+	<constant>-2000</constant>
+	<list></list>
+</condition>
+<condition name="Falling Impact hurt2">
+	<descriptible>
+		<nickname>Falling Impact hurt2</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>43</key>
+	<symbol>&lt;</symbol>
+	<constant>-500</constant>
+	<list></list>
+</condition>
+<condition name="Going Underwater (1)">
+	<descriptible>
+		<nickname>Going Underwater (1)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>23</key>
+	<symbol>&lt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="Going Underwater (2)">
+	<descriptible>
+		<nickname>Going Underwater (2)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>23</key>
+	<symbol>&gt;</symbol>
+	<constant>290</constant>
+	<list></list>
+</condition>
+<condition name="Health Decrease">
+	<descriptible>
+		<nickname>Health Decrease</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Deltas</sheet>
+	<key>24</key>
+	<symbol>&lt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="Under Water">
+	<descriptible>
+		<nickname>Under Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>23</key>
+	<symbol>&lt;</symbol>
+	<constant>300</constant>
+	<list></list>
+</condition>
+<condition name="holding a lava bucket">
+	<descriptible>
+		<nickname>holding a lava bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>32</key>
+	<symbol>==</symbol>
+	<constant>327</constant>
+	<list></list>
+</condition>
+<condition name="holding a water bucket">
+	<descriptible>
+		<nickname>holding a water bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>32</key>
+	<symbol>==</symbol>
+	<constant>326</constant>
+	<list></list>
+</condition>
+<condition name="is jumping">
+	<descriptible>
+		<nickname>is jumping</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>42</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="is swiming">
+	<descriptible>
+		<nickname>is swiming</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>22</key>
+	<symbol>==</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="is wearing armor">
+	<descriptible>
+		<nickname>is wearing armor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>50</key>
+	<symbol>&gt;</symbol>
+	<constant>0</constant>
+	<list></list>
+</condition>
+<condition name="is wet">
+	<descriptible>
+		<nickname>is wet</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>6</key>
+	<symbol>==</symbol>
+	<constant>1</constant>
+	<list></list>
+</condition>
+<condition name="ramdom">
+	<descriptible>
+		<nickname>ramdom</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>13</key>
+	<symbol>&lt;</symbol>
+	<constant>20</constant>
+	<list></list>
+</condition>
+<condition name="walking">
+	<descriptible>
+		<nickname>walking</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<sheet>Instants</sheet>
+	<key>45</key>
+	<symbol>&gt;</symbol>
+	<constant>10</constant>
+	<list></list>
+</condition>
+<set name="00jon_coeur_fast">
+	<descriptible>
+		<nickname>00jon_coeur_fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_vie_critique</truepart>
+</set>
+<set name="00jon_coeur_med">
+	<descriptible>
+		<nickname>00jon_coeur_med</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_vie_inf_25coeur</truepart>
+	<falsepart>00jon_vie_critique</falsepart>
+</set>
+<set name="00jon_coeur_slow">
+	<descriptible>
+		<nickname>00jon_coeur_slow</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_vie_inf_45coeur</truepart>
+	<falsepart>00jon_vie_inf_25coeur</falsepart>
+	<falsepart>00jon_vie_critique</falsepart>
+</set>
+<set name="00jon_je_dois_manger">
+	<descriptible>
+		<nickname>00jon_je_dois_manger</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_jai_faim</truepart>
+</set>
+<set name="00jon_noyade_def">
+	<descriptible>
+		<nickname>00jon_noyade_def</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Under Water</truepart>
+	<truepart>Health Decrease</truepart>
+</set>
+<set name="00jon_try_again">
+	<descriptible>
+		<nickname>00jon_try_again</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>00jon_no_life</truepart>
+</set>
+<set name="Breathing again">
+	<descriptible>
+		<nickname>Breathing again</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Breathing again</truepart>
+</set>
+<set name="Contact Lava (on)">
+	<descriptible>
+		<nickname>Contact Lava (on)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Contact Lava</truepart>
+</set>
+<set name="Diving into Water">
+	<descriptible>
+		<nickname>Diving into Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Entering Water</truepart>
+	<truepart>Falling Impact fast</truepart>
+</set>
+<set name="Going Underwater">
+	<descriptible>
+		<nickname>Going Underwater</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Going Underwater (1)</truepart>
+	<truepart>Going Underwater (2)</truepart>
+</set>
+<set name="I jump armored">
+	<descriptible>
+		<nickname>I jump armored</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>is jumping</truepart>
+	<truepart>is wearing armor</truepart>
+	<truepart>ramdom</truepart>
+	<falsepart>Under Water</falsepart>
+</set>
+<set name="I wear an armor">
+	<descriptible>
+		<nickname>I wear an armor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>is wearing armor</truepart>
+	<truepart>walking</truepart>
+	<falsepart>Under Water</falsepart>
+</set>
+<set name="Jumping into Water">
+	<descriptible>
+		<nickname>Jumping into Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Contact Water</truepart>
+	<truepart>Falling Impact hurt2</truepart>
+</set>
+<set name="Under Water">
+	<descriptible>
+		<nickname>Under Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>Under Water</truepart>
+</set>
+<set name="Walking in water">
+	<descriptible>
+		<nickname>Walking in water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>walking</truepart>
+	<truepart>is wet</truepart>
+	<falsepart>Under Water</falsepart>
+	<falsepart>is swiming</falsepart>
+</set>
+<set name="walking with a lava bucket">
+	<descriptible>
+		<nickname>walking with a lava bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>holding a lava bucket</truepart>
+	<falsepart>Under Water</falsepart>
+</set>
+<set name="walking with a water bucket">
+	<descriptible>
+		<nickname>walking with a water bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<truepart>holding a water bucket</truepart>
+	<truepart>walking</truepart>
+	<falsepart>Under Water</falsepart>
+</set>
+<event name="00jon_coeur_fast">
+	<descriptible>
+		<nickname>00jon_coeur_fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/heartfast.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_coeur_med">
+	<descriptible>
+		<nickname>00jon_coeur_med</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/heartmed.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_coeur_slow">
+	<descriptible>
+		<nickname>00jon_coeur_slow</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/heartsoft.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_noyade_son">
+	<descriptible>
+		<nickname>00jon_noyade_son</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/noyade.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="00jon_ventre_gazoulli">
+	<descriptible>
+		<nickname>00jon_ventre_gazoulli</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/faim1.ogg</path>
+	<path>matmos_MSI/human/faim2.ogg</path>
+	<path>matmos_MSI/human/faim3.ogg</path>
+	<path>matmos_MSI/human/faim4.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.7</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Diving into Water">
+	<descriptible>
+		<nickname>Diving into Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/water_divein.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Going in water">
+	<descriptible>
+		<nickname>Going in water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/water_underwater_a.ogg</path>
+	<path>matmos_interactions/water_underwater_b.ogg</path>
+	<path>matmos_interactions/water_underwater_c.ogg</path>
+	<path>matmos_interactions/water_underwater_d.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.5</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.5</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Jumping into Water">
+	<descriptible>
+		<nickname>Jumping into Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/water_jumpin.ogg</path>
+	<path>matmos_interactions/jumpin1.ogg</path>
+	<path>matmos_interactions/jumpin2.ogg</path>
+	<path>matmos_interactions/jumpin3.ogg</path>
+	<path>matmos_interactions/jumpin4.ogg</path>
+	<path>matmos_interactions/jumpin5.ogg</path>
+	<path>matmos_interactions/jumpin7.ogg</path>
+	<path>matmos_interactions/jumpin8.ogg</path>
+	<path>matmos_interactions/jumpin9.ogg</path>
+	<path>matmos_interactions/jumpinA.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Out of Water">
+	<descriptible>
+		<nickname>Out of Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/out1.ogg</path>
+	<path>matmos_interactions/out2.ogg</path>
+	<path>matmos_interactions/out3.ogg</path>
+	<path>matmos_interactions/out4.ogg</path>
+	<path>matmos_interactions/out5.ogg</path>
+	<volmin>1.0</volmin>
+	<volmax>0.8</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.2</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="Under Water">
+	<descriptible>
+		<nickname>Under Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/bubble1.ogg</path>
+	<path>matmos_interactions/bubble2.ogg</path>
+	<path>matmos_interactions/bubble3.ogg</path>
+	<path>matmos_interactions/bubble5.ogg</path>
+	<path>matmos_interactions/bubble6.ogg</path>
+	<path>matmos_interactions/bubble7.ogg</path>
+	<volmin>0.35</volmin>
+	<volmax>0.5</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="armor noise">
+	<descriptible>
+		<nickname>armor noise</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/armor.ogg</path>
+	<path>matmos_MSI/human/armor10.ogg</path>
+	<path>matmos_MSI/human/armor2.ogg</path>
+	<path>matmos_MSI/human/armor3.ogg</path>
+	<path>matmos_MSI/human/armor4.ogg</path>
+	<path>matmos_MSI/human/armor5.ogg</path>
+	<path>matmos_MSI/human/armor6.ogg</path>
+	<path>matmos_MSI/human/armor7.ogg</path>
+	<path>matmos_MSI/human/armor8.ogg</path>
+	<path>matmos_MSI/human/armor9.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>0.7</volmax>
+	<pitchmin>0.9</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="lavabucket">
+	<descriptible>
+		<nickname>lavabucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/lava/lavaplop2.ogg</path>
+	<path>matmos_MSI/lava/lavaplop3.ogg</path>
+	<path>matmos_MSI/lava/lavaplop4.ogg</path>
+	<volmin>0.7</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="walking in water">
+	<descriptible>
+		<nickname>walking in water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_interactions/water_W1.ogg</path>
+	<path>matmos_interactions/water_W2.ogg</path>
+	<path>matmos_interactions/water_W3.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>0.7</pitchmin>
+	<pitchmax>1.1</pitchmax>
+	<metasound>0</metasound>
+</event>
+<event name="waterbucket shaled">
+	<descriptible>
+		<nickname>waterbucket shaled</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>matmos_MSI/human/waterbucket1.ogg</path>
+	<path>matmos_MSI/human/waterbucket2.ogg</path>
+	<path>matmos_MSI/human/waterbucket3.ogg</path>
+	<volmin>0.5</volmin>
+	<volmax>1.0</volmax>
+	<pitchmin>1.0</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>0</metasound>
+</event>
+<machine name="00jon_run_coeur_fast">
+	<descriptible>
+		<nickname>00jon_run_coeur_fast</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_coeur_fast</allow>
+	<restrict>00jon_try_again</restrict>
+	<restrict>Under Water</restrict>
+	<eventtimed>
+		<eventname>00jon_coeur_fast</eventname>
+		<delaymin>2.85</delaymin>
+		<delaymax>3.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_manger">
+	<descriptible>
+		<nickname>00jon_run_manger</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_je_dois_manger</allow>
+	<eventtimed>
+		<eventname>00jon_ventre_gazoulli</eventname>
+		<delaymin>30.0</delaymin>
+		<delaymax>60.0</delaymax>
+		<delaystart>30.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_noyade">
+	<descriptible>
+		<nickname>00jon_run_noyade</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_noyade_def</allow>
+	<eventtimed>
+		<eventname>00jon_noyade_son</eventname>
+		<delaymin>1.5</delaymin>
+		<delaymax>2.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_vie_coeur_faible">
+	<descriptible>
+		<nickname>00jon_run_vie_coeur_faible</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_coeur_slow</allow>
+	<restrict>00jon_coeur_fast</restrict>
+	<restrict>00jon_coeur_med</restrict>
+	<eventtimed>
+		<eventname>00jon_coeur_slow</eventname>
+		<delaymin>6.4</delaymin>
+		<delaymax>6.5</delaymax>
+		<delaystart>1.0</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="00jon_run_vie_coeur_med">
+	<descriptible>
+		<nickname>00jon_run_vie_coeur_med</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>00jon_coeur_med</allow>
+	<restrict>00jon_coeur_fast</restrict>
+	<eventtimed>
+		<eventname>00jon_coeur_med</eventname>
+		<delaymin>4.2</delaymin>
+		<delaymax>4.3</delaymax>
+		<delaystart>1.0</delaystart>
+		<volmod>0.5</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Contact Lava (on)">
+	<descriptible>
+		<nickname>Contact Lava (on)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Contact Lava (on)</allow>
+	<stream>
+		<path>matmos_interactions/fire_burst.ogg</path>
+		<volume>1.0</volume>
+		<pitch>1.0</pitch>
+		<fadeintime>0.0</fadeintime>
+		<fadeouttime>0.0</fadeouttime>
+		<delaybeforefadein>0.0</delaybeforefadein>
+		<delaybeforefadeout>1.7</delaybeforefadeout>
+		<islooping>0</islooping>
+		<isusingpause>0</isusingpause>
+	</stream>
+</machine>
+<machine name="Contact Water (on)">
+	<descriptible>
+		<nickname>Contact Water (on)</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Jumping into Water</allow>
+	<eventtimed>
+		<eventname>Jumping into Water</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>10.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Diving into Water">
+	<descriptible>
+		<nickname>Diving into Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Diving into Water</allow>
+	<eventtimed>
+		<eventname>Diving into Water</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>10.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Going underwater">
+	<descriptible>
+		<nickname>Going underwater</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Going Underwater</allow>
+	<eventtimed>
+		<eventname>Going in water</eventname>
+		<delaymin>1.0</delaymin>
+		<delaymax>5.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="I jump armored">
+	<descriptible>
+		<nickname>I jump armored</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>I jump armored</allow>
+	<eventtimed>
+		<eventname>armor noise</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>10.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Out of water">
+	<descriptible>
+		<nickname>Out of water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Breathing again</allow>
+	<eventtimed>
+		<eventname>Out of Water</eventname>
+		<delaymin>10.0</delaymin>
+		<delaymax>10.0</delaymax>
+		<delaystart>-1.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="Under Water">
+	<descriptible>
+		<nickname>Under Water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Under Water</allow>
+	<eventtimed>
+		<eventname>Under Water</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>5.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+	<stream>
+		<path>matmos_interactions/water_underwater_loop.ogg</path>
+		<volume>1.0</volume>
+		<pitch>1.0</pitch>
+		<fadeintime>0.0</fadeintime>
+		<fadeouttime>0.0</fadeouttime>
+		<delaybeforefadein>0.0</delaybeforefadein>
+		<delaybeforefadeout>0.0</delaybeforefadeout>
+		<islooping>1</islooping>
+		<isusingpause>1</isusingpause>
+	</stream>
+</machine>
+<machine name="walking in water">
+	<descriptible>
+		<nickname>walking in water</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>Walking in water</allow>
+	<eventtimed>
+		<eventname>walking in water</eventname>
+		<delaymin>0.65</delaymin>
+		<delaymax>0.75</delaymax>
+		<delaystart>0.4</delaystart>
+		<volmod>0.25</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="walking with a lava bucket">
+	<descriptible>
+		<nickname>walking with a lava bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>walking with a lava bucket</allow>
+	<eventtimed>
+		<eventname>lavabucket</eventname>
+		<delaymin>4.0</delaymin>
+		<delaymax>8.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>0.2</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="walking with a water bucket">
+	<descriptible>
+		<nickname>walking with a water bucket</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>walking with a water bucket</allow>
+	<eventtimed>
+		<eventname>waterbucket shaled</eventname>
+		<delaymin>3.0</delaymin>
+		<delaymax>5.0</delaymax>
+		<delaystart>2.0</delaystart>
+		<volmod>1.0</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+<machine name="wearing armor">
+	<descriptible>
+		<nickname>wearing armor</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<allow>I wear an armor</allow>
+	<eventtimed>
+		<eventname>armor noise</eventname>
+		<delaymin>0.0</delaymin>
+		<delaymax>30.0</delaymax>
+		<delaystart>0.0</delaystart>
+		<volmod>0.7</volmod>
+		<pitchmod>1.0</pitchmod>
+	</eventtimed>
+</machine>
+</contents>
