@@ -5111,18 +5111,19 @@
       "pitch_max": 1.5,
       "distance": 128,
       "path": [
-        "matmos_hl/weather/thunder1.ogg",
-        "matmos_hl/weather/thunder2.ogg",
-        "matmos_hl/weather/thunder3.ogg",
-        "matmos_hl/weather/thunder4.ogg",
-        "matmos_hl/weather/thunder5.ogg",
-        "matmos_hl/weather/thunder6.ogg",
-        "matmos_hl/weather/thunder7.ogg",
-        "matmos_hl/weather/thunder8.ogg",
-        "matmos_hl/weather/thunder9.ogg",
-        "matmos_hl/weather/thundera.ogg",
-        "matmos_hl/weather/thunderb.ogg",
-        "matmos_hl/weather/thunderc.ogg"
+        "ambient/weather/thunder1.ogg",
+        "ambient/weather/thunder2.ogg",
+        "ambient/weather/thunder3.ogg",
+        "ambient/weather/thunder4.ogg",
+        "ambient/weather/thunder5.ogg",
+        "ambient/weather/thunder6.ogg",
+        "ambient/weather/thunder7.ogg",
+        "ambient/weather/thunder8.ogg",
+        "ambient/weather/thunder9.ogg",
+        "ambient/weather/thunder10.ogg",
+        "ambient/weather/thunder11.ogg",
+        "ambient/weather/thunder12.ogg",
+        "ambient/weather/thunder13.ogg"
       ]
     }
   },
