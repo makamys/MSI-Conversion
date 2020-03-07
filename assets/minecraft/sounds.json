@@ -182,82 +182,10 @@
       "matmos_interactions/all_draw1"
     ]
   },
-  "matmos_interactions.blunt_hit_a": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/blunt_hit_a"
-    ]
-  },
-  "matmos_interactions.blunt_hit_b": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/blunt_hit_b"
-    ]
-  },
-  "matmos_interactions.blunt_hit_c": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/blunt_hit_c"
-    ]
-  },
-  "matmos_interactions.blunt_hit_d": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/blunt_hit_d"
-    ]
-  },
-  "matmos_interactions.blunt_hit_e": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/blunt_hit_e"
-    ]
-  },
   "matmos_interactions.bow_draw": {
     "category": "ambient",
     "sounds": [
       "matmos_interactions/bow_draw"
-    ]
-  },
-  "matmos_interactions.bow_stretch_f": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_f"
-    ]
-  },
-  "matmos_interactions.bow_stretch_g": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_g"
-    ]
-  },
-  "matmos_interactions.bow_stretch_h": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_h"
-    ]
-  },
-  "matmos_interactions.bow_stretch_i": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_i"
-    ]
-  },
-  "matmos_interactions.bow_stretch_j": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_j"
-    ]
-  },
-  "matmos_interactions.bow_stretch_k": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_k"
-    ]
-  },
-  "matmos_interactions.bow_stretch_l": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/bow_stretch_l"
     ]
   },
   "matmos_interactions.bubble": {
@@ -340,7 +268,7 @@
   "matmos_interactions.water_divein": {
     "category": "ambient",
     "sounds": [
-      "matmos_interactions/water_divein2"
+      "matmos_interactions/water_divein"
     ]
   },
   "matmos_interactions.water_underwater_loop": {
@@ -2555,46 +2483,10 @@
       "matmos_interactions/sword_draw"
     ]
   },
-  "matmos_interactions.sword_hit_a": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/sword_hit_a"
-    ]
-  },
-  "matmos_interactions.sword_hit_b": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/sword_hit_b"
-    ]
-  },
-  "matmos_interactions.sword_hit_c": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/sword_hit_c"
-    ]
-  },
-  "matmos_interactions.sword_hit_d": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/sword_hit_d"
-    ]
-  },
-  "matmos_interactions.tool_draw": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/tool_draw"
-    ]
-  },
   "matmos_interactions.tool_swing": {
     "category": "ambient",
     "sounds": [
       "matmos_interactions/tool_swing"
-    ]
-  },
-  "matmos_interactions.water_divein": {
-    "category": "ambient",
-    "sounds": [
-      "matmos_interactions/water_divein"
     ]
   },
   "matmos_interactions.water_jumpin": {
