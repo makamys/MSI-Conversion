@@ -13,7 +13,10 @@ This repo contains unofficial versions of the MSI sound pack for MAtmos with fix
 
 [Author's Thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290798-1-6-2-minecraft-sound-improvement-custom-music-a) [DEAD]
 
-## Older versions
+## Downloads
+Downloads are available on [the releases tab](https://github.com/makamys/MSI-Conversion/releases).
+
+### Older versions:
 * [Download: Unofficial Update for Minecraft 1.7/1.8](https://ha3.eu/x/tempshare/misc/msi_conversion.zip)
 * [Download: Unofficial Update for Minecraft 1.8.9/1.9+](https://github.com/Sollace/MAtmos/releases/download/r30d/MSI_conversion.zip)
 
