@@ -1,3 +1,5 @@
+[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/MSI-Conversion/releases)
+
 # MSI-Conversion
 This repo contains unofficial versions of the MSI sound pack for MAtmos with fixes.
 
@@ -12,9 +14,6 @@ This repo contains unofficial versions of the MSI sound pack for MAtmos with fix
 >The MSI expansion features a LARGE VARIETY of new sounds for EVERY BIOME, creating a very unique atmosphere for each of them ! 
 
 [Author's Thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290798-1-6-2-minecraft-sound-improvement-custom-music-a) [DEAD]
-
-## Downloads
-Downloads are available on [the releases tab](https://github.com/makamys/MSI-Conversion/releases).
 
 ### Older versions:
 * [Download: Unofficial Update for Minecraft 1.7/1.8](https://ha3.eu/x/tempshare/misc/msi_conversion.zip)
