@@ -20,4 +20,4 @@ This repo contains unofficial versions of the MSI sound pack for MAtmos with fix
 * [Download: Unofficial Update for Minecraft 1.8.9/1.9+](https://github.com/Sollace/MAtmos/releases/download/r30d/MSI_conversion.zip)
 
 ## MSI-Tweaker
-A resource pack that silences certain sounds according to taste is available [here](https://github.com/makamys/MSI-Conversion/tree/MSI-Tweaker).
+A resource pack that silences certain sounds according to my taste is available [here](https://github.com/makamys/MSI-Conversion/tree/MSI-Tweaker).
