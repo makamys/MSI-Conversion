@@ -3,6 +3,8 @@
 # MSI-Conversion
 This repo contains unofficial versions of the MSI sound pack for MAtmos with fixes.
 
+The repo only tracks the code; the sound files can be found in the releases.
+
 ---
 # Minecraft Sound Improvement
 
