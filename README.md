@@ -1,4 +1,4 @@
-[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/MSI-Conversion/releases)
+[![releases](https://img.shields.io/badge/-⬇%20releases-brightgreen)](https://github.com/makamys/MSI-Conversion/releases)
 
 # MSI-Conversion
 This repo contains unofficial versions of the MSI sound pack for MAtmos with fixes.
